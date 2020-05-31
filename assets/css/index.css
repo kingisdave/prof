@@ -1,0 +1,186 @@
+body{
+	 /*background: #e6f7ff !important;*/
+	 background: #B3ECFF !important;
+	 font-family: Lato, san-serif !important;
+}
+
+#headimg{
+	background: url('../images/kal/img/wood-walnut-background-tile.jpg') !important;
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+	height: 23vh;
+}
+
+#logoimages{
+	width: 210px;
+	height: 23.5vh;
+	position: relative;
+	left: 23%;
+	top: -2px;
+	background: url('../images/kal/img/lion_head_4.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#imgname{
+	height: 18vh;
+	position: relative;
+	top: 1px;
+	width: 49%;
+	right: 24px;
+
+}
+#navbarimg button{
+	/*width: 10px;*/
+	/*height: 10px;*/
+	/*background: #B3ECFF !important;*/
+
+
+}
+#navbarimg button span{
+	width: 10px;
+	height: 10px;
+	color: #fff !important;
+}
+
+#navbarimg{
+	/*height: 10vh;*/
+	background: url('../images/kal/img/wood-walnut-background-tile.jpg') !important;
+	background-size: cover;
+	background-position: center;
+	border-bottom-left-radius: 130px;
+	width: 100%;
+	margin-top: 1.5px;
+	/*float: right;*/
+}
+/*navbarimg .collapse{
+	height: 50vh;
+}*/
+/*nav div.collapse ul li{
+	text-align: right;
+	margin-right: 20px;
+}*/
+
+.dropdown-menu{
+	background: #8C572D !important;
+	border: #4B1207 !important;
+	/*margin-top: 10px;*/
+}
+.dropdown-item{
+	color: #fff !important;
+	font-size: 14px;
+	letter-spacing: -1px;
+}
+.dropdown-item:hover{
+	background: #4b1207 !important;
+}
+
+#navline{
+	background: #fff;
+	width: 100%;
+	height: 5px;
+	box-shadow: 1px 1px #000;
+	margin-top: 9vh;
+}
+.mybutton{
+	background: #E6F7FF !important;
+	color: #000 !important;
+
+}
+
+@media screen and (max-width: 500px) {
+	/*#headimg img#imgname{height: 50%;}*/
+}
+/*.dropright div.dropdown-menu-right{
+	position: relative;
+	top: -20vh;
+	right: 10vh;
+	
+}*/
+/*.dropright {
+	position: relative;
+}
+
+.dropright .dropdown-menu{
+	top: 0;
+	left: 100%;
+	margin-top: -1px;
+}*/
+.greetingText{
+	font-family: Brush Script MT;
+}
+
+#textone{
+	color:#7030A0;
+}
+#texttwo{
+	color:#825F08;
+	font-size: 1.3em;
+}
+.otherText{ 
+	font-family:'Times New Roman','serif';
+	/*mso-bidi-font-family:'Times New Roman';*/
+	color:#4F6228;
+	font-size: .6em;
+	font-weight: bold;
+	line-height: 3px;
+	/*mso-bidi-theme-font:minor-bidi;*/
+}
+
+/*#logcard {*/
+	
+	/*background: #E9EBEE;*/
+	/*position: relative;*/
+	/*color:#3366FF;*/
+	/*width: 380px;*/
+	/*height:350px;*/
+	/*border-radius:30% 0 30% 0;*/
+/*}*/
+.myForm {
+  background-color: #EAEAEA;
+  border: 2px solid #CCCCCC;
+}
+
+.myForm:focus   {
+  background-color: white;
+  border: 2px solid skyblue;
+}
+/*.myartscard{
+	overflow: scroll;
+	overflow-x: hidden;
+}*/
+#myartsrow p{
+	position: absolute;
+	left: 0;
+	/*margin-left: -16px;*/
+}
+#myartsrow h6{
+	/*position: absolute;*/
+	/*left: 0;*/
+	/*margin-left: -16px;*/
+}
+
+.footer{
+	height: 10vh;
+	font-family: Lato;
+	/*letter-spacing: -1px;*/
+	background: url('../images/kal/img/wood-walnut-background-tile.jpg') !important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.footer div{
+	width: 95%;
+	font-size: 80%;
+}
+
+.footer a{
+	/*color: #E6F7FF;*/
+	color: #B3ECFF;
+	/*text-shadow: 1px 1px blue;*/
+}
+.footer a:hover, .footer a:focus{
+	text-decoration: none;
+}
