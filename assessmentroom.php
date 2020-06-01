@@ -30,7 +30,7 @@
 							<div class="input-group float-right" style="width: 50%">
 							  <input type="search" class="form-control" placeholder="Search">
 							  <div class="input-group-append">
-							    <button class="btn btn-info" type="submit"><i className="fa fa-search text-dark"></i></button>
+							    <button class="btn btn-info" type="submit"><i class="fa fa-search"></i></button>
 							  </div>
 							</div>
 				    </div>
@@ -43,52 +43,52 @@
 	<div class="row">
 		<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 shadow pt-2">
 			<div class="card">
-				<a href="#" data-toggle="modal" data-target="#myModal">
+				<!-- <a href="#" data-toggle="modal" data-target="#myModal"> -->
 			  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
-				</a>
+				<!-- </a> -->
 			   <div class="card-body">
 			    <p>Paper Title</p>
 			    <p class="float-left">Paper Author</p>
-			    <button class="btn btn-sm btn-info float-right">Assess</button>
+			    <a href="assesssingle.php" class="btn btn-sm btn-info float-right">Assess</a>
 			    <!-- <span class="badge badge-info">THE GOODNESS OF GOD</span></small> -->
 			  </div>
 			</div>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 shadow pt-2">
 			<div class="card">
-				<a href="#" data-toggle="modal" data-target="#myModal">
+				<!-- <a href="#" data-toggle="modal" data-target="#myModal"> -->
 			  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
-				</a>
+				<!-- </a> -->
 			  <div class="card-body">
 			    <p>Paper Title</p>
 			    <p class="float-left">Paper Author</p>
-			    <button class="btn btn-sm btn-info float-right">Assess</button>
+			    <a href="#" class="btn btn-sm btn-info float-right">Assess</a>
 			    <!-- <span class="badge badge-info">THE GOODNESS OF GOD</span></small> -->
 			  </div>
 			</div>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 shadow pt-2">
 			<div class="card">
-				<a href="#" data-toggle="modal" data-target="#myModal">
+				<!-- <a href="#" data-toggle="modal" data-target="#myModal"> -->
 			  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
-				</a>
+				<!-- </a> -->
 			   <div class="card-body">
 			    <p>Paper Title</p>
 			    <p class="float-left">Paper Author</p>
-			    <button class="btn btn-sm btn-info float-right">Assess</button>
+			    <a href="#" class="btn btn-sm btn-info float-right">Assess</a>
 			    <!-- <span class="badge badge-info">THE GOODNESS OF GOD</span></small> -->
 			  </div>
 			</div>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 shadow pt-2">
 			<div class="card">
-				<a href="#" data-toggle="modal" data-target="#myModal">
+				<!-- <a href="#" data-toggle="modal" data-target="#myModal"> -->
 			  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
-				</a>
+				<!-- </a> -->
 			   <div class="card-body">
 			    <p>Paper Title</p>
 			    <p class="float-left">Paper Author</p>
-			    <button class="btn btn-sm btn-info float-right">Assess</button>
+			    <a href="#" class="btn btn-sm btn-info float-right">Assess</a>
 			    <!-- <span class="badge badge-info">THE GOODNESS OF GOD</span></small> -->
 			  </div>
 			</div>
