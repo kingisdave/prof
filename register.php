@@ -6,15 +6,36 @@
 		</div>
 		<div class="col-md-8 col-12">
 			<!-- <div class="w-75"> -->
-				<div class="card border-none shadow-lg mt-1 pb-1 mx-auto" style="width: 77vh; border-radius:23% 0 20% 0">
+				<div class="card border-none shadow-lg mt-1 pb-1 mx-auto" style="width: 77vh; border-radius: 1px">
 						<div class="card-body mx-auto" style="width: 80%">
 							<form class="form" method="POST">
 								<h6 class="text-center text-info"><strong>Create an Account</strong></h6>
 								<small class="text-info">Choose a registration option</small>
 								<div class="form-group">
 									<select class="form-control">
-										<option></option>
+										<option>--Choose Category--</option>
+										<!-- <option value="myStudent">My Student</option> -->
+										<option value="undergraduate">My Undergraduate Student</option>
+										<option value="postgraduate">My Postgraduate Student</option>
+										<option value="exstudent">My Ex-student</option>
+										<option value="colleague">Colleague</option>
+										<option value="guest">Guest</option>
 									</select>
+								</div>
+<!-- 								<div class="form-group">
+									<select class="form-control">
+										<option>Choose Title</option>
+										<option value="miss">Miss</option>
+										<option value="mr">Mr.</option>
+										<option value="mrs">Mrs.</option>
+										<option value="engr">Engr.</option>
+										<option value="architect">Arc.</option>
+										<option value="dr">Dr.</option>
+										<option value="professor">Professor</option>
+									</select>
+								</div> -->
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Title" name="title" id="title" required>
 								</div>
 								<div class="form-group">
 									<input type="text" class="form-control" placeholder="Surname" name="surname" id="surname" required>
@@ -47,7 +68,7 @@
 								</div>
 								<div class="form-group form-check" id="passw">
 							    <label class="form-check-label">
-							    	<input class="form-check-input" type="checkbox" name="check">
+							    	<input class="form-check-input mt-2" type="checkbox" name="check">
 							    	<small class="mr-1" style="color: #797981">By registering on this site, I agree all terms and conditions of usage of this website.</small>
 							    </label>
 						  	</div>

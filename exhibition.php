@@ -7,16 +7,28 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-12">
-			<div class="card">
-		    <div class="card-body">
-		    	<div class="form-group" style="width: 40vh">
-		    		<select class="form-control">
-		    			<option></option>
-		    		</select>
-		    	</div>
-		    </div>
-		  </div>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto">
+			<div class="card h-80 m-1">
+				<div class="card-body">
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto">
+			<div class="card h-80 m-1">
+				<div class="card-body">
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-sm-8 col-12 mx-auto">
+			<div class="card h-80 m-1">
+				<div class="card-body">
+					
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

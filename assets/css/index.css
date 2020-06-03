@@ -16,12 +16,12 @@ body{
 	width: 210px;
 	height: 23.5vh;
 	position: relative;
-	left: 23%;
+	left: 18%;
 	top: -2px;
 	background: url('../images/kal/img/lion_head_4.png');
-	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 }
 
 #imgname{
@@ -47,7 +47,7 @@ body{
 
 #navbarimg{
 	/*height: 10vh;*/
-	background: url('../images/kal/img/wood-walnut-background-tile.jpg') !important;
+	background: url('../images/kal/img/wood-walnut-background-tile.jpg');
 	background-size: cover;
 	background-position: center;
 	border-bottom-left-radius: 130px;
@@ -114,6 +114,7 @@ body{
 
 #textone{
 	color:#7030A0;
+	font-size: 1.4em;
 }
 #texttwo{
 	color:#825F08;
@@ -127,6 +128,13 @@ body{
 	font-weight: bold;
 	line-height: 3px;
 	/*mso-bidi-theme-font:minor-bidi;*/
+}
+#newsboard{
+	background: url('../assets/images/kal/images/shadow.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 100vh;
 }
 
 /*#logcard {*/
@@ -161,6 +169,7 @@ body{
 	/*left: 0;*/
 	/*margin-left: -16px;*/
 }
+
 
 .footer{
 	height: 10vh;

@@ -2,10 +2,11 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-4 col-12">
+		<div class="col-md-4 col-12 p-1">		
 		</div>
+
 		<div class="col-md-8 col-12 p-1">
-			<div class="card border myartscard" style="border-radius: 5%">
+			<div class="card border myartscard" style="border-radius: 15%">
 				<div class="card-body">
 					<div class="w-50">
 						<div class="form-group">
@@ -27,7 +28,7 @@
 
 					<div class="row" id="myartsrow">
 						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 p-1">
-							<div class="card">
+							<div class="card shadow">
 								<a href="#" data-toggle="modal" data-target="#myModal">
 							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 								</a>
@@ -38,7 +39,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 p-1">
-							<div class="card">
+							<div class="card shadow">
 							  <a href="#" data-toggle="modal" data-target="#myModal">
 							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 								</a>
@@ -49,7 +50,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 p-1">
-							<div class="card">
+							<div class="card shadow">
 							 <a href="#" data-toggle="modal" data-target="#myModal">
 							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 								</a>
@@ -60,7 +61,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 p-1">
-							<div class="card">
+							<div class="card shadow">
 							  <a href="#" data-toggle="modal" data-target="#myModal">
 							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 								</a>
@@ -71,7 +72,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 p-1">
-							<div class="card">
+							<div class="card shadow">
 							  <a href="#" data-toggle="modal" data-target="#myModal">
 							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 								</a>
@@ -82,7 +83,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 p-1">
-							<div class="card">
+							<div class="card shadow">
 							 <a href="#" data-toggle="modal" data-target="#myModal">
 							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 								</a>
@@ -93,7 +94,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 p-1">
-							<div class="card">
+							<div class="card shadow">
 							  <a href="#" data-toggle="modal" data-target="#myModal">
 							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 								</a>
@@ -104,7 +105,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 p-1">
-							<div class="card">
+							<div class="card shadow">
 								<a href="#" data-toggle="modal" data-target="#myModal">
 							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 								</a>
@@ -115,7 +116,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 p-1">
-							<div class="card">
+							<div class="card shadow">
 							  <a href="#" data-toggle="modal" data-target="#myModal">
 							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 								</a>
@@ -126,7 +127,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 p-1">
-							<div class="card">
+							<div class="card shadow">
 							 <a href="#" data-toggle="modal" data-target="#myModal">
 							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 								</a>
@@ -137,7 +138,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 p-1">
-							<div class="card">
+							<div class="card shadow">
 							  <a href="#" data-toggle="modal" data-target="#myModal">
 							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 								</a>
@@ -148,7 +149,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 p-1">
-							<div class="card">
+							<div class="card shadow">
 								<a href="#" data-toggle="modal" data-target="#myModal">
 							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 								</a>
@@ -159,12 +160,17 @@
 							</div>
 						</div>
 					</div>
-					<!-- The Modal -->
+					<hr class="text-secondary">
+					<div class="bg-white">
+						<a href="?page=previouspage" class="btn btn-sm btn-outline-info btn-rounded shadow"><i class="fa fa-caret-left"></i> &nbsp;Previous</a>
+						<a href="?page=nextpage" class="btn btn-sm btn-info btn-rounded float-right shadow">Next &nbsp; <i class="fa fa-caret-right"></i></a>
+					</div>
 				</div>
 			</div>
 		</div>
+
 	</div>
-	
+					<!-- The Modal -->
 	<div class="modal fade" id="myModal">
 	  <div class="modal-dialog modal-lg">
 	    <div class="modal-content">
@@ -255,4 +261,6 @@
 	</div>
 </div>
 
-<?php include 'includes/footer.php'; ?>
+	
+
+<?php include "includes/footer.php" ?>

@@ -35,7 +35,7 @@
 <!-- Navigation Bar-->
 	<div>
 		<div id="headimg">
-			<span id="logoimages" class="float-left"></span>
+			<span id="logoimages" class="float-left rounded-circle"></span>
 			<img src="./assets/images/kal/img/ROM.png" id="imgname" class="mt-3 mr-4 float-right" />
 		</div>
 		<!-- <div class=" float-right"> -->
@@ -43,11 +43,13 @@
 				<button class="navbar-toggler ml-auto text-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
+			  <!-- <span id="openSpan" style="/*position:absolute*/font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>	 -->
+			<!-- <span id="openNav" class="text-white" data-toggle="collapse" data-target="#collapsibleNavbar">&#9776;</span> -->
 
 			  <!-- Navbar links -->
 			  <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item mr-2"><a class="nav-link text-white" href="#">Home</a></li>
+						<li class="nav-item mr-2"><a class="nav-link text-white" href="./index.php">Home</a></li>
 						
 						<!-- <li class="nav-item mr-2"><a class="nav-link text-white" href="#">Gallery</a> -->
 						<!-- </li> -->
@@ -84,7 +86,7 @@
 					        </div>
 					       
 				        <a class="dropdown-item" href="#">Academic Publications</a>
-				        <a class="dropdown-item" href="#">Thesis Gallery</a>
+				        <a class="dropdown-item" href="#">Theses Gallery</a>
 				        <a class="dropdown-item" href="#">Public Lectures</a>
 				        <a class="dropdown-item" href="#">Creative Writing</a>
 				        <a class="dropdown-item" href="#">Form and Material Technology</a>
@@ -100,8 +102,8 @@
 				        Conference
 				      </a>
 				      <div class="dropdown-menu">
-				        <a class="dropdown-item" href="#">Assessment Room</a>
-				        <a class="dropdown-item" href="#">Discussion Center</a>
+				        <a class="dropdown-item" href="./assessmentroom.php">Assessment Room</a>
+				        <a class="dropdown-item" href="#">Discussion Centre</a>
 				        <a class="dropdown-item" href="#">Webinar</a>
 				      </div>
 				    </li> 

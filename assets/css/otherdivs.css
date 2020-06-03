@@ -1,0 +1,40 @@
+.mykeep{
+	width: 220px;
+}
+.conversation-text {
+	position: relative;
+
+}
+
+.conversation-text .ctext-wrap {
+ 	font-size: 72%;  	
+  width: 165px;
+  background: #B3ECFF !important;
+  color: #000;
+  text-align: center;
+  border-radius: 45% 0 45% 45%;
+  /*padding: 1px 0;*/
+  position: absolute;
+  z-index: 1;
+  top: -15px;
+
+}
+
+.conversation-text .ctext-wrap::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -43px;
+  border-width: 22px;
+  border-style: solid;
+  border-color: #B3ECFF transparent transparent #B3ECFF;
+}
+.image-img{
+	/*position: relative;*/
+	/*right: 0;*/
+	/*top: 0;*/
+}
+.mynextrow{
+	margin-top: 40px;
+}

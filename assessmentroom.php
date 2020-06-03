@@ -49,7 +49,7 @@
 			   <div class="card-body">
 			    <p>Paper Title</p>
 			    <p class="float-left">Paper Author</p>
-			    <a href="assesssingle.php" class="btn btn-sm btn-info float-right">Assess</a>
+			    <a href="assesssingle.php" class="btn btn-sm btn-info float-right">Access</a>
 			    <!-- <span class="badge badge-info">THE GOODNESS OF GOD</span></small> -->
 			  </div>
 			</div>
@@ -62,7 +62,7 @@
 			  <div class="card-body">
 			    <p>Paper Title</p>
 			    <p class="float-left">Paper Author</p>
-			    <a href="#" class="btn btn-sm btn-info float-right">Assess</a>
+			    <a href="#" class="btn btn-sm btn-info float-right">Access</a>
 			    <!-- <span class="badge badge-info">THE GOODNESS OF GOD</span></small> -->
 			  </div>
 			</div>
@@ -75,7 +75,7 @@
 			   <div class="card-body">
 			    <p>Paper Title</p>
 			    <p class="float-left">Paper Author</p>
-			    <a href="#" class="btn btn-sm btn-info float-right">Assess</a>
+			    <a href="#" class="btn btn-sm btn-info float-right">Access</a>
 			    <!-- <span class="badge badge-info">THE GOODNESS OF GOD</span></small> -->
 			  </div>
 			</div>
@@ -88,7 +88,7 @@
 			   <div class="card-body">
 			    <p>Paper Title</p>
 			    <p class="float-left">Paper Author</p>
-			    <a href="#" class="btn btn-sm btn-info float-right">Assess</a>
+			    <a href="#" class="btn btn-sm btn-info float-right">Access</a>
 			    <!-- <span class="badge badge-info">THE GOODNESS OF GOD</span></small> -->
 			  </div>
 			</div>

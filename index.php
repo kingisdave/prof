@@ -28,60 +28,60 @@
 </head>
 <body>
 <?php include "includes/header.php"; ?>
-<div class="container-fluid">
+<div class="container-fluid mb-1">
 	<div class="row">
-		<div class="col-md-4 col-sm-4 col-12">
-			<div class="card">
-				<div class="card-body">
-					sfergaesrgvbaergaergergs
-				</div>
-			</div>
-			<!-- <div id="demo" class="carousel slide" data-ride="carousel"> -->
+		<div class="col-md-4 col-sm-10 col-12 mx-auto">
+			<!-- <div class="card">
+				<div class="card-body"> -->
+					<div id="demo" class="carousel slide mt-1" data-ride="carousel">
 
-			  <!-- Indicators -->
-			 <!--  <ul class="carousel-indicators">
-			    <li data-target="#demo" data-slide-to="0" class="active"></li>
-			    <li data-target="#demo" data-slide-to="1"></li>
-			    <li data-target="#demo" data-slide-to="2"></li>
-			    <li data-target="#demo" data-slide-to="3"></li>
-			    <li data-target="#demo" data-slide-to="4"></li>
-			    <li data-target="#demo" data-slide-to="5"></li>
-			  </ul> -->
+					  <!-- Indicators -->
+					  <ul class="carousel-indicators">
+					    <li data-target="#demo" data-slide-to="0" class="active"></li>
+					    <li data-target="#demo" data-slide-to="1"></li>
+					    <li data-target="#demo" data-slide-to="2"></li>
+					    <li data-target="#demo" data-slide-to="3"></li>
+					    <li data-target="#demo" data-slide-to="4"></li>
+					    <li data-target="#demo" data-slide-to="5"></li>
+					  </ul>
 
-			  <!-- The slideshow -->
-			<!--   <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img src="./assets/images/kal/img/RK_142X172_1426539309.png" class="img-fluid" alt="Los Angeles" />
-			    </div>
-			    <div class="carousel-item">
-			      <img src="./assets/images/kal/img/RK_142X172_1426538432.png" class="img-fluid" alt="Chicago" />
-			    </div>
-			    <div class="carousel-item">
-			      <img src="./assets/images/kal/img/RK_142X172_1426539336.png" class="img-fluid" alt="New York" />
-			    </div>
-			    <div class="carousel-item">
-			      <img src="./assets/images/kal/img/RK_142X172_1426539309.png" class="img-fluid" alt="Los Angeles" />
-			    </div>
-			    <div class="carousel-item">
-			      <img src="./assets/images/kal/img/RK_142X172_1426538432.png" class="img-fluid" alt="Chicago" />
-			    </div>
-			    <div class="carousel-item">
-			      <img src="./assets/images/kal/img/RK_142X172_1426539336.png" class="img-fluid" alt="New York" />
-			    </div>
-			  </div> -->
+					  <!-- The slideshow -->
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="./assets/images/kal/img/RK_142X172_1426539309.png" alt="Los Angeles" width="550px" height="489px"/>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="./assets/images/kal/img/RK_142X172_1426538432.png" alt="Chicago" width="550px" height="489px"/>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="./assets/images/kal/img/RK_142X172_1426539336.png" alt="New York" width="550px" height="489px"/>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="./assets/images/kal/img/RK_142X172_1426539309.png" alt="Los Angeles" width="550px" height="489px"/>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="./assets/images/kal/img/RK_142X172_1426538432.png" alt="Chicago" width="550px" height="489px" />
+					    </div>
+					    <div class="carousel-item">
+					      <img src="./assets/images/kal/img/RK_142X172_1426539336.png" alt="New York" width="550px" height="489px"/>
+					    </div>
+					  </div>
 
-			  <!-- Left and right controls -->
-			<!--   <a class="carousel-control-prev" href="#demo" data-slide="prev">
-			    <span class="carousel-control-prev-icon"></span>
-			  </a>
-			  <a class="carousel-control-next" href="#demo" data-slide="next">
-			    <span class="carousel-control-next-icon"></span>
-			  </a> -->
+					  <!-- Left and right controls -->
+					  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+					    <span class="carousel-control-prev-icon"></span>
+					  </a>
+					  <a class="carousel-control-next" href="#demo" data-slide="next">
+					    <span class="carousel-control-next-icon"></span>
+					  </a>
 
-			<!-- </div> -->
+					</div>
+					
+			<!-- 	</div>
+			</div> -->
 		</div>
-		<div class="col-md-8 col-sm-8 col-12">
-				<div class="card border-0">
+		<div class="col-md-8 col-sm-10 col-12 mx-auto">
+				<div class="card border-0 shadow mt-1" style="height: 80vh">
 					<div class="card-body">
 						<p id="textone" class="greetingText text-justify m-2">I am pleased to welcome you to <span class="text-info">RomKalilu.net</span>. This site was originally constructed as an interactive forum between my postgraduate students and me. At the promptings of these students, my colleagues and my friends that I make my academic and professional activities available to the Internet public, I have developed the site into a dynamic platform for showcasing my scholarly and creative activities in multimedia contexts. The site also offers portals for my students, colleagues, other individuals and institutions who may be interested in collaborating with me on professional practice, research, pedagogy and higher education administration. In addition, it offers some windows to promote my academic and professional collaborators, and it provides limited access webinar and an open forum for discussions in the Visual Arts, Art History and other allied disciplines inclusive their relevance to the development of the global society. It is, therefore, my pleasure to invite you to explore the site and participate in these activities.</p>
 						<p id="texttwo" class="greetingText m-2 text-center">Razaq Olatunde Rom Kalilu</p>
@@ -104,5 +104,26 @@
 				</div>
 		</div>
 	</div>
+
+	<!-- Row two -->
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-6 col-12" id="newsboard">
+			
+		</div>
+		<div class="col-lg-8 col-md-8 col-sm-6 col-12">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+					
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+					
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
 </div>
 <?php include "includes/footer.php"; ?>
