@@ -9,13 +9,13 @@
 				<div class="card-body">
 					<ul class="nav nav-tabs">
 					  <li class="nav-item">
-					    <a class="nav-link active" data-toggle="tab" href="#home">VIDEO</a>
+					    <a class="nav-link active" data-toggle="tab" href="#video">VIDEO</a>
 					  </li>
 					  <li class="nav-item">
-					    <a class="nav-link" data-toggle="tab" href="#profile">IMAGES</a>
+					    <a class="nav-link" data-toggle="tab" href="#images">IMAGES</a>
 					  </li>
 					  <li class="nav-item">
-					    <a class="nav-link" data-toggle="tab" href="#messages">AUDIO</a>
+					    <a class="nav-link" data-toggle="tab" href="#audios">AUDIO</a>
 					  </li>
 					</ul>
 
@@ -27,7 +27,7 @@
 					</div> -->
 
 					<div class="tab-content">
-            <div class="tab-pane container active" id="home">
+            <div class="tab-pane container active" id="video">
               <div class="row m-2">
                 <div class="col-md-8 mx-auto">
                   <div class="card border-0 shadow">
@@ -73,16 +73,78 @@
               </div>
         
             </div>
-            <div class="tab-pane container fade" id="profile">
+            <div class="tab-pane container fade" id="images">
+            	<div class="row">
+            		<div class="col-md-4 col-sm-6 col-12">
+            			<div class="card m-1 shadow" style="width: 20vh; height: 30vh">
+            				<div class="card-body">
+            					<img src="./assets/images/happy.png" class="img-fluid">
+            				</div>
+            			</div>
+            		</div>
+            		<div class="col-md-4 col-sm-6 col-12">
+            			<div class="card m-1 shadow" style="width: 20vh; height: 30vh">
+            				<div class="card-body">
+            					<img src="./assets/images/happy.png" class="img-fluid">
+            				</div>
+            			</div>
+            		</div>
+            		<div class="col-md-4 col-sm-6 col-12">
+            			<div class="card m-1 shadow" style="width: 20vh; height: 30vh">
+            				<div class="card-body">
+            					<img src="./assets/images/happy.png" class="img-fluid">
+            				</div>
+            			</div>
+            		</div>
+            	</div>
             </div>
-            <div class="tab-pane container fade" id="messages">
-              <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            <div class="tab-pane container fade" id="audios">
+            	<table class="table table-striped table-responsive-sm">
+            		<thead class="thead-dark">
+            			<tr>
+            				<th>S/N</th>
+            				<th>Title</th>
+            				<th>Artist</th>
+            				<th>Desciption</th>
+            				<th>Duration</th>
+            				<th>Ratings</th>
+            			</tr>
+            		</thead>
+            		<tbody>
+            			<tr>
+            				<td>1</td>
+            				<td>My First</td>
+            				<td>Artist One</td>
+            				<td>
+            					<small>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,ifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</small>
+            				</td>
+            				<td><i><small>3:40 mins</small></i></td>
+            				<td>
+            					<i class="fa fa-star text-warning"></i>
+            					<i class="fa fa-star text-warning"></i>
+            					<i class="fa fa-star text-warning"></i>
+            					<i class="fa fa-star text-warning"></i>
+            				</td>
+            			</tr>
+            			<tr>
+            				<td>3</td>
+            				<td>My Third</td>
+            				<td>Artist Three</td>
+            				<td>
+            					<small> Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim,</small>
+            				</td>
+            				<td><i><small>8:00 mins</small></i></td>
+            				<td>
+            					<i class="fa fa-star text-warning"></i>
+            					<i class="fa fa-star text-warning"></i>
+   										<i class="fa fa-star text-warning"></i>
+            				</td>
+            			</tr>
+            		</tbody>
+            	</table>
+              
             </div>
-            <div class="tab-pane" id="settings">
-              <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-            </div>
+           
         </div>
 			
 				</div>

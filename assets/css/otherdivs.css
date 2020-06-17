@@ -1,3 +1,94 @@
+*{
+  /*font-family: Roboto !important;*/
+}
+.sidenav {
+  height: 100%;
+
+  width: 235px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: url('../images/kal/img/wood-walnut-background-tile.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  font-family: Roboto !important;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #4F1708
+  background: #fff;
+}
+.sidenav a:active {
+  background: #fff;
+  /*color: ;*/
+}
+#main {
+  font-family: Roboto !important;
+  transition: margin-left .5s;
+  margin-left: 235px; 
+  padding: 4px;
+}
+.sidenav #notificationbadge{
+  position: relative;
+  left: -15px;
+  top: -13px;
+}
+.sidenav div.dropdown-menu{
+  /*position: relative;*/
+  position: absolute;
+  margin-top: 30px;
+}
+.sidenav div.dropdown-menu a{
+  font-size: 15px;
+}
+#togglelink{
+  position:absolute;
+  font-size:20px;
+  cursor:pointer;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 550px){
+  #main { margin-left: 0px; }
+  .sidenav {width: 0px;}
+  /*#togglelink{ display: none; }*/
+}
+#postImgPrev{
+  width: 60%;
+}
+#postImg{
+  width: 100px;
+  /*height: 80px;*/
+
+}
+#my_preview{
+  /*border: 2px solid red;*/
+  padding: 10px;
+}
+#my_preview img{
+  width: 100px;
+  height: 80px;
+  padding: 2px;
+  border: 1px dotted black;
+}
+
+
 .mykeep{
 	width: 220px;
 }
@@ -13,11 +104,9 @@
   color: #000;
   text-align: center;
   border-radius: 45% 0 45% 45%;
-  /*padding: 1px 0;*/
   position: absolute;
   z-index: 1;
   top: -15px;
-
 }
 
 .conversation-text .ctext-wrap::after {
@@ -30,11 +119,45 @@
   border-style: solid;
   border-color: #B3ECFF transparent transparent #B3ECFF;
 }
-.image-img{
-	/*position: relative;*/
-	/*right: 0;*/
-	/*top: 0;*/
+.uploadbtnwrapper{
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.mybtn{
+  background: #3366FF;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 20px;
+}
+.uploadbtnwrapper input[type='file']{
+  /*font-size: 100px;*/
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
 }
 .mynextrow{
 	margin-top: 40px;
+}
+#forumrow a {
+    text-decoration: none;
+}
+#forumrow a:hover {
+    text-decoration: none;
+}
+
+#forumrow h6,
+  #forumrow p{
+    text-decoration: none;
+
+}
+#forumrow h6:hover,
+  #forumrow p:hover{
+    text-decoration: none;
+}
+#forumcard{
+  background: #DBDDE0 !important; 
 }

@@ -1,17 +1,13 @@
 <?php include 'includes/header.php'; ?>
 
-<div class="container-fluid bg-white mt-1 p-2" style="width: 98.6%; border-radius: 14px">
-	<div class="mx-auto" style="width: 75vh">
-		<div class="alert alert-info alert-dismissible fade show">
-    <button type="button" class="close" data-dismiss="alert">&times;</button>
-			<strong>*</strong>You have to Login first <a href="login.php" class="alert-link">Login from here</a>
+<div class="container-fluid bg-white mtb-1 p-1" style="width: 98.6%; border-radius: 14px">
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-11 mx-auto"> 
+			<div class="alert alert-info alert-dismissible fade show">
+	    	<button type="button" class="close" data-dismiss="alert">&times;</button>
+				<strong>*</strong>You have to Login first. <a href="login.php" class="alert-link">Login from here</a>
+			</div>
 		</div>
-		<!-- <div class="input-group mb-3 shadow disabled">
-		  <input type="text" class="form-control" placeholder="ENTER ACCESS KEY" id="access" name="access">
-		  <div class="input-group-append">
-		    <button class="btn btn-info" type="submit">Validate Key</button>
-		  </div>
-		</div> -->
 	</div>
 	<div class="row">
 		<div class="col-12">

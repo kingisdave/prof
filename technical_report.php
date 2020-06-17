@@ -13,7 +13,7 @@
 				<div class="card-body">
 					<div class="container">
 						<div class="row mb-4">
-							<h4 class="col-4">Authored Books</h4>                                      
+							<h4 class="col-4">Technical Reports</h4>                                      
 				      <div class="col-8">
 				      	<div class="mykeep float-right">
 					        <div class="conversation-text rounded-circle">

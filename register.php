@@ -2,12 +2,13 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-4 col-12">
+		<div class="col-lg-4 col-md-4 col-12">
 		</div>
-		<div class="col-md-8 col-12">
-			<!-- <div class="w-75"> -->
-				<div class="card border-none shadow-lg mt-1 pb-1 mx-auto" style="width: 77vh; border-radius: 1px">
-						<div class="card-body mx-auto" style="width: 80%">
+		<div class="col-lg-8 col-md-8 col-12">
+			<div class="row">
+				<div class="col-lg-7 col-md-7 col-12 mx-auto">
+					<div class="card border-none shadow-lg mt-1 pb-1 mx-auto" style="border-radius: 8px">
+						<div class="card-body mx-auto" style="width:95%">
 							<form class="form" method="POST">
 								<h6 class="text-center text-info"><strong>Create an Account</strong></h6>
 								<small class="text-info">Choose a registration option</small>
@@ -20,6 +21,7 @@
 										<option value="exstudent">My Ex-student</option>
 										<option value="colleague">Colleague</option>
 										<option value="guest">Guest</option>
+										<option value="guest">Forum Participant</option>
 									</select>
 								</div>
 <!-- 								<div class="form-group">
@@ -78,8 +80,9 @@
 								</div>
 							</form>
 						</div>
+					</div>
 				</div>
-			<!-- </div>	 -->
+			</div>	
 		</div>
 	</div>
 </div>
