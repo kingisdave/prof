@@ -1,6 +1,9 @@
 <link rel="stylesheet" href="assets/css/otherdivs.css">
 	<style>
-
+		.assessrow a.btn, 
+			.assessrow button{
+				font-size: 75%;
+		}
 	</style>
 <?php include "includes/header.php"; ?>
 
@@ -20,15 +23,15 @@
 							<div class="card border-0 shadow">
 								<div class="card-body">
 									<h5>Assessment Uploads</h5>
-									<div class="row">
+									<div class="row assessrow">
 										<div class="col-md-3 col-sm-4 col-6">
 											<div class="card m-1 shadow">
 										  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 										   	<div class="card-body">
 											    <p>Paper Title</p>
-											    <p class="float-left">Paper Author</p>
-											    <a href="assesssingle.php" class="btn btn-sm btn-info float-right">Access</a>
-											  
+											    <p>Paper Author</p>
+											    <a href="assesssingle.php" class="btn btn-sm btn-info float-left">Access</a>
+											  	<button class="btn btn-outline-danger btn-sm float-right m-1"><i class="fa fa-trash"></i></button>
 											  </div>
 											</div>
 										</div>
@@ -37,8 +40,9 @@
 										  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 										   	<div class="card-body">
 											    <p>Paper Title</p>
-											    <p class="float-left">Paper Author</p>
-											    <a href="assesssingle.php" class="btn btn-sm btn-info float-right">Access</a>						 
+											    <p>Paper Author</p>
+											    <a href="assesssingle.php" class="btn btn-sm btn-info float-left">Access</a>
+											  	<button class="btn btn-outline-danger btn-sm float-right m-1"><i class="fa fa-trash"></i></button>					 
 											  </div>
 											</div>
 										</div>
@@ -47,8 +51,9 @@
 										  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
 										   	<div class="card-body">
 											    <p>Paper Title</p>
-											    <p class="float-left">Paper Author</p>
-											    <a href="assesssingle.php" class="btn btn-sm btn-info float-right">Access</a>	 
+											    <p>Paper Author</p>
+											    <a href="assesssingle.php" class="btn btn-sm btn-info float-left">Access</a>
+											  	<button class="btn btn-outline-danger btn-sm float-right m-1"><i class="fa fa-trash"></i></button>	 
 											  </div>
 											</div>
 										</div>
@@ -58,9 +63,9 @@
 			
 										   	<div class="card-body">
 											    <p>Paper Title</p>
-											    <p class="float-left">Paper Author</p>
-											    <a href="assesssingle.php" class="btn btn-sm btn-info float-right">Access</a>
-											 
+											    <p>Paper Author</p>
+											    <a href="assesssingle.php" class="btn btn-sm btn-info float-left">Access</a>
+											  	<button class="btn btn-outline-danger btn-sm float-right m-1"><i class="fa fa-trash"></i></button>
 											  </div>
 											</div>
 										</div>
@@ -77,7 +82,7 @@
 								      
 								        <!-- Modal Header -->
 								        <div class="mx-auto py-2">
-								          <h5 class="modal-title">Document Upload</h5>
+								          <h5 class="modal-title">Assesment Upload</h5>
 								         <!--  <button type="button" class="close" data-dismiss="modal">&times;</button> -->
 								        </div>
 								        
@@ -92,7 +97,7 @@
 									        <div class="form-group">
 									        	<textarea class="form-control" rows="2" name="description" placeholder="File Description"></textarea>
 									        </div>
-									        	<div class="form-group">
+									        <div class="form-group">
 								        		<input type="text" name="assesskey" class="form-control" placeholder="ACCESS KEY">
 								        	</div>
 									        <div class="uploadbtnwrapper float-left">

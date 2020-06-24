@@ -8,7 +8,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="row h-100">
+	<div class="row">
 		<div class="col-lg-4 col-md-4 col-sm-10 col-12 mx-auto">
 			<div class="card shadow m-1">
 				<div class="card-body">

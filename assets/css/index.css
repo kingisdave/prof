@@ -33,17 +33,17 @@ body{
 	right: 24px;
 
 }
-/*#navbarimg button{*/
-	/*width: 10px;*/
-	/*height: 10px;*/
-	/*background: #B3ECFF !important;*/
+/*#navbarimg button{
+	width: 10px;
+	height: 10px;*/
+	background: #B3ECFF !important;
 
 
-/*}*/
-/*#navbarimg button span{
+}
+#navbarimg button span{
 	width: 20px;
 	color: #fff !important;
-}*/
+}
 #topdate{
 	position: absolute;
 	top: 23.5vh;
@@ -56,26 +56,69 @@ body{
 	background-size: cover;
 	background-position: center;
 	border-bottom-left-radius: 130px;
-	/*z-index: 1;*/
+	/*z-index: 1;
 	/*position: relative;*/
 	/*width: 100%;*/
 	/*top: -.4vh;*/
 	/*float: right;*/
 }
 
-.dropdown-menu{
-	background: #8C572D !important;
+nav .dropdown-menu{
+	background: #0A243B !important;
 	border: #4B1207 !important;
 	/*margin-top: 10px;*/
 }
-.dropdown-item{
+nav .dropdown-item{
 	color: #fff !important;
 	/*font-size: 14px;*/
 	/*letter-spacing: -1px;*/
 }
-.dropdown-item:hover{
-	background: #4b1207 !important;
-	color: #fff;
+nav .dropdown-item:hover, .dropdown-item:focus{
+	background: #95C9FE !important;
+	color: #0A243B !important;
+}
+
+nav .dropright{
+	position: relative;
+  display: inline-block;
+}
+nav .dropright .dropdown-toggle{
+	/*width: 150px;*/
+	width: 100%;
+	padding-right: 100px; 
+	/*background: #000;
+	color: #fff;*/
+}
+
+nav .dropright.nav-link:hover{
+	background: #95C9FE !important;
+	color: #0A243B !important;
+	padding: 0px auto;
+}
+nav .dropright-content{
+ 	display: none;
+  position: absolute;
+  left: 210px;
+  top: -20px;
+  background-color: #0A243B;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+nav .dropright-content a {
+  color: black;
+  /*padding: 12px 16px;*/
+  text-decoration: none;
+  display: block;
+}
+/*.dropright-content a:hover {background-color: #f1f1f1}*/
+nav .dropright-content a:hover {
+	background-color: #95C9FE;
+	color: #000 !important;
+}
+
+nav .dropright:hover .dropright-content {
+    display: block;
 }
 
 #navline{
@@ -99,14 +142,18 @@ body{
 	#topdate{font-size: 64%;}
 
 }
-.dropright {
+/*.dropright {
 	position: relative;
+}
+.dropright a.nav-link{
+	position: relative;
+	margin-left: 15px;
 }
 .dropright .dropdown-menu {
 		top: 0;
 		left: 100%;
 		margin-top: -1px;
-}
+}*/
 
 .hidden-lg{
 	display: none;
@@ -210,7 +257,69 @@ body{
 	/*left: 0;*/
 	/*margin-left: -16px;*/
 }
+.cardprofile{
+	overflow: hidden;
+	height: 90%;
+}
 
+.cardsingle{
+	width: 95%;
+	position: relative;
+ -webkit-animation-name: sampleone; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 15s;/* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in; /* Safari 4.0 - 8.0 */
+  animation-name: sampleone;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+/*For safari 4.0 - 8.0*/
+@-webkit-keyframes sampleone {
+  0%   {left:0px; top:100px;}
+  100% {left:0px; top:-100px;}
+}
+/* Standard syntax */
+@keyframes sampleone {
+   0%   {left:0px; top:100px;}
+   100% {left:0px; top:-100px;}
+}
+
+
+.cardsingletwo{
+	width: 95%;
+	position: relative;
+ -webkit-animation-name: sampletwo; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 15s;/* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in; /* Safari 4.0 - 8.0 */
+  animation-name: sampletwo;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+/*For safari 4.0 - 8.0*/
+@-webkit-keyframes sampletwo {
+  0%   {left:0px; top:100px;}
+  100% {left:0px; top:-100px;}
+}
+/* Standard syntax */
+@keyframes sampletwo {
+   0%   {left:0px; top:100px;}
+   100% {left:0px; top:-100px;}
+}
+
+.webinarpix{
+	background: url('../images/kal/img/Adiremenubar.png');
+	background-size: cover;
+	background-position: center;
+	border-bottom: 2px solid #ccc;
+}
+.webinar .webinarform{
+	background: #E9EBEC !important;
+	border-radius: 50px 0 50px 0; 
+}
 
 .footer{
 	height: 10vh;

@@ -46,7 +46,7 @@
 								  <div class="col-lg-3 col-md-3 col-12 mx-auto">
 						  			<img src="assets/images/dust.png" alt="work-thumbnail" class="img-fluid shadow" style="width: 100px; height: 90px">
 							  		<span class="btn btn-outline-info btn-sm mt-2 shadow"><a href="#"><small>Download Book</small></a></span>	
-										</div>		
+									</div>		
 			    			</div>
 			    		</div>
 			    	</div>

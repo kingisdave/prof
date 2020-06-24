@@ -174,62 +174,24 @@
 						</div>
 					</div>	
 					<hr class="bg-secondary" style="width: 100%"></hr>
-					<div class="row">
-						<h5>Recent Users</h5>
-						<table class="table table-striped border-none shadow-lg">
-							<tr>
-								<td><img src="" class="rounded-circle mr-3" height="20px" width="20px">Mike</td>
-							</tr>
-							<tr>
-								<td><img src="" class="rounded-circle mr-3" height="20px" width="20px">Jill</td>
-							</tr>
-							<tr>
-								<td><img src="" class="rounded-circle mr-3" height="20px" width="20px">Jane</td>
-							</tr>
-						</table>
-					</div>
-					<hr class="" style="width: 100%"></hr>
-					<div class="row">
-						<h5>Recents Comments</h5>
-						<div class="media border p-3">
-							<img src="img_avatar3.png" alt="Johnee" class="mr-5 mt-1 rounded" style="width:60px;">
-							<div class="media-body">
-							    <h4 class="mr-2">John Doe <small><i>Sep 29, 2019, 9:12 PM</i></small></h4>
-							    <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							</div>
-						</div>
-						<div class="media border p-3">
-							<img src="img_avatar3.png" alt="Booee" class="mr-5 mt-1 rounded" style="width:60px;">
-							<div class="media-body">
-							    <h4 class="mr-2">Bo <small><i>Sep 28, 2019, 10:00 PM</i></small></h4>
-							    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-							</div>
-						</div>
-					</div>
-					<div class="row bg-secondary" style=" height: 250px">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-4">
-									<h5>Demographic</h5>
-									<hr class="bg-success" style="height: 5px"></hr>
-									<p>Language</p>
-									<p>Country</p>
-									<p>City</p>
+					<div class="row mt-1 bg-white">
+						<div class="col-12">
+							<h5>Recents Comments</h5>
+							<div class="media border p-3">
+								<img src="img_avatar3.png" alt="Johnee" class="mr-5 mt-1 rounded" style="width:60px;">
+								<div class="media-body">
+								    <h4 class="mr-2">John Doe <small><i>Sep 29, 2019, 9:12 PM</i></small></h4>
+								    <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								    <span class="fa fa-thumbs-up"></span>
+								    <span class="fa fa-thumbs-up"></span>
+								    <span clas></span>
 								</div>
-								<div class="col-4">
-									<h5>System</h5>
-									<hr class="bg-danger" style="height: 5px"></hr>
-									<p>Browser</p>
-									<p>OS</p>
-									<p>More</p>
-								</div>
-								<div class="col-4">
-									<h5>Target</h5>
-									<hr class="bg-warning" style="height: 5px"></hr>
-									<p>Users</p>
-									<p>Active</p>
-									<p>Geo</p>
-									<p>Interest</p>
+							</div>
+							<div class="media border p-3">
+								<img src="img_avatar3.png" alt="Booee" class="mr-5 mt-1 rounded" style="width:60px;">
+								<div class="media-body">
+								    <h4 class="mr-2">Bo <small><i>Sep 28, 2019, 10:00 PM</i></small></h4>
+								    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
 								</div>
 							</div>
 						</div>
@@ -237,7 +199,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> 
 	<script src="assets/js/togglefunction.js"></script>
 	<script type="text/javascript">
 		// $(document).ready(function(){
@@ -252,5 +214,3 @@
 		// })
 	</script>
 	<!-- <script src="./js/fxn.js"></script> -->
-</body>
-</html>

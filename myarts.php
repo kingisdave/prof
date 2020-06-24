@@ -173,7 +173,7 @@
 	      <div class="">
 	        <ul class="nav nav-tabs">
 					  <li class="nav-item">
-					    <a class="nav-link active" data-toggle="tab" href="#images">Images</a>
+					    <a class="nav-link active" data-toggle="tab" href="#myimages">Images</a>
 					  </li>
 					  <li class="nav-item">
 					    <a class="nav-link" data-toggle="tab" href="#videos">Videos</a>
@@ -186,7 +186,7 @@
 	      <div class="modal-body">
 	        <h6>Title here</h6>
 	      	<div class="tab-content">
-					  <div class="tab-pane container fade" id="images">
+					  <div class="tab-pane container active" id="myimages">
 					  	<div class="row">
 			      		<div class="col-md-7 col-12">
 			      			<div id="demo" class="carousel slide" data-ride="carousel">
