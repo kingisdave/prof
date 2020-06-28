@@ -24,26 +24,16 @@
 								<div class="card-body">
 
 									<!-- Nav tabs -->
-									<ul class="nav nav-tabs">
-										<li class="nav-item">
+									<ul class="nav nav-tabs text-center bg-dark pt-2">
+					          <li class="nav-item flex-fill">
 									    <a class="nav-link active" data-toggle="tab" href="#artsformsgallery">Gallery</a>
 									  </li>
-									  <li class="nav-item">
+									  <li class="nav-item flex-fill">
 									    <a class="nav-link" data-toggle="tab" href="#librarypublications">Libraries</a>
-									  </li>
-									  <!-- <li class="nav-item">
-									    <a class="nav-link" data-toggle="tab" href="#theses">Theses Gallery</a>
-									  </li>
-									  <li class="nav-item">
-									    <a class="nav-link" data-toggle="tab" href="#lectures">Public Lectures</a>
-									  </li>
-									  <li class="nav-item">
-									    <a class="nav-link" data-toggle="tab" href="#creative">Creative Writing</a>
-									  </li>
-									  <li class="nav-item">
-									    <a class="nav-link" data-toggle="tab" href="#formmaterials">Form & Material Tech.</a>
-									  </li> -->
-									  
+									  </li>	
+								   	<li class="nav-item flex-fill">
+							      	<a class="nav-link" data-toggle="tab" href="#exhibitionhall">Exhibition</a>
+									  </li>		  
 									</ul>
 
 									<!-- Tab panes -->
@@ -452,170 +442,347 @@
 															</tr>
 														</tbody>
 													</table> -->
-													<div class="fixed-bottom mb-2 mr-2">
-														<button class="btn btn-primary rounded-circle float-right p-3 shadow-lg" data-toggle="modal" data-target="#myOthers"><span class="fa fa-plus"></span></button>
+												<div class="fixed-bottom mb-2 mr-2">
+													<button class="btn btn-primary rounded-circle float-right p-3 shadow-lg" data-toggle="modal" data-target="#mylibrary"><span class="fa fa-plus"></span></button>
+												</div>
+											</div>
+										</div>
+
+										<!-- For the Exhibition Hall. -->
+									  <div class="tab-pane container fade pt-3" id="exhibitionhall">
+									  	<h5>Exhibition Hall and Museum</h5>
+											<div class="row assessrow">
+												<div class="col-lg-3 col-md-3 col-sm-4 col-12">
+													<div class="card shadow m-1">
+														<div class="card-body text-center border-0">
+															<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="70" height="70">
+															<p>Name</p>
+															<p>Specialization</p>
+															<a href="#" class="float-left" data-toggle="modal" data-target="#artistdetails">Details</a>
+															<span class="btn btn-outline-danger btn-sm rounded-circle float-right"><i class="fa fa-trash"></i></span>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-3 col-md-3 col-sm-4 col-12">
+													<div class="card shadow m-1">
+														<div class="card-body text-center border-0">
+															<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="70" height="70">
+															<p>Name</p>
+															<p>Specialization</p>
+															<a href="#" class="float-left" data-toggle="modal" data-target="#artistdetails">Details</a>
+															<span class="btn btn-outline-danger btn-sm rounded-circle float-right"><i class="fa fa-trash"></i></span>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-3 col-md-3 col-sm-4 col-12">
+													<div class="card shadow m-1">
+														<div class="card-body text-center border-0">
+															<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="70" height="70">
+															<p>Name</p>
+															<p>Specialization</p>
+															<a href="#" class="float-left" data-toggle="modal" data-target="#artistdetails">Details</a>
+															<span class="btn btn-outline-danger btn-sm rounded-circle float-right"><i class="fa fa-trash"></i></span>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-3 col-md-3 col-sm-4 col-12">
+													<div class="card shadow m-1">
+														<div class="card-body text-center border-0">
+															<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="70" height="70">
+															<p>Name</p>
+															<p>Specialization</p>
+															<a href="#" class="float-left" data-toggle="modal" data-target="#artistdetails">Details</a>
+															<span class="btn btn-outline-danger btn-sm rounded-circle float-right"><i class="fa fa-trash"></i></span>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-3 col-md-3 col-sm-4 col-12">
+													<div class="card shadow m-1">
+														<div class="card-body text-center border-0">
+															<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="70" height="70">
+															<p>Name</p>
+															<p>Specialization</p>
+															<a href="#" class="float-left" data-toggle="modal" data-target="#artistdetails">Details</a>
+															<span class="btn btn-outline-danger btn-sm rounded-circle float-right"><i class="fa fa-trash"></i></span>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-3 col-md-3 col-sm-4 col-12">
+													<div class="card shadow m-1">
+														<div class="card-body text-center border-0">
+															<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="70" height="70">
+															<p>Name</p>
+															<p>Specialization</p>
+															<a href="#" class="float-left" data-toggle="modal" data-target="#artistdetails">Details</a>
+															<span class="btn btn-outline-danger btn-sm rounded-circle float-right"><i class="fa fa-trash"></i></span>
+														</div>
 													</div>
 												</div>
 											</div>
-									  </div>
-									</div>
-							  </div>
 
-							  <!-- 
-							  <div class="tab-pane container fade pt-3" id="creative">
-							  	<h5>Creative Writing</h5>
-									<div class="row assessrow">
-										<div class="col-12 table">
-											<table class="table table-striped table-responsive table-bordered">
-												<thead class="thead-dark">
-													<tr>
-														<th>S/N</th>
-														<th>Title</th>
-														<th>Overview</th>
-														<th>Date</th>
-														<th>Operation</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>1</td>
-														<td><h6>History of Fine Arts</h6></td>
-														<td>
-															<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini
-															</small></p>	
-														</td>
-														<td>13th August 2019</td>
-														<td class="text-center">
-															<button class="btn btn-outline-danger btn-sm mt-2"><i class="fa fa-trash"></i></button>
-														</td>
-													</tr>
-													<tr>
-														<td>2</td>
-														<td><h6>History of Fine Arts</h6></td>
-														<td>
-															<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini
-															</small></p>	
-														</td>
-														<td>13th August 2019</td>
-														<td class="text-center">
-															<button class="btn btn-outline-danger btn-sm mt-2"><i class="fa fa-trash"></i></button>
-														</td>
-													</tr>
-													
-												</tbody>
-											</table>
-											<div class="fixed-bottom mb-2 mr-2">
-												<button class="btn btn-primary rounded-circle float-right p-3 shadow-lg" data-toggle="modal" data-target="#myOthers"><span class="fa fa-plus"></span></button>
+											<hr class="text-secondary" />
+
+											<div class="row">
+												<div class="col-12">
+													<h5>Poster</h5>
+													<button class="btn btn-outline-danger float-right"><i class="fa fa-trash"></i></button>
+													<div class="row">
+														<div class="col-md-3 col-sm-4 col-6">
+															<div class="card shadow m-1">
+																<div class="card-body">
+																	<div class="custom-control custom-checkbox">
+																    <input type="checkbox" class="custom-control-input" id="customCheckOne" name="example1">
+																    <label class="custom-control-label" for="customCheckOne"><h5 class="p-3">Poster One</h5></label>
+																  </div>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-4 col-6">
+															<div class="card shadow m-1">
+																<div class="card-body">
+																	<div class="custom-control custom-checkbox">
+																    <input type="checkbox" class="custom-control-input" id="customCheckTwo" name="example1">
+																    <label class="custom-control-label" for="customCheckTwo"><h5 class="p-3">Poster One</h5></label>
+																  </div>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-4 col-6">
+															<div class="card shadow m-1">
+																<div class="card-body">
+																	<div class="custom-control custom-checkbox">
+																    <input type="checkbox" class="custom-control-input" id="customCheckThree" name="example1">
+																    <label class="custom-control-label" for="customCheckThree"><h5 class="p-3">Poster One</h5></label>
+																  </div>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-4 col-6">
+															<div class="card shadow m-1">
+																<div class="card-body">
+																	<div class="custom-control custom-checkbox">
+																    <input type="checkbox" class="custom-control-input" id="customCheckFour" name="example1">
+																    <label class="custom-control-label" for="customCheckFour"><h5 class="p-3">Poster One</h5></label>
+																  </div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="row mt-2">
+														<div class="col-lg-10 col-md-10 col-sm-11 col-12 mx-auto">
+															<div class="card shadow border-0">
+																<div class="card-body">
+																	<form class="form">
+																		<div class="form-group">
+																			<input type="text" name="posterTitle" class="form-control" placeholder="Title of the Poster">
+																		</div>
+																		<div class="form-group">
+																			<input type="text" name="postermain" class="form-control" placeholder="Insert the Main Text">
+																		</div>
+																		<div class="uploadbtnwrapper float-left">
+																			<button class="mybtn btn-sm">Select File</button>
+																			<input type="file" name="myfile">
+																		</div>
+																		<button class="btn btn-info float-right">Submit Post</button>
+																	</form>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
 											</div>
+
+											<hr class="text-secondary" />
+
+											<div class="row mt-2">
+												<div class="col-lg-10 col-md-10 col-sm-11 col-12 mx-auto">
+													<div class="card shadow border-0">
+														<div class="card-body">
+																<h5><strong>Notices Uploads</strong></h5>
+																<form class="form">
+																	<div class="form-group">
+																		<select class="form-control">
+																			<option value="instruction to artists">Instruction to Artists</option>
+																			<option value="instruction to orators">Instruction to Orators</option>
+																			<option value="instruction to audience">Instruction to Audience</option>
+																		</select>
+																	</div>
+																	<div class="form-group">
+																		<textarea class="form-control" name="notices" placeholder="Write your text here..."></textarea>
+																	</div>
+																	<button class="btn btn-info float-right">Post Notices</button>
+																</form>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="fixed-bottom mb-2 mr-2">
+												<button class="btn btn-primary rounded-circle float-right p-3 shadow-lg" data-toggle="modal" data-target="#myExhibitionMuseum"><span class="fa fa-plus"></span></button>
+											</div>
+											
 										</div>
-									</div>
-							  </div> -->
-									
-									<!-- The Arts Gallery Modal -->
-								  <div class="modal fade" id="myArtsGallery">
-								    <div class="modal-dialog modal-dialog-centered">
-								      <div class="modal-content">
-								      
-								        <!-- Modal Header -->
-								        <div class="mx-auto py-2">
-								          <h5 class="modal-title">Assesment Upload</h5>
-								         <!--  <button type="button" class="close" data-dismiss="modal">&times;</button> -->
-								        </div>
-								        
-								        <!-- Modal body -->
-								        <div class="modal-body">
-								        	<div class="form-check-inline">
-													  <label class="form-check-label">
-													    <input type="checkbox" class="form-check-input" value="">Arts Gallery
-													  </label>
-													</div>
-													<div class="form-check-inline">
-													  <label class="form-check-label">
-													    <input type="checkbox" class="form-check-input" value="">Form Materials
-													  </label>
-													</div>
-								        	<div class="form-group">
-								        		<select class="form-control">
-								        			<option>Choose the Artist</option>
-								        			<option>My Art Works</option>
-								        			<option>Other Art Works</option>
-								        		</select>
-								        	</div>
-								        	<div class="form-group">
-								        		<select class="form-control">
-								        			<option>--Choose the Category--</option>
-								        			<option value="ceramics">Ceramics</option>
-								        			<option value="sculpture">Sculpture</option>
-								        			<option value="graphic">Graphic Designs</option>
-								        			<option value="drawing">Drawing</option>
-								        		</select>
-								        	</div>
-								        	<div class="form-group">
-								        		<input type="text" class="form-control" name="imageName" placeholder="Image Name">
-								        	</div>
-									        <div class="form-group">
-									        	<input type="file" class="form-control" name="video" placeholder="Video Files" />
-									        </div>
-									        <div class="uploadbtnwrapper float-left">
-														<button class="mybtn btn-sm">Select File</button>
-														<input type="file" name="myfile">
-													</div>
-													<button class="btn btn-primary btn-sm float-right"> Post </button>
-								        </div>
-
-								      </div>
-								    </div>
-								  </div>
-
-								  <!-- The Arts Gallery Modal -->
-								  <div class="modal fade" id="myOthers">
-								    <div class="modal-dialog modal-dialog-centered">
-								      <div class="modal-content">
-								      
-								        <!-- Modal Header -->
-								        <div class="mx-auto py-2">
-								          <h5 class="modal-title">Assesment Upload</h5>
-								         <!--  <button type="button" class="close" data-dismiss="modal">&times;</button> -->
-								        </div>
-								        
-								        <!-- Modal body -->
-								        <div class="modal-body">
-								        	<div class="form-group">
-								        		<select class="form-control">
-								        			<option>--Choose the Category--</option>
-								        			<option value="Authored Book">Authored Book</option>
-								        			<option value="Edited Book">Edited Book</option>
-								        			<option value="Contribution to Book">Contributions to Books</option>
-								        			<option value="Book Review">Book Reviews</option>
-								        			<option value="Learned and Journal Article">Learned and Journal Article</option>
-								        			<option value="Edited Learned Journal">Edited Learned Journal</option>
-								        			<option value="Technical Report">Technical Report</option>
-								        			<option value="Public Lecture">Public Lecture</option>
-								        			<option value="Creative Writing">Creative Writing</option>
-								        		</select>
-								        	</div>
-								        	<div class="form-group">
-								        		<input type="text" class="form-control" name="title" placeholder="Title">
-								        	</div>
-								        	<div class="form-group">
-								        		<input type="text" name="author" class="form-control" placeholder="Author">
-								        	</div>
-									        <div class="form-group">
-									        	<textarea class="form-control" rows="2" name="description" placeholder="File Description"></textarea>
-									        </div>
-									        <div class="uploadbtnwrapper float-left">
-														<button class="mybtn btn-sm">Select File</button>
-														<input type="file" name="myfile">
-													</div>
-													<button class="btn btn-primary btn-sm float-right">Save</button>
-								        </div>
-
-								      </div>
-								    </div>
 								  </div>
 								</div>
-							</div>
-				
+						  </div>
+									
+								<!-- The Arts Gallery Modal -->
+						  <div class="modal fade" id="myArtsGallery">
+						    <div class="modal-dialog modal-dialog-centered">
+						      <div class="modal-content">
+						      
+						        <!-- Modal Header -->
+						        <div class="mx-auto py-2">
+						          <h5 class="modal-title">Art Gallery Upload</h5>
+						         <!--  <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+						        </div>
+						        
+						        <!-- Modal body -->
+						        <div class="modal-body">
+
+						        	<!-- Select from radio buttons to choose from the arts gallery and form materials -->
+											<div class="form-check-inline">
+											  <label class="form-check-label">
+											    <input type="radio" class="form-check-input" name="optradio">Arts Gallery
+											  </label>
+											</div>
+											<div class="form-check-inline">
+											  <label class="form-check-label">
+											    <input type="radio" class="form-check-input" name="optradio">Form Materials
+											  </label>
+											</div>
+						        	<div class="form-group">
+						        		<select class="form-control">
+						        			<option>Choose the Artist</option>
+						        			<option>My Art Works</option>
+						        			<option>Other Art Works</option>
+						        		</select>
+						        	</div>
+						        	<div class="form-group">
+						        		<select class="form-control">
+						        			<option>--Choose the Category--</option>
+						        			<option value="ceramics">Ceramics</option>
+						        			<option value="sculpture">Sculpture</option>
+						        			<option value="graphic">Graphic Designs</option>
+						        			<option value="drawing">Drawing</option>
+						        		</select>
+						        	</div>
+						        	<div class="form-group">
+						        		<input type="text" class="form-control" name="imageName" placeholder="Image Name">
+						        	</div>
+							        <div class="form-group">
+							        	<input type="file" class="form-control" name="video" placeholder="Video Files" />
+							        </div>
+							        <div class="uploadbtnwrapper float-left">
+												<button class="mybtn btn-sm">Select File</button>
+												<input type="file" name="myfile">
+											</div>
+											<button class="btn btn-primary btn-sm float-right"> Post </button>
+						        </div>
+
+						      </div>
+						    </div>
+						  </div>
+
+								<!-- The Library Modal{ Including the Books, Journals, Publications} -->
+						  <div class="modal fade" id="myLibrary">
+						    <div class="modal-dialog modal-dialog-centered">
+						      <div class="modal-content">
+						      
+						        <!-- Modal Header -->
+						        <div class="mx-auto py-2">
+						          <h5 class="modal-title">Library Upload</h5>
+						         <!--  <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+						        </div>
+						        
+						        <!-- Modal body -->
+						        <div class="modal-body">
+						        	<div class="form-group">
+						        		<select class="form-control">
+						        			<option>--Choose the Category--</option>
+						        			<option value="Authored Book">Authored Book</option>
+						        			<option value="Edited Book">Edited Book</option>
+						        			<option value="Contribution to Book">Contributions to Books</option>
+						        			<option value="Book Review">Book Reviews</option>
+						        			<option value="Learned and Journal Article">Learned and Journal Article</option>
+						        			<option value="Edited Learned Journal">Edited Learned Journal</option>
+						        			<option value="Technical Report">Technical Report</option>
+						        			<option value="Public Lecture">Public Lecture</option>
+						        			<option value="Creative Writing">Creative Writing</option>
+						        		</select>
+						        	</div>
+						        	<div class="form-group">
+						        		<input type="text" class="form-control" name="title" placeholder="Title">
+						        	</div>
+						        	<div class="form-group">
+						        		<input type="text" name="author" class="form-control" placeholder="Author">
+						        	</div>
+							        <div class="form-group">
+							        	<textarea class="form-control" rows="2" name="description" placeholder="File Description"></textarea>
+							        </div>
+							        <div class="uploadbtnwrapper float-left">
+												<button class="mybtn btn-sm">Select File</button>
+												<input type="file" name="myfile">
+											</div>
+											<button class="btn btn-primary btn-sm float-right">Save</button>
+						        </div>
+
+						      </div>
+						    </div>
+						  </div>
+
+						  <!-- The Exhibition Hall and Museum Upload Modal -->
+							<div class="modal fade" id="myExhibitionMuseum">
+						    <div class="modal-dialog modal-dialog-centered">
+						      <div class="modal-content">
+						      
+						        <!-- Modal Header -->
+						        <div class="mx-auto py-2">
+						          <h5 class="modal-title">Exhibition Hall/Museum Upload</h5>
+						         <!--  <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+						        </div>
+						        
+						        <!-- Modal body -->
+						        <div class="modal-body">
+						        	<form>
+						        		<!-- Select from radio buttons to choose from the arts gallery and form materials -->
+												<div class="form-check-inline">
+												  <label class="form-check-label">
+												    <input type="radio" class="form-check-input" name="optradio">Exhibition Hall
+												  </label>
+												</div>
+												<div class="form-check-inline">
+												  <label class="form-check-label">
+												    <input type="radio" class="form-check-input" name="optradio">Museum
+												  </label>
+												</div>
+												<div class="form-group">
+							        		<input type="text" class="form-control" name="Name" placeholder="Name of Exhibition Hall/ Museum" />
+							        	</div>
+							        	<div class="form-group">
+							        		<input type="text" class="form-control" name="imageName" placeholder="Artist/Curators' Name">
+							        	</div>
+							        	<div class="form-group">
+							        		<input type="text" class="form-control" name="specialization" placeholder="Artist/Curators' Specialization">
+							        	</div>
+							        	<div class="form-group">
+							        		<input type="text" class="form-control" name="institution" placeholder="Institution of Artist/Curator">
+							        	</div>
+								        <div class="form-group">
+								        	<input type="file" class="form-control" name="video" placeholder="Video Files" />
+								        </div>
+								        <div class="uploadbtnwrapper float-left">
+													<button class="mybtn btn-sm">Select Image</button>
+													<input type="file" name="myfile">
+												</div>
+												<button class="btn btn-primary btn-sm float-right"> Post </button>
+						        	</form>
+						        </div>
+
+						      </div>
+						    </div>
+						  </div>				
 						</div>
 					</div>
 				</div>

@@ -5,8 +5,8 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-4 col-12 p-1">
-			
+		<div class="col-md-4 col-12">
+			<?php include "includes/buttons.php"; ?>
 		</div>
 		<div class="col-md-8 col-12 p-1">
 			<div class="card border shadow-lg" style="border-radius: 13px">

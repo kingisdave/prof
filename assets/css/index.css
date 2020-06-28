@@ -1,8 +1,17 @@
-body{
-	/*background: #e6f7ff !important;*/
-	background: #B3ECFF !important;
-	font-family: Lato, san-serif !important;
+body {
+		background: #B3ECFF !important;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
 }
+
+/*body{*/
+	/*background: #B3ECFF !important;*/
+	/*background: #e6f7ff !important;*/
+	/*font-family: Lato, san-serif !important;*/
+/*}*/
 
 #headimg{
 	background: url('../images/kal/img/Adirebanner.png') !important;
@@ -320,6 +329,21 @@ nav .dropright:hover .dropright-content {
 	background: #E9EBEC !important;
 	border-radius: 50px 0 50px 0; 
 }
+
+	#resumepix{
+		height: 35vh;
+
+	}
+	#resumepix img{
+		position: absolute;
+		left: 5vh;
+		top: 55vh;
+		border: 2px solid #fff;
+		z-index: 1;
+	}
+	.resumerow{
+		position: relative;
+	}
 
 .footer{
 	height: 10vh;

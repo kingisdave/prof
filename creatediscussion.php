@@ -10,7 +10,7 @@
   </div>
   <div class="row">
     <div class="col-lg-4 col-md-4 col-12">
-      
+      <?php include "includes/buttons.php"; ?>
     </div> 
     <div class="col-lg-8 col-md-8 col-12 bg-white p-2" style="width: 90%; border-radius: 10px">
       <h5 class="m-2 text-center"><strong>Start a new discussion</strong></h5>

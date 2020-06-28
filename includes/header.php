@@ -11,22 +11,25 @@
 
   <title>.: Welcome to Rom Kalilu Official Website :.</title>
 
-	<link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/dist/css/bootstrap.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/fontawesome-free-5.11.2-web/css/all.css">
-
+ -->
 	<!-- <link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/dist/css/w3.css"> -->
 	<!-- <link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/dist/css/w3pro.css"> -->
-	<link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/fontawesome/css/css/fontawesome-all.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/fontawesome/css/css/fontawesome-all.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/otherdivs.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/buttons.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
-	<script type="text/javascript" src="./assets/bootstrap-4.3.1/dist/jquery3.3.1.js"></script>
+	<!-- <script type="text/javascript" src="./assets/bootstrap-4.3.1/dist/jquery3.3.1.js"></script>
 	<script type="text/javascript" src="./assets/bootstrap-4.3.1/dist/popper.js"></script>
-	<script type="text/javascript" src="./assets/bootstrap-4.3.1/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="./assets/bootstrap-4.3.1/dist/js/bootstrap.js"></script> -->
 	<style type="text/css">
 	
 	</style>
@@ -40,7 +43,7 @@
 			<img src="./assets/images/kal/img/ROM.png" id="imgname" class="mt-3 mr-4 float-right" />
 		</div>
 		<!-- <div class=" float-right"> -->
-			<nav class="navbar navbar-expand-md bg-dark navbar-dark w-75 float-right mt-1" id="navbarimg">
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark w-75 float-right mt-1 sticky-top" id="navbarimg">
 				<div class="container">
 					<button class="navbar-toggler ml-auto text-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 				    <span class="navbar-toggler-icon"></span>
@@ -67,8 +70,6 @@
 						        </div>
 						      </div>
 
-					        <!-- <a class="dropdown-item mydropdown-item" href="#">Art Gallery</a> -->
-
 					        <div class="dropright">
 							    	<a href="#" class="dropdown-item dropdown-toggle">Academic Publications</a>
 						        <div class="dropright-content">
@@ -79,11 +80,9 @@
 											<a href="./journal.php" class="dropdown-item">Learned Journal Articles</a>
 											<a href="./edited_journal.php" class="dropdown-item">Edited Learned Journals</a>
 											<a href="./technical_report.php" class="dropdown-item">Technical Reports</a>
-						        	<!-- <a href="#" class="nav-link">Link 3</a>
-						    			<a href="#" class="nav-link">Link 4</a>
-						    			<a href="#" class="nav-link">Link 5</a> -->
 						        </div>
 							    </div>
+
 							    <div class="dropright">
 							    	<a href="#" class="dropdown-item dropdown-toggle">Theses Gallery</a>
 						        <div class="dropright-content">
@@ -92,7 +91,7 @@
 											<a href="./examined_theses.php" class="dropdown-item">Examined Theses</a>
 						        </div>
 						      </div>
-					        <!-- <a class="dropdown-item" href="#">Theses Gallery</a> -->
+
 					        <a class="dropdown-item" href="./public_lectures.php">Public Lectures</a>
 					        <a class="dropdown-item" href="./creative_writing.php">Creative Writing</a>
 					        <a class="dropdown-item" href="./form_material.php">Form and Material Technology</a>
@@ -142,7 +141,7 @@
 					        <a class="dropdown-item" href="./resume.php">Resume</a>
 					        <a class="dropdown-item" href="./curriculum_vitae.php">Curriculum Vitae</a>
 					        <a class="dropdown-item" href="./profile_multimedia.php">Profile-Multimedia</a>
-					        <a class="dropdown-item" href="./multimedia.php">Private Multimedia</a>
+					        <a class="dropdown-item" href="./private_multimedia.php">Private Multimedia</a>
 					      </div>
 					    </li> 
 
@@ -157,7 +156,7 @@
 					    </li> 
 
 							<li class="nav-item m-1"><a href="./login.php" class="btn btn-sm mybutton shadow">Login</a></li>
-
+							<!-- <li class="nav-item m-1"><a href="./login.php" class="btn btn-sm mybutton shadow">Logout</a></li> -->
 							<li class="nav-item m-1"><a href="#" type="button" class="btn btn-sm mybutton shadow">Shop</a></li>
 						</ul>
 
@@ -171,18 +170,18 @@
 	</div>
 
 	<script type="text/javascript">
-		$(document).ready(function(){
-			$('.dropright a.mydrop').on('click', function(e) {
-				e.stopPropagation();
-				e.preventDefault();
+		// $(document).ready(function(){
+		// 	$('.dropright a.mydrop').on('click', function(e) {
+		// 		e.stopPropagation();
+		// 		e.preventDefault();
 
-				if(!$(this).next('div').hasClass('show')){
-					$(this).next('div').addClass('show');
-				} else {
-					$(this).next('div').removeClass('show');
-				}
-			});
-		});
+		// 		if(!$(this).next('div').hasClass('show')){
+		// 			$(this).next('div').addClass('show');
+		// 		} else {
+		// 			$(this).next('div').removeClass('show');
+		// 		}
+		// 	});
+		// });
 
 	</script>
 	<script type="text/javascript" src="./assets/js/headerdate.js"></script>

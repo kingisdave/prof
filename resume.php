@@ -1,18 +1,5 @@
 <style type="text/css">
-	#resumepix{
-		height: 35vh;
 
-	}
-	#resumepix img{
-		position: absolute;
-		left: 5vh;
-		top: 55vh;
-		border: 2px solid #fff;
-		z-index: 1;
-	}
-	.resumerow{
-		position: relative;
-	}
 </style>
 <?php include "includes/header.php"; ?>
 

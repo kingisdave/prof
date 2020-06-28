@@ -1,6 +1,6 @@
 <?php include 'includes/header.php'; ?>
 
-<div class="container-fluid bg-white mtb-1 p-1" style="width: 98.6%; border-radius: 14px">
+<div class="container-fluid bg-white mt-1 mb-1 p-1" style="width: 98.6%; border-radius: 14px">
 	<div class="row">
 		<div class="col-lg-6 col-md-6 col-11 mx-auto"> 
 			<div class="alert alert-info alert-dismissible fade show">

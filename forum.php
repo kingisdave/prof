@@ -28,7 +28,7 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-4 col-md-4 col-12">
-			
+			<?php include "includes/buttons.php"; ?>
 		</div>
 		<div class="col-lg-8 col-md-8 col-12">
 			<div class="card shadow" style="border-radius: 13px">

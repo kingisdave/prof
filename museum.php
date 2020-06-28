@@ -15,8 +15,18 @@
 					<div class="row cardprofile">
 						<div class="col-6 cardsingle">
 							<div class="card shadow m-1">
-								<div class="card text-center border-0">
-									<img src="assets/images/kal/img/RK_142X172_1426539309.png" class="mx-auto rounded-circle" width="80" height="80">
+								<div class="card-body text-center border-0">
+									<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="50" height="50">
+									<p>Name</p>
+									<p>Specialization</p>
+									<a data-toggle="modal" data-target="#artistdetails">Details</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 cardsingle">
+							<div class="card shadow m-1">
+								<div class="card-body text-center border-0">
+									<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="50" height="50">
 									<p>Name</p>
 									<p>Specialization</p>
 								</div>
@@ -24,8 +34,8 @@
 						</div>
 						<div class="col-6 cardsingle">
 							<div class="card shadow m-1">
-								<div class="card text-center border-0">
-									<img src="assets/images/kal/img/RK_142X172_1426539309.png" class="mx-auto rounded-circle" width="80" height="80">
+								<div class="card-body text-center border-0">
+									<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="50" height="50">
 									<p>Name</p>
 									<p>Specialization</p>
 								</div>
@@ -33,8 +43,8 @@
 						</div>
 						<div class="col-6 cardsingle">
 							<div class="card shadow m-1">
-								<div class="card text-center border-0">
-									<img src="assets/images/kal/img/RK_142X172_1426539309.png" class="mx-auto rounded-circle" width="80" height="80">
+								<div class="card-body text-center border-0">
+									<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="50" height="50">
 									<p>Name</p>
 									<p>Specialization</p>
 								</div>
@@ -42,8 +52,8 @@
 						</div>
 						<div class="col-6 cardsingle">
 							<div class="card shadow m-1">
-								<div class="card text-center border-0">
-									<img src="assets/images/kal/img/RK_142X172_1426539309.png" class="mx-auto rounded-circle" width="80" height="80">
+								<div class="card-body text-center border-0">
+									<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="50" height="50">
 									<p>Name</p>
 									<p>Specialization</p>
 								</div>
@@ -51,17 +61,8 @@
 						</div>
 						<div class="col-6 cardsingle">
 							<div class="card shadow m-1">
-								<div class="card text-center border-0">
-									<img src="assets/images/kal/img/RK_142X172_1426539309.png" class="mx-auto rounded-circle" width="80" height="80">
-									<p>Name</p>
-									<p>Specialization</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-6 cardsingle">
-							<div class="card shadow m-1">
-								<div class="card border-0">
-									<img src="assets/images/kal/img/RK_142X172_1426539309.png" class="mx-auto rounded-circle" width="80" height="80">
+								<div class="card-body text-center border-0">
+									<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="50" height="50">
 
 									<p>Name</p>
 									<p>Specialization</p>
@@ -156,7 +157,7 @@
 						    <div class="card">
 						      <div class="card-header">
 						        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-						         	Instructions to Curators
+						         	Instructions to Audience
 						        </a>
 						      </div>
 						      <div id="collapseThree" class="collapse" data-parent="#accordion">

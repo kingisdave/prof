@@ -1,0 +1,71 @@
+.mycircle button{
+	padding: 0;
+	height: 80px;
+	width: 80px;
+	font-size: 8px;
+	border: 8px solid #ccc;
+}
+
+.columncircle a{
+	display: block
+}
+.mycircle .ddd{
+	display: none;
+	width: 165px;
+	height: 165px;
+	position: absolute;
+	top: 24%;
+	color: #000;
+	text-shadow: 2px .5px gold;
+	margin-left: 85px;
+	border: 20px solid #ccc;
+	padding-top: 6%;
+}
+.mycircle #bigtwo{
+	padding-top: 9%;
+}
+.mycircle #bigthree, .mycircle #bigsix,.mycircle #bigeight,
+ .mycircle #bignine, .mycircle #bigeleven{
+			padding-top: 11%;
+}
+.mycircle #bigfive, .mycircle #bigseven{
+	padding-top: 2%;
+}
+
+.mycircle .btnOne{
+	background: linear-gradient(#FFE5FF, #FFE5FF);
+}
+.mycircle .btnTwo{
+	background: linear-gradient(#E5FFE5, #E5FFE5);
+}
+.mycircle .btnThree{
+	background: linear-gradient(#FFFFE5, #FFFFE5);
+}
+.mycircle .btnFour{
+	background: linear-gradient(#E5F2FF, #E5F2FF);	
+}
+.mycircle .btnFive{
+	background: linear-gradient(#ffffff, #ffffff);	
+}
+.mycircle .btnSix{
+	background: linear-gradient(#ECECF9, #ECECF9);	
+}
+.mycircle .btnSeven{
+	background: linear-gradient(#FFF5E5, #FFF5E5);
+}
+.mycircle .btnEight{
+	background: linear-gradient(#F9F2EC, #F9F2EC);
+}
+.mycircle .btnNine{
+	background: linear-gradient(#F0F0F5, #F0F0F5);	
+}
+.mycircle .btnTen{
+	background: linear-gradient(#E5FAFF, #E5FAFF);	
+}
+.mycircle .btnEleven{
+	background: linear-gradient(#E5F2FF, #E5F2FF);	
+}
+
+.mycircle .btnlink:hover div{
+	display: block;
+}
