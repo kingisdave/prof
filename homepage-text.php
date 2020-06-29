@@ -1,7 +1,11 @@
 <link rel="stylesheet" href="assets/css/otherdivs.css">
 <script type="text/javascript" src="https://cdn.ckeditor.com/ckeditor5/19.1.1/classic/ckeditor.js"></script>
 	<style>
-
+	#tablelister{
+		height: 90%;
+		width: 95%;
+		overflow: hidden;
+	}
 	</style>
 <?php include "includes/header.php"; ?>
 
@@ -16,6 +20,89 @@
 				<a href="#"><span onclick="openNav()" class="navbar-toggler-icon" id="togglelink">&#9776;</span></a>
 
 				<div class="container-fluid ml-2" style="width: 95%; border-radius: 13px">
+					<div class="card m-1 border-0 shadow" id="tablelister">
+						<div class="card-body">
+							<h4>Text Lists</h4>
+							<table class="table table-striped table-bordered">
+								<thead class="thead-dark">
+									<tr>
+										<th>S/N</th>
+										<th>Text Name</th>
+										<th>Title</th>
+										<th>Notes</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td><strong>Welcome Text</strong></td>
+										<td>Poster One</td>
+										<td><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</small>
+										</td>
+										<td>
+											<button class="btn btn-outline-danger">
+												<span class="fa fa-trash"></span>
+											</button>
+										</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td><strong>Welcome Text</strong></td>
+										<td>Poster Two</td>
+										<td><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</small>
+										</td>
+										<td>
+											<button class="btn btn-outline-danger">
+												<span class="fa fa-trash"></span>
+											</button>
+										</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td><strong>News Board Text</strong></td>
+										<td>Poster One</td>
+										<td><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</small>
+										</td>
+										<td>
+											<button class="btn btn-outline-danger">
+												<span class="fa fa-trash"></span>
+											</button>
+										</td>
+									</tr>
+									<tr>
+										<td>4</td>
+										<td><strong>News Board Text</strong></td>
+										<td>Poster Two</td>
+										<td><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</small>
+										</td>
+										<td>
+											<button class="btn btn-outline-danger">
+												<span class="fa fa-trash"></span>
+											</button>
+										</td>
+									</tr>
+									<tr>
+										<td>5</td>
+										<td><strong>Ouotes</strong></td>
+										<td>Poster One</td>
+										<td><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</small>
+										</td>
+										<td>
+											<button class="btn btn-outline-danger">
+												<span class="fa fa-trash"></span>
+											</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
 
 					<!-- Welcome Text upload -->
 					<h5>Welcome Text</h5>

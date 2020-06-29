@@ -30,6 +30,135 @@
 	</style>
 </head>
 <body> -->
+	<!-- book.css -->
+  <link rel="stylesheet" type="text/css" href="assets/flipbook/book.css">
+
+	<style type="text/css">
+		/*.quicklinks     {
+      box-shadow: 0px 10px 10px 0px #5C6E7D;
+      margin: 5px;
+      height: 100px;
+    }
+
+    .quicklinks-offset     {
+      margin: 5px;
+      height: 100px;
+    }
+
+    .quicklinks:hover   {
+      box-shadow: 0px 20px 20px 10px #5C6E7D;
+      -webkit-transform: rotateX(15deg); 
+      transform: rotateX(15deg);
+      height: 150px;
+      width: 150px;
+      background-color: red;
+    }
+
+    .linkhouse  {
+      margin-top: 50px;
+    }
+
+    .linktext   {
+      margin-top: 45%;
+      color: black;
+    }
+
+    #grad7 {
+      background: -webkit-linear-gradient(left top, #0052F6 , #41C0FF);
+      background: -o-linear-gradient(bottom right, #0052F6, #41C0FF); 
+      background: -moz-linear-gradient(bottom right, #0052F6, #41C0FF);
+      background: linear-gradient(to bottom right, #0052F6 , #41C0FF);
+    }
+
+    #grad1 {
+      background: -webkit-linear-gradient(left top, #1C68FF , #BEDEFF);
+      background: -o-linear-gradient(bottom right, #1C68FF, #BEDEFF); 
+      background: -moz-linear-gradient(bottom right, #1C68FF, #BEDEFF);
+      background: linear-gradient(to bottom right, #1C68FF , #BEDEFF);
+    }
+
+    #grad4 {
+      background: -webkit-linear-gradient(left top, #85CFFF , #E5F2FF); 
+      background: -o-linear-gradient(bottom right, #85CFFF, #E5F2FF); 
+      background: -moz-linear-gradient(bottom right, #85CFFF, #E5F2FF);
+      background: linear-gradient(to bottom right, #85CFFF , #E5F2FF); 
+    }
+
+    #grad2 {
+      background: -webkit-linear-gradient(left top, #4180FF , #D2E8FF); 
+      background: -o-linear-gradient(bottom right, #4180FF, #D2E8FF); 
+      background: -moz-linear-gradient(bottom right, #4180FF, #D2E8FF); 
+      background: linear-gradient(to bottom right, #4180FF , #D2E8FF);
+    }
+
+    #grad5 {
+      background: -webkit-linear-gradient(left top, #9EBEFF , #D7E4FF);
+      background: -o-linear-gradient(bottom right, #9EBEFF, #D7E4FF); 
+      background: -moz-linear-gradient(bottom right, #9EBEFF, #D7E4FF); 
+      background: linear-gradient(to bottom right, #9EBEFF , #D7E4FF); 
+    }
+
+    #grad3 {
+      background: -webkit-linear-gradient(left top, #82ABFF , #E5F2FF); 
+      background: -o-linear-gradient(bottom right, #82ABFF, #E5F2FF); 
+      background: -moz-linear-gradient(bottom right, #82ABFF, #E5F2FF); 
+      background: linear-gradient(to bottom right, #82ABFF , #E5F2FF); 
+    }
+
+    #grad6 {
+      background: -webkit-linear-gradient(left top, #ADC8FF , #F9FDFF); 
+      background: -o-linear-gradient(bottom right, #ADC8FF, #F9FDFF); 
+      background: -moz-linear-gradient(bottom right, #ADC8FF, #F9FDFF); 
+      background: linear-gradient(to bottom right, #ADC8FF , #F9FDFF); 
+    }
+    .example3 {
+      height: 200px;	
+      overflow: hidden;
+      position: relative;
+    }
+		.example3  {
+	   	position: relative;
+	   	width: 100%;
+	   	height: 100%;
+	   	margin: 0;
+	   	line-height: 50px;
+	   	text-align: center;
+	
+	   	-moz-transform:translateY(-100%);
+	   	-webkit-transform:translateY(-100%);	
+	   	transform:translateY(-100%);
+	   	
+	   	-moz-animation: example3 5s linear infinite;
+	   	-webkit-animation: example3 5s linear infinite;
+	   	animation: example3 5s linear infinite;
+		}
+
+		@-moz-keyframes example3 {
+		 	0%   { -moz-transform: translateY(0%); }
+		 	100% { -moz-transform: translateY(100%); }
+		}
+		@-webkit-keyframes example3 {
+		 0%   { -webkit-transform: translateY(0%); }
+		 100% { -webkit-transform: translateY(100%); }
+		}
+		@keyframes example3 {
+		 0%   { 
+		 -moz-transform: translateY(0%);
+		 -webkit-transform: translateY(0%);
+		 transform: translateY(0%); 		
+		 }
+		 100% { 
+		 -moz-transform: translateY(100%);
+		 -webkit-transform: translateY(100%); 
+		 transform: translateY(100%); 
+		 }
+		}
+
+		.news   {
+		  height: auto !important;
+		  border: 2px solid rebeccapurple;
+		}*/
+	</style>
 <?php include "includes/header.php"; ?>
 <div class="container-fluid mb-1">
 	<h1 class="hidden-lg">Rom Kalilu</h1>
@@ -296,22 +425,21 @@
 		</div>	
 	</div>
 	<hr class="bg-white pt-1" />
-	<!-- Row Three -->
-	<div class="row">
-		<div class="col-md-8 col-sm-10 col-12 mx-auto">
 
-		  <div class="col-lg-4 col-lg-offset-4 card-box" style="*border: 2px solid blue;*width: 1054px;height: 522px; *padding: 0 100px 0 100px; background-color: #FDF5C4; background-color: transparent !important; border: none !important;">
+	<section class="section3" style="*border: 2px solid purple;height: auto;*margin-top: -10000em;">
+    <div class="row">
+      <div class="col-lg-4 card mx-auto" style="*border: 2px solid blue;*width: 1054px;height: 522px; *padding: 0 100px 0 100px; background-color: #FDF5C4; background-color: transparent !important; border: none !important;">
         <div class="bookContainer">
           <!--this is the whole book-->
-          <div class="book hoveit mx-auto">
+          <div class="book hoveit">
 
             <!--the top of your book - shows pages-->
             <div class="bookTop"></div>
 
-            <!--this is the side of your book where you'll put a title, author, or anything else-- >
+            <!--this is the side of your book where you'll put a title, author, or anything else-->
             <div class="bookSide">
               <p>Inspirational quotes</p>
-              <p>By: <a style="color: white; transition: all 1000ms;" href="www.joerezendes.com/">Joe Rezendes</a></p>
+              <!-- <p>By: <a style="color: white; transition: all 1000ms;" href="www.joerezendes.com/">Joe Rezendes</a></p> -->
             </div>
 
             <!--this is the side of the book that has pages-->
@@ -333,8 +461,110 @@
             <!--display your book pages in descending order. New pages are added to the top here.
                 It's important you give each page the page and pagecontent class, along with a pagenumber class-->
 
+            <div class="page pagecontent page5 bg-white text-warning"><!-- bookBack -->
+                Oops! You reached the last page, close nice and easy.
+              <p style="position: relative; top: 160px;">- 5 -</p>
+            </div>
+
+
+            <div class="page pagecontent page4 bg-white text-warning">
+                Thus far you're doing good, you're on the fourth page
+              <p style="position: relative; top: 160px;">- 4 -</p>
+            </div>
+
+
+            <div class="page pagecontent page3 bg-white text-warning">
+                Yeah! That's right you just got to the third page
+              <p style="position: relative; top: 160px;">- 3 -</p>
+            </div>
+
+            <div class="page pagecontent page2 bg-white text-warning">
+              And this, the second page
+              <p style="position: relative; top: 160px;">- 2 -</p>
+            </div>
+
+            <div class="page pagecontent page1 bg-white text-warning">
+              This must be the first page, please continue without tearing any page thanks
+              <p style="position: relative; top: 160px;">- 1 -</p>
+            </div>
+          </div><!--book-->
+
+
+          <style>
+            .belowbox {
+              display: none;
+              position: absolute;
+              left: 0; right: 0; bottom: 2rem;
+              margin-left: auto; margin-right: auto;
+              width: 20rem;
+            }
+          </style>
+          <div class="belowbox">
+            <center>
+	            <a class="github-button" href="https://github.com/joerez/flipbook-library" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star joerez/flipbook-library on GitHub">Star</a>
+	            <a class="github-button" href="https://github.com/joerez" data-size="large" data-show-count="true" aria-label="Follow @joerez on GitHub">Follow @joerez</a>
+	            <br><br><a href="https://github.com/joerez/flipbook-library" >Check out documentation</a>
+          	</center>
+          </div>
+        </div><!--bookContainer-->
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-5 text-center mx-auto">
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link"><img src="assets/images/kal/images/Lautech.png" class="img-thumbnail rounded-circle" width="50px" height="50px"></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><img src="assets/images/kal/images/researchgate.png" class="img-thumbnail rounded-circle" width="50px" height="50px"></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><img src="assets/images/kal/images/academia.png" class="img-thumbnail rounded-circle" width="50px" height="50px"></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><img src="assets/images/kal/images/WhatsApp.png" class="img-thumbnail rounded-circle" width="50px" height="50px"></a>
+        </li>
+      </ul>
+    </div>
+</section>
+	<!-- Row Three -->
+	<!-- <div class="row">
+		<div class="col-md-8 col-sm-10 col-12 mx-auto">
+
+		  <div class="col-lg-4 col-lg-offset-4 card-box" style="*border: 2px solid blue;*width: 1054px;height: 522px; *padding: 0 100px 0 100px; background-color: #FDF5C4; background-color: transparent !important; border: none !important;">
+        <div class="bookContainer"> -->
+          <!--this is the whole book-->
+         <!--  <div class="book hoveit mx-auto"> -->
+
+            <!--the top of your book - shows pages-->
+            <!-- <div class="bookTop"></div> -->
+
+            <!--this is the side of your book where you'll put a title, author, or anything else-- >
+            <!-- <div class="bookSide">
+              <p>Inspirational quotes</p>
+              <p>By: <a style="color: white; transition: all 1000ms;" href="www.joerezendes.com/">Joe Rezendes</a></p>
+            </div> -->
+
+            <!--this is the side of the book that has pages-->
+          <!--   <div class="bookSide2"></div> -->
+
+            <!--this is the backside of your book. Put whatever you'd like here.-->
+            <!-- <div class="page backBook">Back of book</div> -->
+
+            <!--this is the bottom of your book. It shows pages.-->
+            <!-- <div class="bookBottom"></div> -->
+
+            <!--this is the cover of your book. Put your title here along with anything else-->
+           <!--  <div class="page cover">
+              <h1 class="text-white">Inspirational Quotes</h1>
+              <p>By: <a class="author" href="">Rom Kalilu</a></p> -->
+              <!-- Place this tag where you want the button to render. -->
+            <!-- </div> -->
+
+            <!--display your book pages in descending order. New pages are added to the top here.
+                It's important you give each page the page and pagecontent class, along with a pagenumber class-->
+
                 <!-- bookBack -->
-             <div class="page pagecontent page5">
+         <!--     <div class="page pagecontent page5">
                 Oops! You reached the last page, close nice and easy.
               <p style="position: relative; top: 160px;">- 5 -</p>
             </div>
@@ -360,10 +590,10 @@
               This must be the first page, please continue without tearing any page thanks
               <p style="position: relative; top: 160px;">- 1 -</p>
             </div>
-          </div><!--book -->
+          </div> --><!--book -->
 
 
-          <style>
+         <!--  <style>
             .belowbox {
                 display: none;
               position: absolute;
@@ -378,10 +608,12 @@
             <a class="github-button" href="https://github.com/joerez" data-size="large" data-show-count="true" aria-label="Follow @joerez on GitHub">Follow @joerez</a>
             <br><br><a href="https://github.com/joerez/flipbook-library" >Check out documentation</a>
           </div>
-        </div>
+        </div> -->
         <!--bookContainer-->
       </div>
 		</div>
 	</div>
 </div>
 <?php include "includes/footer.php"; ?>
+ <!-- book.js -->
+ <script type="text/javascript" src="assets/flipbook/book.js"></script>

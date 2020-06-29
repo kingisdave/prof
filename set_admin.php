@@ -46,15 +46,15 @@
 											<td>Prof Rom Kalilu</td>
 											<td>Full Administration</td>
 											<td class="text-center">
-												<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#editModal"><i class="fa fa-pencil-square-o"></i></button>
+												<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#editAdminModal"><i class="fa fa-edit"></i></button>
 												<button class="btn btn-outline-danger btn-sm"><i class="fa fa-trash"></i></button>
 											</td>
 										</tr>
 										<tr>
 											<td>
 												<div class="custom-control custom-checkbox">
-											    <input type="checkbox" class="custom-control-input" id="customCheckOne" name="example1">
-											    <label class="custom-control-label" for="customCheckOne"></label>
+											    <input type="checkbox" class="custom-control-input" id="customCheckTwo" name="example1">
+											    <label class="custom-control-label" for="customCheckTwo"></label>
 											  </div>
 											</td>
 											<td>2</td>
@@ -64,15 +64,15 @@
 											<td>dPM DFSOPD</td>
 											<td>Forum and Webinar</td>
 											<td class="text-center">
-												<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#editModal"><i class="fa fa-pencil-square-o"></i></button>
+												<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#editAdminModal"><i class="fa fa-edit"></i></button>
 												<button class="btn btn-outline-danger btn-sm"><i class="fa fa-trash"></i></button>
 											</td>
 										</tr>
 										<tr>
 											<td>
 												<div class="custom-control custom-checkbox">
-											    <input type="checkbox" class="custom-control-input" id="customCheckOne" name="example1">
-											    <label class="custom-control-label" for="customCheckOne"></label>
+											    <input type="checkbox" class="custom-control-input" id="customCheckThree" name="example1">
+											    <label class="custom-control-label" for="customCheckThree"></label>
 											  </div>
 											</td>
 											<td>3</td>
@@ -82,15 +82,15 @@
 											<td>Newref admin</td>
 											<td>Gallery Administration</td>
 											<td class="text-center">
-												<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#editModal"><i class="fa fa-pencil-square-o"></i></button>
-												<button class="btn btn-outline-danger btn-sm"><i class="fa fa-trash"></i></button>
+												<button class="btn btn-outline-info btn-sm m-1" data-toggle="modal" data-target="#editAdminModal"><i class="fa fa-edit"></i></button>
+												<button class="btn btn-outline-danger btn-sm m-1"><i class="fa fa-trash"></i></button>
 											</td>
 										</tr>
 										<tr>
 											<td>
 												<div class="custom-control custom-checkbox">
-											    <input type="checkbox" class="custom-control-input" id="customCheckOne" name="example1">
-											    <label class="custom-control-label" for="customCheckOne"></label>
+											    <input type="checkbox" class="custom-control-input" id="customCheckFour" name="example1">
+											    <label class="custom-control-label" for="customCheckFour"></label>
 											  </div>
 											</td>
 											<td>4</td>
@@ -100,7 +100,7 @@
 											<td>Ffrer FSfefgeOPD</td>
 											<td>Exhibition and Museum</td>
 											<td class="text-center">
-												<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#editModal"><i class="fa fa-pencil-square-o"></i></button>
+												<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#editAdminModal"><i class="fa fa-edit"></i></button>
 												<button class="btn btn-outline-danger btn-sm"><i class="fa fa-trash"></i></button>
 											</td>
 										</tr>
@@ -115,7 +115,7 @@
 						</div>
 						
 						<!-- The Edit Modal -->
-					  <div class="modal fade" id="editModal">
+					  <div class="modal fade" id="editAdminModal">
 					    <div class="modal-dialog">
 					      <div class="modal-content">
 					      
@@ -125,13 +125,67 @@
 					        </div>
 					        
 					        <!-- Modal body -->
-					        <div class="modal-body">
-					          Modal body..
-					        </div>
-					        
-					        <!-- Modal footer -->
-					        <div class="modal-footer">
-					          <button type="button" class="btn btn-danger" data-dismiss="modal">Update Admin</button>
+					       <div class="modal-body">
+					        	<form class="form">
+
+					          <!-- Select from radio buttons to choose from the General Admin or Admin -->
+					          	<div class="form-group">
+												<div class="form-check-inline">
+												  <label class="form-check-label">
+												    <input type="radio" class="form-check-input" name="optradio">General Admin
+												  </label>
+												</div>
+												<div class="form-check-inline">
+												  <label class="form-check-label">
+												    <input type="radio" class="form-check-input" name="optradio">Admin
+												  </label>
+												</div>
+											</div>
+						        	<!-- Admin Full Name Here -->
+						        	<div class="form-group">
+						        		<input type="text" class="form-control" name="imageName" placeholder="Admin FullName Here">
+						        	</div>
+						        	<!-- Select from a list of pages -->
+						        	<div class="form-group">
+							        	<div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminArts" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminArts">Arts Gallery</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminPublication" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminPublication">Publications</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminAssesment" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminAssesment">Assessments</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminExhibition" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminExhibition">Journals</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminMuseum" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminMuseum">Museum</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminProfile" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminProfile">Profile</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminMultimedia" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminMultimedia">Multimedia</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminForum" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminForum">Forum</label>
+											  </div>
+											</div>
+							        <div class="uploadbtnwrapper float-left">
+												<button class="mybtn btn-sm">Select Image</button>
+												<input type="file" name="myfile">
+											</div>
+											<button class="btn btn-primary btn-sm float-right"> Update Admin</button>
+										</form>
 					        </div>
 					        
 					      </div>
@@ -139,7 +193,7 @@
 					  </div>
 
 					  <!-- The Add Admin Modal -->
-					  <div class="modal fade" id="editModal">
+					  <div class="modal fade" id="addAdminModal">
 					    <div class="modal-dialog">
 					      <div class="modal-content">
 					      
@@ -150,12 +204,66 @@
 					        
 					        <!-- Modal body -->
 					        <div class="modal-body">
-					          
-					        </div>
-					        
-					        <!-- Modal footer -->
-					        <div class="modal-footer">
-					          <button type="button" class="btn btn-danger" data-dismiss="modal">Add New Admin</button>
+					        	<form class="form">
+					          <!-- Select from radio buttons to choose from the General Admin or Admin -->
+											<div class="form-group">
+												<div class="form-check-inline">
+												  <label class="form-check-label">
+												    <input type="radio" class="form-check-input" name="optradio">General Admin
+												  </label>
+												</div>
+												<div class="form-check-inline">
+												  <label class="form-check-label">
+												    <input type="radio" class="form-check-input" name="optradio">Admin
+												  </label>
+												</div>
+											</div>
+											<!-- Admin Full Name Here -->
+						        	<div class="form-group">
+						        		<input type="text" class="form-control" name="imageName" placeholder="Admin FullName Here">
+						        	</div>
+						        	<!-- Select from a list of pages -->
+						        	<div class="form-group">
+							        	<div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminArts" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminArts">Arts Gallery</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminPublication" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminPublication">Publications</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminAssesment" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminAssesment">Assessments</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminExhibition" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminExhibition">Journals</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminMuseum" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminMuseum">Museum</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminProfile" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminProfile">Profile</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminMultimedia" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminMultimedia">Multimedia</label>
+											  </div>
+											  <div class="custom-control custom-radio custom-control-inline">
+											    <input type="radio" class="custom-control-input" id="adminForum" name="example" value="myvalue">
+											    <label class="custom-control-label" for="adminForum">Forum</label>
+											  </div>
+											</div>
+							       
+							        <div class="uploadbtnwrapper float-left">
+												<button class="mybtn btn-sm">Select Image</button>
+												<input type="file" name="myfile">
+											</div>
+											<button class="btn btn-primary btn-sm float-right">Add Admin</button>
+										</form>
 					        </div>
 					        
 					      </div>
