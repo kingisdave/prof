@@ -4,9 +4,14 @@
 	<title>Iconnect</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/otherdivs.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/4.0.0/css/jasny-bootstrap.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/4.0.0/js/jasny-bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/togglefunction.js"></script>
 	<style type="text/css">
-		
+	
 	</style>
 </head>
 <body>
@@ -14,7 +19,7 @@
 		<div class="container-fluid text-white">
 			<div class="text-center myprofiletop">
 				<img src="assets/images/kal/img/lion_head_4.png" class="rounded-circle" height="50px" width="50px">
-				<h5>Admin</p>
+				<h5>Admin</h5>
 				<!-- <span><a class="h5 fa fa-envelope m-1"></a>
 					<i class="badge badge-info rounded-circle" id="notificationbadge"><small>8</small></i>
 				</span> -->
@@ -33,11 +38,11 @@
 		     	<div class="dropdown-menu" style=" color: #282923">
 		      	<a class="dropdown-item" href="./page_headers.php">Header</a>
 		      	<a class="dropdown-item" href="./homepage_text.php">Homepage Texts</a>
-		      	<a class="dropdown-item" href="./homepage_pictures.php">Homepage Pictures</a>
+		      	<a class="dropdown-item" href="./homepage_photos.php">Homepage Pictures</a>
 			    </div>
 		    </li>
 		    <li class="nav-item">
-	      	<a class="nav-link row" href="./forum.php"><span class="col-2 fa fa-rss"></span><span class="col-10 small">Forums</span></a>
+	      	<a class="nav-link row" href="./create_forum.php"><span class="col-2 fa fa-rss"></span><span class="col-10 small">Forums</span></a>
 		    </li>
 
 		    <li class="nav-item dropdown dropright">
@@ -86,7 +91,9 @@
 			</ul>	
 		</div>
 	</div>
+
 	<script>
+
 		// function openNav() {
 		//     mySidenav.style.width = "250px";
 		//     // main.style.marginLeft = "250px";

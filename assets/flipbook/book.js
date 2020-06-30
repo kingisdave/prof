@@ -28,18 +28,18 @@ function newPage(element) {
 
   $(this).css("z-index", "19");
 
-  $(element).on("mouseover", function() {
+  $(element).on("click", function() {
     //this is what turns the page. -180deg flips it over.
     $(this).css('transform', 'rotateY(-180deg)');
 
   })
 }
 
-//This is what triggers when you mouseover/hover on the book in it's default state.
-$('.cover').on("mouseover", function() {
+//This is what triggers when you click/hover on the book in it's default state.
+$('.cover').on("click", function() {
 
   //you can change these rotations to set the default state of the book when you flip through pages.
-  $('.book').css("transform", "rotateY(0deg) rotateX(-0deg) scale(1)");
+  $('.book').css("transform", "rotateY(-30deg) rotateX(-0deg) scale(1)");
   $('.book').removeClass('hoveit');
    $('.cover').css('transform', 'rotateY(-180deg)');
    //this changes the color of the text to the same color of the page so it isn't visible.
@@ -65,8 +65,8 @@ for (var i = 1; i <= num; i++) {
 
 
 
-//the last page of your book should have the bookBack class. This is what happens when you mouseover it.
-$('.bookBack').on("mouseover", function() {
+//the last page of your book should have the bookBack class. This is what happens when you click it.
+$('.bookBack').on("click", function() {
 
   //rotate back every page in descending order here.
   $('.pagecontent').css('transform', 'rotateY(0deg)');

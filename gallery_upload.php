@@ -579,9 +579,15 @@
 																		<div class="form-group">
 																			<input type="text" name="postermain" class="form-control" placeholder="Insert the Main Text">
 																		</div>
-																		<div class="uploadbtnwrapper float-left">
-																			<button class="mybtn btn-sm">Select File</button>
-																			<input type="file" name="myfile">
+																		<div class="fileinput fileinput-new" data-provides="fileinput">
+																		  <div class="fileinput-new img-thumbnail" style="width: 200px; height: 150px;">
+																		    <img data-src="holder.js/100%x100%"  alt="...">
+																		  </div>
+																		  <div class="fileinput-preview fileinput-exists img-thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+																		  <div>
+																		    <span class="btn btn-outline-secondary btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+																		    <a href="#" class="btn btn-outline-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
+																		  </div>
 																		</div>
 																		<button class="btn btn-info float-right">Submit Post</button>
 																	</form>
@@ -674,9 +680,15 @@
 							        <div class="form-group">
 							        	<input type="file" class="form-control" name="video" placeholder="Video Files" />
 							        </div>
-							        <div class="uploadbtnwrapper float-left">
-												<button class="mybtn btn-sm">Select File</button>
-												<input type="file" name="myfile">
+							        <div class="fileinput fileinput-new" data-provides="fileinput">
+											  <div class="fileinput-new img-thumbnail" style="width: 200px; height: 150px;">
+											    <img data-src="holder.js/100%x100%"  alt="...">
+											  </div>
+											  <div class="fileinput-preview fileinput-exists img-thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+											  <div>
+											    <span class="btn btn-outline-secondary btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+											    <a href="#" class="btn btn-outline-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
+											  </div>
 											</div>
 											<button class="btn btn-primary btn-sm float-right"> Post </button>
 						        </div>
@@ -721,9 +733,15 @@
 							        <div class="form-group">
 							        	<textarea class="form-control" rows="2" name="description" placeholder="File Description"></textarea>
 							        </div>
-							        <div class="uploadbtnwrapper float-left">
-												<button class="mybtn btn-sm">Select File</button>
-												<input type="file" name="myfile">
+							        <div class="fileinput fileinput-new" data-provides="fileinput">
+											  <div class="fileinput-new img-thumbnail" style="width: 200px; height: 150px;">
+											    <img data-src="holder.js/100%x100%"  alt="...">
+											  </div>
+											  <div class="fileinput-preview fileinput-exists img-thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+											  <div>
+											    <span class="btn btn-outline-secondary btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+											    <a href="#" class="btn btn-outline-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
+											  </div>
 											</div>
 											<button class="btn btn-primary btn-sm float-right">Save</button>
 						        </div>
@@ -772,9 +790,15 @@
 								        <div class="form-group">
 								        	<input type="file" class="form-control" name="video" placeholder="Video Files" />
 								        </div>
-								        <div class="uploadbtnwrapper float-left">
-													<button class="mybtn btn-sm">Select Image</button>
-													<input type="file" name="myfile">
+								        <div class="fileinput fileinput-new" data-provides="fileinput">
+												  <div class="fileinput-new img-thumbnail" style="width: 200px; height: 150px;">
+												    <img data-src="holder.js/100%x100%"  alt="...">
+												  </div>
+												  <div class="fileinput-preview fileinput-exists img-thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+												  <div>
+												    <span class="btn btn-outline-secondary btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+												    <a href="#" class="btn btn-outline-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
+												  </div>
 												</div>
 												<button class="btn btn-primary btn-sm float-right"> Post </button>
 						        	</form>

@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="assets/css/otherdivs.css">
+
 	<style>
 
 	</style>
@@ -70,7 +71,7 @@
 					<div class="row bg-white shadow">
 						<div class="col-lg-4 col-md-4 col-sm-6 col-12 p-1">
 								<div class="card img-fluid rounded-circle" style="height: 35vh">
-							    <img class="card-img-top" src="assets/images/kal/img/RK_142X172_1426539309.png" alt="Card image" style="height:100%">
+							    <img class="rounded-circle img-thumbnail" src="assets/images/kal/img/RK_142X172_1426539309.png" alt="Card image" style="height:100%">
 							  </div>
 							
 						</div>
@@ -173,7 +174,9 @@
 							</div>
 						</div>
 					</div>	
-					<hr class="bg-secondary" style="width: 100%"></hr>
+
+					<hr class="bg-secondary" style="width: 100%" />
+
 					<div class="row mt-1 bg-white">
 						<div class="col-12">
 							<h5>Recents Comments</h5>
@@ -182,9 +185,10 @@
 								<div class="media-body">
 								    <h4 class="mr-2">John Doe <small><i>Sep 29, 2019, 9:12 PM</i></small></h4>
 								    <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								    <span class="fa fa-thumbs-up"></span>
-								    <span class="fa fa-thumbs-up"></span>
-								    <span clas></span>
+								   	<span class="fa fa-thumbs-up m-3"></span>
+								    <span class="fa fa-thumbs-down m-3"></span>
+								    <span class="fa fa-marker text-primary m-3">Approve Comment</span>
+								    <span class="fa fa-trash m-3 text-danger">Remove Comment</span>
 								</div>
 							</div>
 							<div class="media border p-3">
@@ -192,6 +196,21 @@
 								<div class="media-body">
 								    <h4 class="mr-2">Bo <small><i>Sep 28, 2019, 10:00 PM</i></small></h4>
 								    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+								    <span class="fa fa-thumbs-up m-3"></span>
+								    <span class="fa fa-thumbs-down m-3"></span>
+								    <span class="fa fa-marker text-primary m-3">Approve Comment</span>
+								    <span class="fa fa-trash m-3">Remove Comment</span>
+								</div>
+							</div>
+							<div class="media border p-3">
+								<img src="img_avatar3.png" alt="Johnee" class="mr-5 mt-1 rounded" style="width:60px;">
+								<div class="media-body">
+								    <h4 class="mr-2">Johe m<small><i>Jan 29, 2020, 9:12 PM</i></small></h4>
+								    <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								   	<span class="fa fa-thumbs-up m-3"></span>
+								    <span class="fa fa-thumbs-down m-3"></span>
+								    <span class="fa fa-marker text-primary m-3">Approve Comment</span>
+								    <span class="fa fa-trash m-3 text-danger">Remove Comment</span>
 								</div>
 							</div>
 						</div>
@@ -201,6 +220,7 @@
 		</div>
 	</div> 
 	<script src="assets/js/togglefunction.js"></script>
+	
 	<script type="text/javascript">
 		// $(document).ready(function(){
 	

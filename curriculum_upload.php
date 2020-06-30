@@ -55,8 +55,18 @@
 				      
 				        <!-- Modal body -->
 				        <div class="modal-body">
-				        	<img src="./assets/images/kal/img/RK_142X172_1426538304.png" class="img-thumbnail rounded-circle shadow-lg" width="70" height="70"/>
+				        	<!-- <img src="./assets/images/kal/img/RK_142X172_1426538304.png" class="img-thumbnail rounded-circle shadow-lg" width="70" height="70"/> -->
 				        	<form class="form">
+				        		<div class="fileinput fileinput-new" data-provides="fileinput">
+										  <div class="fileinput-new img-thumbnail" style="width: 200px; height: 150px;">
+										    <img data-src="holder.js/100%x100%"  alt="...">
+										  </div>
+										  <div class="fileinput-preview fileinput-exists img-thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+										  <div>
+										    <span class="btn btn-outline-secondary btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+										    <a href="#" class="btn btn-outline-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
+										  </div>
+										</div>
 
 				        		<div class="form-group">
 											<input type="text" class="form-control" value="Razaq Olatunde Rom Kalilu">
@@ -85,9 +95,9 @@
 										<div class="form-group">
 											<input type="text" class="form-control" value="Justice of the Peace, Oyo State, Federal Republic of Nigeria">
 										</div>
-										<div class="form-group">
+										<!-- <div class="form-group">
 											<input type="file" name="profileimage" class="form-control" />
-										</div>
+										</div> -->
 
 										<h6>Your External Links</h6>
 
@@ -220,9 +230,15 @@
 				        	<div class="form-group">
 				        		<input type="date" class="form-control" name="uploaddate" placeholder="Upload Date" />
 				        	</div>
-					        <div class="uploadbtnwrapper float-left">
-										<button class="mybtn btn-sm">Select Image</button>
-										<input type="file" name="myfile">
+					        <div class="fileinput fileinput-new" data-provides="fileinput">
+									  <div class="fileinput-new img-thumbnail" style="width: 200px; height: 150px;">
+									    <img data-src="holder.js/100%x100%"  alt="...">
+									  </div>
+									  <div class="fileinput-preview fileinput-exists img-thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+									  <div>
+									    <span class="btn btn-outline-secondary btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+									    <a href="#" class="btn btn-outline-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
+									  </div>
 									</div>
 									<button class="btn btn-primary btn-sm float-right"> Post </button>
 			        	</form>
