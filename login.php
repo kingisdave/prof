@@ -2,10 +2,10 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-4 col-12">
-			<?php include "includes/buttons.php"; ?>
+		<div class="col-lg-4 col-md-4 col-12">
+		
 		</div>
-		<div class="col-md-8 col-12">
+		<div class="col-lg-8 col-md-8 col-12 p-1">
 			<div class="row">
 				<div class="col-lg-7 col-md-7 col-12 mx-auto">
 					<div class="card border-none shadow mt-1 mx-auto" style="border-radius:23% 0 20% 0">

@@ -1,63 +1,51 @@
 body {
 		background: #B3ECFF !important;
-    color: #636b6f;
+    /*color: #636b6f;*/
+    color: #000;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
-    height: 100vh;
+		width: 100%;
     margin: 0;
 }
 
-/*body{*/
-	/*background: #B3ECFF !important;*/
-	/*background: #e6f7ff !important;*/
-	/*font-family: Lato, san-serif !important;*/
-/*}*/
-
+/*This is the background image at the head section */
 #headimg{
 	background: url('../images/kal/img/Adirebanner.png') !important;
 	background-size: cover;
 	background-repeat: no-repeat;
-	/*width: 100%;*/
 	background-position: center;
 	height: 23vh;
+	width: 100%;
 }
 
+/*this are the rounded images in the header section in the background section that are animating themselves*/
 #logoimages{
-	width: 210px;
+	width: 35vh;
 	height: 23.5vh;
 	position: relative;
-	left: 18%;
+	left: 17%;
 	top: -2px;
 	background: url('../images/kal/img/lion_head_4.png');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
+	animation: topimage 15s infinite;
 } 
+/*this is the animation section */
+@keyframes topimage {
+	0% {background: url('../images/kal/img/lion_head_1.png'); background-repeat: no-repeat; background-size: cover; background-position: center;}
+	25% {background: url('../images/kal/img/lion_head_2.png'); background-repeat: no-repeat; background-size: cover; background-position: center;}
+	50% {background: url('../images/kal/img/lion_head_3.png'); background-repeat: no-repeat; background-size: cover; background-position: center;}
+	75% {background: url('../images/kal/img/lion_head_4.png'); background-repeat: no-repeat; background-size: cover; background-position: center;}
+}
 
+/*This is the topname {an image} called 'rom kalilu'*/
 #imgname{
 	height: 18vh;
 	position: absolute;
-	/*top: 0;*/
 	width: 49%;
 	right: 24px;
 
-}
-/*#navbarimg button{
-	width: 10px;
-	height: 10px;*/
-	/*background: #B3ECFF !important;*/
-
-
-/*}*/
-#navbarimg button span{
-	width: 20px;
-	color: #fff !important;
-}
-#topdate{
-	position: absolute;
-	top: 23.5vh;
-	left: 0;
-	font-size: 80%;
 }
 
 #navbarimg{
@@ -65,11 +53,7 @@ body {
 	background-size: cover;
 	background-position: center;
 	border-bottom-left-radius: 130px;
-	/*z-index: 1;
-	/*position: relative;*/
-	/*width: 100%;*/
-	/*top: -.4vh;*/
-	/*float: right;*/
+
 }
 
 nav .dropdown-menu{
@@ -92,7 +76,6 @@ nav .dropright{
   display: inline-block;
 }
 nav .dropright .dropdown-toggle{
-	/*width: 150px;*/
 	width: 100%;
 	padding-right: 100px; 
 	/*background: #000;
@@ -112,7 +95,7 @@ nav .dropright-content{
   background-color: #0A243B;
   min-width: 50px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+/*  z-index: 1;*/
 }
 nav .dropright-content a {
   color: black;
@@ -120,7 +103,7 @@ nav .dropright-content a {
   text-decoration: none;
   display: block;
 }
-/*.dropright-content a:hover {background-color: #f1f1f1}*/
+
 nav .dropright-content a:hover {
 	background-color: #95C9FE;
 	color: #000 !important;
@@ -134,86 +117,67 @@ nav .dropright:hover .dropright-content {
 	background: #fff;
 	width: 100%;
 	height: 5px;
-	box-shadow: 1px 1px #000;
 	position: relative;
-	top: 2vh;
-	z-index: -1;
+	box-shadow: 1px 1px #000;
 }
 .mybutton{
 	background: #E6F7FF !important;
 	color: #000 !important;
-
 }
 
-@media screen and (max-width: 550px) {
-	#navbarimg{position: relative; top: -1vh;}
-	#navline{position: relative; top: 1.5vh; }
-	#topdate{font-size: 64%;}
-
-}
-/*.dropright {
-	position: relative;
-}
-.dropright a.nav-link{
-	position: relative;
-	margin-left: 15px;
-}
-.dropright .dropdown-menu {
-		top: 0;
-		left: 100%;
-		margin-top: -1px;
-}*/
 
 .hidden-lg{
 	display: none;
 }
-.mycols{
-	/*border: 3px solid red !important;*/
-	height: 100vh;
-}
+
 #mycol{
 	height: 99%;
-	/*border: 3px solid red !important;*/
 }
-/*#mycolone{
-	position: relative;
-}*/
+
 .greetingText{
 	font-family: Brush Script MT;
 	line-height: 115%;
 }
 
+/*this is the whole paragraph*/
 #textone{
 	color:#7030A0;
-	font-size: 150%;
-	/*font-size: 1.35em;*/
+	font-size: 160%;
 }
+
+/*This is for the name*/
 #texttwo{
 	color:#825F08;
-	font-size: 1.3em;
+	font-size: 1.6em;
 }
+
+/*These are the other achievements texts*/
 .otherText{ 
 	font-family:'Times New Roman','serif';
 	color:#4F6228;
-	font-size: 8.0pt;
+	font-size: 8.5pt;
 	font-weight: bold;
 	margin-bottom: 0001pt;
 	line-height: normal;
 }
+
+/*This is the width and height of newsboard for displaying news*/
 #newsboard{
-	/*border: 2px solid red;*/
 	background: url('../images/kal/images/shadow.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
-	/*width: 100%;*/
 }
+
+/*This is the inside of the newsboard*/
 #newsboardinside{
 	height: 90%;
 	width: 95%;
 	overflow: hidden;
 }
+
+/*This is the width and height of each news pads*/
 .newssingle{
 	width: 95%;
 	position: relative;
@@ -237,8 +201,52 @@ nav .dropright:hover .dropright-content {
    0%   {left:0px; top:100px;}
    100% {left:0px; top:-300px;}
 }
+
 #manycarousels{
 	border-bottom: 4px solid #fff !important;
+}
+
+a.classa{
+	text-decoration: none;
+}
+a.classa:hover .card{
+	border: 3px solid #ccc;
+}
+
+/*This is for the version of the index page lesser than 1000px*/
+@media screen and (max-width: 1200px)and (min-width: 600px) {
+	#textone{ font-size: 110%; }
+	#newsboardinside{height: 83%;}
+}
+
+@media screen and (max-width: 770px) {
+	#myfirstcaro{ height: 60vh; }
+}
+
+/*This is for the mobile version of the index page*/
+@media screen and (max-width: 600px) {
+	#navbarimg{position: relative; top: -1vh;}
+	#topdate{font-size: 75%;}
+	#textone{ font-size: 80%; }
+	.nexticons{ position:relative; top: -10vh }
+}
+
+/*This is for the mobile screen lesser than 380px*/
+@media screen and (max-width: 380px) {
+	#topdate{ font-size: 50%; }
+	.fcard{ font-size: 60%; }
+	#newsboardinside{height: 83%; font-size: 70%;}
+}
+
+/*For safari 4.0 - 8.0*/
+@-webkit-keyframes newcaro {
+  0%   {left:0px; top:100px;}
+  100% {left:0px; top:-300px;}
+}
+/* Standard syntax */
+@keyframes newcaro {
+   0%   {left:0px; top:100px;}
+   100% {left:0px; top:-300px;}
 }
 
 
@@ -252,20 +260,12 @@ nav .dropright:hover .dropright-content {
   border: 2px solid skyblue;
 }
 
-/*.myartscard{
-	overflow: scroll;
-	overflow-x: hidden;
-}*/
 #myartsrow p{
 	position: absolute;
 	left: 0;
-	/*margin-left: -16px;*/
+
 }
-#myartsrow h6{
-	/*position: absolute;*/
-	/*left: 0;*/
-	/*margin-left: -16px;*/
-}
+
 .cardprofile{
 	overflow: hidden;
 	height: 90%;
@@ -330,26 +330,24 @@ nav .dropright:hover .dropright-content {
 	border-radius: 50px 0 50px 0; 
 }
 
-	#resumepix{
-		height: 35vh;
+#resumepix{
+	height: 35vh;
 
-	}
-	#resumepix img{
-		position: absolute;
-		left: 5vh;
-		top: 55vh;
-		border: 2px solid #fff;
-		z-index: 1;
-	}
-	.resumerow{
-		position: relative;
-	}
+}
+.resumerow img{
+/*	position: absolute;
+	left: 5vh;
+	top: 0;
+	border: 2px solid #fff;
+	z-index: 1;*/
+}
+.resumerow{
+	position: relative;
+}
 
 .footer{
-	height: 10vh;
 	font-family: Lato;
-	/*letter-spacing: -1px;*/
-	background: url('../images/kal/img/wood-walnut-background-tile.jpg') !important;
+	background: url('../images/kal/img/Adirebanner.png') !important;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -357,6 +355,8 @@ nav .dropright:hover .dropright-content {
 .footer div{
 	width: 95%;
 	font-size: 80%;
+	font-weight: bolder;
+	text-shadow: 2px 2px #000;
 }
 
 .footer a{

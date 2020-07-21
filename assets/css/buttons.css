@@ -3,7 +3,7 @@
 	height: 80px;
 	width: 80px;
 	font-size: 8px;
-	border: 8px solid #ccc;
+	border: 8px solid #b3b3b3;
 }
 
 .columncircle a{
@@ -15,10 +15,11 @@
 	height: 165px;
 	position: absolute;
 	top: 24%;
-	color: #000;
-	text-shadow: 2px .5px gold;
+	color: #0D2036 !important;
+	/*text-shadow: 2px .5px gold;*/
+	/*box-shadow: 4px 6px #000;*/
 	margin-left: 85px;
-	border: 20px solid #ccc;
+	border: 20px solid #b3b3b3;
 	padding-top: 6%;
 }
 .mycircle #bigtwo{
@@ -68,4 +69,17 @@
 
 .mycircle .btnlink:hover div{
 	display: block;
+}
+
+@media screen and (max-width: 850px) and (min-width: 795px){
+	.mycircle button{height: 70px;width: 70px;font-size: 8px;border: 7px solid #b3b3b3;}
+	.mycircle .ddd{ position: absolute;top: 15%;padding-top: 10%;}
+	.mycircle #bigtwo{ padding-top: 14%;}
+	.mycircle #bigthree, .mycircle #bigsix,.mycircle #bigeight,
+ 		.mycircle #bignine, .mycircle #bigeleven{ padding-top: 17%;}
+	.mycircle #bigfive, .mycircle #bigseven{ padding-top: 5%;}
+}
+@media screen and (max-width: 795px){
+	.mycircle{ display: none; }
+	
 }

@@ -14,11 +14,13 @@
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  /*z-index: 40;*/
 }
 /*.sidenav .myprofiletop{
   position: relative;
   top: -5vh;
 }*/
+
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;

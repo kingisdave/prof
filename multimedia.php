@@ -1,10 +1,10 @@
 <?php include 'includes/header.php'; ?>
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-4 col-12">
-			<?php include "includes/buttons.php"; ?>
-		</div>
-		<div class="col-md-8 col-12 p-1">
+		<div class="col-lg-4 col-md-4 col-12">
+            <?php include "includes/buttons.php"; ?>
+        </div>
+        <div class="col-lg-8 col-md-8 col-12 p-1">
 			<div class="card" style="border-radius:5%">
 				<div class="card-body">
 					<ul class="nav nav-tabs">

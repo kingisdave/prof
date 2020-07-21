@@ -37,7 +37,7 @@
 									<tr>
 										<td>1</td>
 										<td><strong>Welcome Text</strong></td>
-										<td>Poster One</td>
+										<td>Introduction</td>
 										<td><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</small>
 										</td>
@@ -99,6 +99,32 @@
 											</button>
 										</td>
 									</tr>
+									<tr>
+										<td>5</td>
+										<td><strong>Privacy</strong></td>
+										<td>Poster One</td>
+										<td><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</small>
+										</td>
+										<td>
+											<button class="btn btn-outline-danger">
+												<span class="fa fa-trash"></span>
+											</button>
+										</td>
+									</tr>
+									<tr>
+										<td>5</td>
+										<td><strong>Terms and Conditions</strong></td>
+										<td>Poster One</td>
+										<td><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</small>
+										</td>
+										<td>
+											<button class="btn btn-outline-danger">
+												<span class="fa fa-trash"></span>
+											</button>
+										</td>
+									</tr>
 								</tbody>
 							</table>
 						</div>
@@ -135,6 +161,24 @@
 					</div>
 
 					<hr class="text-secondary" />
+						<!-- Card Links upload -->
+					<h5>Card Links</h5>
+					<div class="card shadow">
+						<div class="card-body">
+							<form class="form">
+								<div class="form-group">
+									<input type="url" name="url" class="form-control" placeholder="url or link" />
+								</div>
+								<div class="form-group">
+									<input type="text" name="link" class="form-control" placeholder="Insert your card link name">
+								</div>
+								<input type="submit" class="btn btn-primary float-right" name="post" />
+							</form>
+						</div>
+					</div>
+
+
+					<hr class="text-secondary" />
 					<!-- Quotes Textbook upload -->
 					<h5>Quotes</h5>
 					<div class="card shadow">
@@ -148,7 +192,39 @@
 							
 						</div>
 					</div>
+
 					<hr class="text-secondary" />
+					<!-- Privacy Policy upload -->
+					<h5>Privacy</h5>
+					<div class="card shadow">
+						<div class="card-body">
+							<form class="form">
+								<div class="form-group">
+									<textarea name="privacy" class="form-control" placeholder="Privacy Policy"></textarea>
+								</div>
+								<input type="submit" class="btn btn-primary float-right" name="post" />
+							</form>
+							
+						</div>
+					</div>
+
+					<hr class="text-secondary" />
+					<!-- Terms and Conditons upload -->
+					<h5>Terms and Conditions</h5>
+					<div class="card shadow">
+						<div class="card-body">
+							<form class="form">
+								<div class="form-group">
+									<textarea name="terms" class="form-control" placeholder="Terms and Conditions"></textarea>
+								</div>
+								<input type="submit" class="btn btn-primary float-right" name="post" />
+							</form>
+							
+						</div>
+					</div>
+
+					<hr class="text-secondary" />
+
 
 					<!-- Footer Text -->
 					<div class="row">

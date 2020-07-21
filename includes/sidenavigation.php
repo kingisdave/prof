@@ -6,12 +6,14 @@
 	<link rel="stylesheet" href="assets/css/otherdivs.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/4.0.0/css/jasny-bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/bootstrap-4.3.1/bootstrap-4.0.0/docs/dist/css/jasny-bootstrap.min.css">
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/4.0.0/js/jasny-bootstrap.min.js"></script>
+	<script src="./assets/bootstrap-4.3.1/bootstrap-4.0.0/docs/dist/js/jasny-bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/togglefunction.js"></script>
 	<style type="text/css">
-	
+		
 	</style>
 </head>
 <body>
@@ -23,9 +25,10 @@
 				<!-- <span><a class="h5 fa fa-envelope m-1"></a>
 					<i class="badge badge-info rounded-circle" id="notificationbadge"><small>8</small></i>
 				</span> -->
-				<span><span class="h5 fa fa-bell m-1"></span>
+				<a href="./notifications.php">
+					<span class=" h5 fa fa-bell m-1"></span>
 					<i class="badge badge-info rounded-circle" id="notificationbadge"><small>83</small></i>
-				</span>
+				</a>
 			</div>
 			<hr class="bg-secondary" style="width: 100%"></hr>
 			<ul class="nav nav-pills flex-column">
@@ -37,6 +40,7 @@
 	      	<a class="nav-link row dropdown-toggle" data-toggle="dropdown" href="#"><span class="col-2 fa fa-file"></span><span class="col-10 small">Pages</span></a>
 		     	<div class="dropdown-menu" style=" color: #282923">
 		      	<a class="dropdown-item" href="./page_headers.php">Header</a>
+		      	<a class="dropdown-item" href="./homepage_links.php">Homepage Links</a>
 		      	<a class="dropdown-item" href="./homepage_text.php">Homepage Texts</a>
 		      	<a class="dropdown-item" href="./homepage_photos.php">Homepage Pictures</a>
 			    </div>
@@ -78,6 +82,7 @@
 		     	<a class="nav-link row dropdown-toggle" data-toggle="dropdown" href="#"><span class="col-2 fa fa-cogs"></span><span class="col-10 small">Settings</span></a>
 		     	<div class="dropdown-menu" style="color: #282923">
 		      	<a class="dropdown-item" href="./set_admin.php">Admin Setting</a>
+		      	<a class="dropdown-item" href="./developers_admin.php">Developers Page</a>
 		      	<a class="dropdown-item" href="./updatepassword.php">Reset Password</a>
 			    </div>
 		    </li>

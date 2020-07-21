@@ -1,13 +1,13 @@
 <?php include 'includes/header.php'; ?>
 <div class="container-fluid mt-1 p-2" style="width: 98.6%;">
-	<div class="row">
+	<!-- <div class="row">
 		<div class="col-lg-6 col-md-6 col-11 mx-auto"> 
 			<div class="alert bg-white alert-info alert-dismissible fade show">
 	    	<button type="button" class="close" data-dismiss="alert">&times;</button>
 				<strong>*</strong>You have to Login first <a href="login.php" class="alert-link">Login from here</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="row">
 		<div class="col-lg-4 col-md-4 col-sm-10 col-12 mx-auto">
 			<div class="card shadow m-1">
@@ -19,7 +19,7 @@
 									<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="50" height="50">
 									<p>Name</p>
 									<p>Specialization</p>
-									<a data-toggle="modal" data-target="#artistdetails">Details</a>
+									<a data-toggle="modal" data-target="#artistdetails" class="btn btn-default">Details</a>
 								</div>
 							</div>
 						</div>
@@ -29,6 +29,7 @@
 									<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="50" height="50">
 									<p>Name</p>
 									<p>Specialization</p>
+									<a data-toggle="modal" data-target="#artistdetails" class="btn btn-default">Details</a>
 								</div>
 							</div>
 						</div>
@@ -38,6 +39,7 @@
 									<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="50" height="50">
 									<p>Name</p>
 									<p>Specialization</p>
+									<a data-toggle="modal" data-target="#artistdetails" class="btn btn-default">Details</a>
 								</div>
 							</div>
 						</div>
@@ -47,6 +49,7 @@
 									<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="50" height="50">
 									<p>Name</p>
 									<p>Specialization</p>
+									<a data-toggle="modal" data-target="#artistdetails" class="btn btn-default">Details</a>
 								</div>
 							</div>
 						</div>
@@ -56,6 +59,7 @@
 									<img src="assets/images/kal/img/lion_head_2.png" class="mx-auto rounded-circle" width="50" height="50">
 									<p>Name</p>
 									<p>Specialization</p>
+									<a data-toggle="modal" data-target="#artistdetails" class="btn btn-default">Details</a>
 								</div>
 							</div>
 						</div>
@@ -66,6 +70,7 @@
 
 									<p>Name</p>
 									<p>Specialization</p>
+									<a data-toggle="modal" data-target="#artistdetails" class="btn btn-default">Details</a>
 								</div>
 							</div>
 						</div>
@@ -74,9 +79,43 @@
 			</div>
 		</div>
 
+		<!-- This is the Artists details modal -->
+		<div id="artistdetails" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header" style="border:none !important;padding-bottom: 0px;">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body">
+              <div class="profile-detail card-box">
+                <div>
+                  <img src="assets/images/users/admin/lion_head_2.png" class="img-circle" alt="profile-image">
+                  <!-- <h4 class="text-uppercase font-600">About Me</h4> -->
+                  <div class="text-center">
+                    <p class="text-muted font-13"><strong>Full Name :</strong> <span class="m-l-15">Name of curator</span></p>
+
+                    <p class="text-muted font-13"><strong>Mobile :</strong><span class="m-l-15">Contact</span></p>
+
+                    <p class="text-muted font-13"><strong>Email :</strong> <span class="m-l-15">example@email.com</span></p>
+
+                    <p class="text-muted font-13"><strong>Institution :</strong> <span class="m-l-15">College</span></p>
+                    <p class="text-muted font-13"><strong>Specialization :</strong> <span class="m-l-15">Collage</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+       		</div><!-- /.modal-content -->
+    		</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
 		<div class="col-lg-4 col-md-4 col-sm-10 col-12 mx-auto">
 			<div class="card shadow m-1">
 				<div class="card-body">
+					<a class="btn btn-info btn-sm shadow m-1 text-right" href="./exhibitarchive.php">
+						<span class="fa fa-arrow-circle-left mr-3"></span>Tour Exhibition
+					</a>
 					<div class="row cardprofile">
 						<div class="col-11 mx-auto cardsingletwo">
 							<div class="card shadow m-1 mt-2">

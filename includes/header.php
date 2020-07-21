@@ -11,9 +11,9 @@
 
   <title>.: Welcome to Rom Kalilu Official Website :.</title>
 
-	<!-- <link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/fontawesome-free-5.11.2-web/css/all.css">
- -->
+
 	<!-- <link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/dist/css/w3.css"> -->
 	<!-- <link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/dist/css/w3pro.css"> -->
 	<!-- <link rel="stylesheet" type="text/css" href="./assets/bootstrap-4.3.1/fontawesome/css/css/fontawesome-all.css"> -->
@@ -27,9 +27,9 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
-	<!-- <script type="text/javascript" src="./assets/bootstrap-4.3.1/dist/jquery3.3.1.js"></script>
+	<script type="text/javascript" src="./assets/bootstrap-4.3.1/dist/jquery3.3.1.js"></script>
 	<script type="text/javascript" src="./assets/bootstrap-4.3.1/dist/popper.js"></script>
-	<script type="text/javascript" src="./assets/bootstrap-4.3.1/dist/js/bootstrap.js"></script> -->
+	<script type="text/javascript" src="./assets/bootstrap-4.3.1/dist/js/bootstrap.js"></script>
 	<style type="text/css">
 	
 	</style>
@@ -38,11 +38,12 @@
 
 <!-- Navigation Bar-->
 	<div>
-		<div id="headimg">
-			<span id="logoimages" class="float-left rounded-circle border border-primary"></span>
-			<img src="./assets/images/kal/img/ROM.png" id="imgname" class="mt-3 mr-4 float-right" />
+		<div class="container-fluid" id="headimg">
+			<span id="logoimages" class="float-left rounded-circle"></span>
+			<img src="./assets/images/kal/img/ROM.png" id="imgname" class="mt-3 mr-5 float-right" />
 		</div>
 		<!-- <div class=" float-right"> -->
+		<div class="clearfix">
 			<nav class="navbar navbar-expand-md bg-dark navbar-dark w-75 float-right mt-1 sticky-top" id="navbarimg">
 				<div class="container">
 					<button class="navbar-toggler ml-auto text-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -52,11 +53,11 @@
 				  <!-- Navbar links -->
 				  <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
 				  	
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item mr-2"><a class="nav-link text-white" href="./index.php">Home</a></li>
+						<ul class="navbar-nav ml-auto mr-3">
+							<li class="nav-item mr-4"><a class="nav-link text-white" href="./index.php">Home</a></li>
 
 
-							<li class="nav-item dropdown">
+							<li class="nav-item dropdown mr-3">
 					      <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
 					        Gallery
 					      </a>
@@ -108,17 +109,17 @@
 						      <div class="nav-link dropright">
 							    	<a href="#" class="dropdown-item dropdown-toggle">Museum</a>
 						        <div class="dropright-content">
-						        	<a href="./myarts.php" class="dropdown-item">Artman Museum</a>
-											<a href="./otherartists.php" class="dropdown-item">ArtTwo Museum</a>
-											<a href="./otherartists.php" class="dropdown-item">ArtThree Museum</a>
+						        	<a href="./museum.php" class="dropdown-item">Artman Museum</a>
+											<a href="./museum_two.php" class="dropdown-item">ArtTwo Museum</a>
+											<a href="./museum_three.php" class="dropdown-item">ArtThree Museum</a>
 						        </div>
 						      </div>
 					      </div>
 					    </li>
 						
-							<li class="nav-item mr-2"><a class="nav-link text-white" href="./forum.php">Forum</a></li>
+							<li class="nav-item mr-3"><a class="nav-link text-white" href="./forum.php">Forum</a></li>
 						
-							<li class="nav-item dropdown mr-2">
+							<li class="nav-item dropdown mr-3">
 					      <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
 					        Conference
 					      </a>
@@ -129,11 +130,11 @@
 					      </div>
 					    </li> 
 
-							<li class="nav-item mr-2"><a class="nav-link text-white" href="./register.php">Register</a></li> 
+							<li class="nav-item mr-3"><a class="nav-link text-white" href="./register.php">Register</a></li> 
 
 							<!-- <li class="nav-item mr-2"><a class="nav-link text-white" href="./account.php">Dashboard</a></li> -->
 
-							<li class="nav-item dropdown mr-2">
+							<li class="nav-item dropdown mr-3">
 					      <a class="nav-link dropdown-toggle text-white" href="account.php" id="navbardrop" data-toggle="dropdown">
 					        Profile
 					      </a>
@@ -145,45 +146,30 @@
 					      </div>
 					    </li> 
 
-							<li class="nav-item dropdown mr-2">
+							<li class="nav-item dropdown mr-3">
 					      <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
 					        Contact
 					      </a>
 					      <div class="dropdown-menu">
 					        <a class="dropdown-item" href="./contact.php">Contact Us</a>
-					        <a class="dropdown-item" href="#">Webmail</a>
+					        <a class="dropdown-item" href="https://www.webmail.com">Webmail</a>
 					      </div>
 					    </li> 
 
-							<li class="nav-item m-1"><a href="./login.php" class="btn btn-sm mybutton shadow">Login</a></li>
-							<!-- <li class="nav-item m-1"><a href="./login.php" class="btn btn-sm mybutton shadow">Logout</a></li> -->
-							<li class="nav-item m-1"><a href="#" type="button" class="btn btn-sm mybutton shadow">Shop</a></li>
+							<li class="nav-item m-1"><a href="./login.php" class="btn btn-sm mybutton shadow btn-info">Login</a></li>
+							<!-- <li class="nav-item m-1"><a href="./login.php" class="btn btn-sm mybutton shadow btn-info">Logout</a></li> -->
+							<li class="nav-item m-1"><a href="#" type="button" class="btn btn-sm mybutton shadow btn-info">Shop</a></li>
 						</ul>
 
 					</div>
 				</div>
 			</nav>
-			<span id="topdate" class="float-left ml-3"></span>
 
-		<!-- </div> -->
-		<div id="navline" class="mt-5 mb-3"></div>
+			<span id="topdate" class="float-left"></span>
+		</div>
+		<div id="navline" class="mt-1 mb-2 "></div>
 	</div>
 
-	<script type="text/javascript">
-		// $(document).ready(function(){
-		// 	$('.dropright a.mydrop').on('click', function(e) {
-		// 		e.stopPropagation();
-		// 		e.preventDefault();
-
-		// 		if(!$(this).next('div').hasClass('show')){
-		// 			$(this).next('div').addClass('show');
-		// 		} else {
-		// 			$(this).next('div').removeClass('show');
-		// 		}
-		// 	});
-		// });
-
-	</script>
 	<script type="text/javascript" src="./assets/js/headerdate.js"></script>
 </body>
 </html>

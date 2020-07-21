@@ -3,21 +3,28 @@
 </style>
 <?php include "includes/header.php"; ?>
 
-<div class="container-fluid webinarpix" id="resumepix">
-	<img src="assets/images/dust.png" width="200" height="200" class="rounded-circle" />
+<div class="container-fluid webinarpix m-3" id="resumepix">
+	
 </div>
 <div class="container">
 	<div class="row resumerow">
 		<div class="col-12"> 
 			<div class="card border-0 m-1 shadow">
-				<h5 id="texttwo" class="greetingText m-2 mt-3 text-center">Razaq Olatunde Rom Kalilu</h5>
-				<p class="otherText text-center mt-2">Ph.D, MNYAS, MISEA, MACS, MIAAA, fsna</p>
-				<p class="otherText text-center mt-2">Gold Medalist, All-Africa Painting Contest, 1978-79</p>
-				<p class="otherText text-center mt-2">Recipient, Universal Award of Accomplishment, 2000</p>
-				<p class="otherText text-center mt-2">Justice of the Peace, Oyo State, Federal Republic of Nigeria</p>
-				<p class="otherText text-center mt-2">Professor of Art and Art History</p>
-				<p class="otherText text-center mt-2">Deputy Vice Chancellor (2006-2008)</p>
-				<p class="otherText text-center mt-2 mb-3">Ladoke Akintola University of Technology, Ogbomoso, Nigeria</p>
+				<div class="row">
+					<div class="col-md-4 col-12 mx-auto text-center">
+						<img src="assets/images/dust.png" width="200" height="200" class="rounded-circle text-center" />
+					</div>
+					<div class="col-md-8 col-12">
+						<h5 id="texttwo" class="greetingText m-2 mt-3 text-center">Razaq Olatunde Rom Kalilu</h5>
+						<p class="otherText text-center mt-2">Ph.D, MNYAS, MISEA, MACS, MIAAA, fsna</p>
+						<p class="otherText text-center mt-2">Gold Medalist, All-Africa Painting Contest, 1978-79</p>
+						<p class="otherText text-center mt-2">Recipient, Universal Award of Accomplishment, 2000</p>
+						<p class="otherText text-center mt-2">Justice of the Peace, Oyo State, Federal Republic of Nigeria</p>
+						<p class="otherText text-center mt-2">Professor of Art and Art History</p>
+						<p class="otherText text-center mt-2">Deputy Vice Chancellor (2006-2008)</p>
+						<p class="otherText text-center mt-2 mb-3">Ladoke Akintola University of Technology, Ogbomoso, Nigeria</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="col-12">
@@ -28,10 +35,36 @@
 						I am pleased to welcome you to <span class="text-info">RomKalilu.net</span>. This site was originally constructed as an interactive forum between my postgraduate students and me. At the promptings of these students, my colleagues and my friends that I make my academic and professional activities available to the Internet public, I have developed the site into a dynamic platform for showcasing my scholarly and creative activities in multimedia contexts.
 						At the promptings of these students, my colleagues and my friends that I make my academic and professional activities available to the Internet public, I have developed the site into a dynamic platform for showcasing my scholarly and creative activities in multimedia contexts.
 					</p>
+					<p class="text-justify">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
 				</div>
 			</div>
 		</div>
-		<div class="col-12">
+		<!-- <div class="col-12">
 			<div class="card m-1 p-2">
 				<div class="card-body">
 					<h5><strong>Photo Gallery</strong></h5>
@@ -96,164 +129,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-12">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-12">
-					<div class="card m-1 p-2">
-						<div class="card-body">
-							<h5><strong>Media</strong></h5>
-							<div id="demo" class="carousel slide mt-1 shadow" data-ride="carousel" id="mycolone">
-
-							  <!-- Indicators -->
-							  <ul class="carousel-indicators">
-							    <li data-target="#demo" data-slide-to="0" class="active"></li>
-							    <li data-target="#demo" data-slide-to="1"></li>
-							    <li data-target="#demo" data-slide-to="2"></li>
-							    <li data-target="#demo" data-slide-to="3"></li>
-							    <li data-target="#demo" data-slide-to="4"></li>
-							    <li data-target="#demo" data-slide-to="5"></li>
-							  </ul>
-
-							  <!-- The slideshow -->
-							  <div class="carousel-inner">
-							    <div class="carousel-item active">
-							      <img src="./assets/images/kal/img/RK_142X172_1426539309.png" class="img-thumbnail" alt="Los Angeles" width="500px" height="200"/>
-							    </div>
-							    <div class="carousel-item">
-							      <img src="./assets/images/kal/img/RK_142X172_1426538432.png" class="img-thumbnail" alt="Chicago" width="500px" height="200"/>
-							    </div>
-							    <div class="carousel-item">
-							      <img src="./assets/images/kal/img/RK_142X172_1426539336.png" class="img-thumbnail" alt="New York" width="500px" height="200"/>
-							    </div>
-							    <div class="carousel-item">
-							      <img src="./assets/images/kal/img/RK_142X172_1426539309.png" class="img-thumbnail" alt="Los Angeles" width="500px" height="200"/>
-							    </div>
-							    <div class="carousel-item">
-							      <img src="./assets/images/kal/img/RK_142X172_1426538432.png" class="img-thumbnail" alt="Chicago" width="500px" height="200" />
-							    </div>
-							    <div class="carousel-item">
-							      <img src="./assets/images/kal/img/RK_142X172_1426539336.png" class="img-thumbnail" alt="New York" width="500px" height="200"/>
-							    </div>
-							  </div>
-
-							<!-- Left and right controls -->
-							  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-							    <span class="carousel-control-prev-icon"></span>
-							  </a>
-							  <a class="carousel-control-next" href="#demo" data-slide="next">
-							    <span class="carousel-control-next-icon"></span>
-							  </a>
-
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-12">
-					<div class="card m-1 p-2">
-						<div class="card-body">
-							<h5><strong>Books</strong></h5>
-							<div id="demo" class="carousel slide mt-1 shadow" data-ride="carousel" id="mycolone">
-
-							  <!-- Indicators -->
-							  <ul class="carousel-indicators">
-							    <li data-target="#demo" data-slide-to="0" class="active"></li>
-							    <li data-target="#demo" data-slide-to="1"></li>
-							    <li data-target="#demo" data-slide-to="2"></li>
-							    <li data-target="#demo" data-slide-to="3"></li>
-							    <li data-target="#demo" data-slide-to="4"></li>
-							    <li data-target="#demo" data-slide-to="5"></li>
-							  </ul>
-
-							  <!-- The slideshow -->
-							  <div class="carousel-inner">
-							    <div class="carousel-item active">
-							      <img src="./assets/images/kal/img/RK_142X172_1426539309.png" class="img-thumbnail" alt="Los Angeles" width="500px" height="200"/>
-							    </div>
-							    <div class="carousel-item">
-							      <img src="./assets/images/kal/img/RK_142X172_1426538432.png" class="img-thumbnail" alt="Chicago" width="500px" height="200"/>
-							    </div>
-							    <div class="carousel-item">
-							      <img src="./assets/images/kal/img/RK_142X172_1426539336.png" class="img-thumbnail" alt="New York" width="500px" height="200"/>
-							    </div>
-							    <div class="carousel-item">
-							      <img src="./assets/images/kal/img/RK_142X172_1426539309.png" class="img-thumbnail" alt="Los Angeles" width="500px" height="200"/>
-							    </div>
-							    <div class="carousel-item">
-							      <img src="./assets/images/kal/img/RK_142X172_1426538432.png" class="img-thumbnail" alt="Chicago" width="500px" height="200" />
-							    </div>
-							    <div class="carousel-item">
-							      <img src="./assets/images/kal/img/RK_142X172_1426539336.png" class="img-thumbnail" alt="New York" width="500px" height="200"/>
-							    </div>
-							  </div>
-
-							<!-- Left and right controls -->
-							  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-							    <span class="carousel-control-prev-icon"></span>
-							  </a>
-							  <a class="carousel-control-next" href="#demo" data-slide="next">
-							    <span class="carousel-control-next-icon"></span>
-							  </a>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>	
-		</div>
 		
-		<div class="col-12">
-			<div class="card m-1 p-2">
-				<div class="card-body">
-					<h5 class="m-2">Others</h5>
-					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-6">
-							<div class="card m-1">
-								<a href="#" data-toggle="modal" data-target="#myModal">
-							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
-								</a>
-							  <div class="card-body">
-							    <h6 class="card-title"> Image name</h6>
-							    <p class="badge badge-info p-1"><strong>Category:</strong> Drawing</p>
-							  </div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6">
-							<div class="card">
-								<a href="#" data-toggle="modal" data-target="#myModal">
-							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
-								</a>
-							  <div class="card-body">
-							    <h6 class="card-title"> Image name</h6>
-							    <p class="badge badge-info p-1"><strong>Category:</strong> Drawing</p>
-							  </div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6">
-							<div class="card">
-								<a href="#" data-toggle="modal" data-target="#myModal">
-							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
-								</a>
-							  <div class="card-body">
-							    <h6 class="card-title"> Image name</h6>
-							    <p class="badge badge-info p-1"><strong>Category:</strong> Drawing</p>
-							  </div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6">
-							<div class="card">
-								<a href="#" data-toggle="modal" data-target="#myModal">
-							  	<img class="card-img-top" src="assets/images/dust.png" alt="Card image">
-								</a>
-							  <div class="card-body">
-							    <h6 class="card-title"> Image name</h6>
-							    <p class="badge badge-info p-1"><strong>Category:</strong> Drawing</p>
-							  </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="col-12">
 			<div class="card">
 				<div class="card-body">
@@ -267,7 +143,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </div>
 <?php include 'includes/footer.php';
