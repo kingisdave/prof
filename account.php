@@ -13,7 +13,11 @@
 			<div id="main">
 
 				<!-- togglebutton -->
-				<a href="#"><span onclick="openNav()" class="navbar-toggler-icon" id="togglelink">&#9776;</span></a>
+				<a href="#" onclick="openNav()" id="togglelink">
+					<div></div>
+					<div></div>
+					<div></div>
+				</a>
 
 				<div class="container-fluid ml-2" style="width: 95%; border-radius: 13px">
 					<div class="row">
@@ -21,11 +25,10 @@
 							<h4>My Dashboard</h4>
 							<div class="row bg-white shadow mx-auto">
 								<div class="col-lg-4 col-md-4 col-sm-6 col-12 p-1">
-									<div class="card border-0 mx-auto" style="width:200px; height:200px">
+									<div class="card border-0 mx-auto" style="width:150px; height:150px">
  						
 								    <img class="card-img-top rounded-circle img-thumbnail shadow" src="assets/images/kal/img/RK_142X172_1426539309.png" alt="Card image">
-								  </div>
-									
+								  </div>		
 								</div>
 								<div class="col-lg-8 col-md-8 col-sm-6 col-12 p-1">
 									<div class="card border-0">
@@ -172,17 +175,3 @@
 		</div>
 	</div> 
 	<script src="assets/js/togglefunction.js"></script>
-	
-	<script type="text/javascript">
-		// $(document).ready(function(){
-	
-		// 	$("#postImgPrev").change(function(){
-		// 		$('#my_preview').html("");
-		// 		var total_file=document.getElementById('postImgPrev').files.length;
-		// 		for(var i=0; i<total_file; i++){
-		// 			$('#my_preview').append("<img src='"+URL.createObjectURL(event.target.files[i])+"'/>");
-		// 		}
-		// 	});
-		// })
-	</script>
-	<!-- <script src="./js/fxn.js"></script> -->

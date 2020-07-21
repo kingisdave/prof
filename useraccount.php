@@ -63,7 +63,11 @@
 			<div id="main">
 
 				<!-- togglebutton -->
-				<a href="#"><span onclick="openNav()" class="navbar-toggler-icon" id="togglelink">&#9776;</span></a>
+				<a href="#" onclick="openNav()" id="togglelink">
+					<div></div>
+					<div></div>
+					<div></div>
+				</a>
 
 				<div class="container-fluid ml-2 mx-auto" style="width: 95%">
 					<h4>My Dashboard</h4>

@@ -12,7 +12,11 @@
 			<div id="main" class="container">
 
 				<!-- togglebutton -->
-				<a href="#"><span onclick="openNav()" class="navbar-toggler-icon" id="togglelink">&#9776;</span></a>
+				<a href="#" onclick="openNav()" id="togglelink">
+					<div></div>
+					<div></div>
+					<div></div>
+				</a>
 
 				<div class="container-fluid ml-2 mx-auto" style="width: 95%; border-radius: 13px">
 						<h4>Notifications</h4>

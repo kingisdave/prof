@@ -45,49 +45,49 @@
 	<div class="row">
 		<div class="col-md-4 col-11 mx-auto">
 		
-					<div id="demo" class="carousel slide mt-1 shadow text-center" data-ride="carousel" id="mycolone">
+			<div id="demo" class="carousel slide mt-1 shadow text-center" data-ride="carousel" id="mycolone">
 
-					  <!-- Indicators -->
-					  <ul class="carousel-indicators">
-					    <li data-target="#demo" data-slide-to="0" class="active"></li>
-					    <li data-target="#demo" data-slide-to="1"></li>
-					    <li data-target="#demo" data-slide-to="2"></li>
-					    <li data-target="#demo" data-slide-to="3"></li>
-					    <li data-target="#demo" data-slide-to="4"></li>
-					    <li data-target="#demo" data-slide-to="5"></li>
-					  </ul>
+			  <!-- Indicators -->
+			  <ul class="carousel-indicators">
+			    <li data-target="#demo" data-slide-to="0" class="active"></li>
+			    <li data-target="#demo" data-slide-to="1"></li>
+			    <li data-target="#demo" data-slide-to="2"></li>
+			    <li data-target="#demo" data-slide-to="3"></li>
+			    <li data-target="#demo" data-slide-to="4"></li>
+			    <li data-target="#demo" data-slide-to="5"></li>
+			  </ul>
 
-					  <!-- The slideshow -->
-					  <div class="carousel-inner">
-					    <div class="carousel-item active">
-					      <img src="./assets/images/kal/img/RK_142X172_1426539309.png" class="img-thumbnail" alt="Los Angeles" width="550px" height="492px"/>
-					    </div>
-					    <div class="carousel-item">
-					      <img src="./assets/images/kal/img/RK_142X172_1426538432.png" class="img-thumbnail" alt="Chicago" width="550px" height="492px"/>
-					    </div>
-					    <div class="carousel-item">
-					      <img src="./assets/images/kal/img/RK_142X172_1426539336.png" class="img-thumbnail" alt="New York" width="550px" height="492px"/>
-					    </div>
-					    <div class="carousel-item">
-					      <img src="./assets/images/kal/img/RK_142X172_1426539309.png" class="img-thumbnail" alt="Los Angeles" width="550px" height="492px"/>
-					    </div>
-					    <div class="carousel-item">
-					      <img src="./assets/images/kal/img/RK_142X172_1426538432.png" class="img-thumbnail" alt="Chicago" width="550px" height="492px" />
-					    </div>
-					    <div class="carousel-item">
-					      <img src="./assets/images/kal/img/RK_142X172_1426539336.png" class="img-thumbnail" alt="New York" width="550px" height="492px"/>
-					    </div>
-					  </div>
+			  <!-- The slideshow -->
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="./assets/images/kal/img/RK_142X172_1426539309.png" class="img-thumbnail" alt="Los Angeles" width="550px" height="492px"/>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="./assets/images/kal/img/RK_142X172_1426538432.png" class="img-thumbnail" alt="Chicago" width="550px" height="492px"/>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="./assets/images/kal/img/RK_142X172_1426539336.png" class="img-thumbnail" alt="New York" width="550px" height="492px"/>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="./assets/images/kal/img/RK_142X172_1426539309.png" class="img-thumbnail" alt="Los Angeles" width="550px" height="492px"/>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="./assets/images/kal/img/RK_142X172_1426538432.png" class="img-thumbnail" alt="Chicago" width="550px" height="492px" />
+			    </div>
+			    <div class="carousel-item">
+			      <img src="./assets/images/kal/img/RK_142X172_1426539336.png" class="img-thumbnail" alt="New York" width="550px" height="492px"/>
+			    </div>
+			  </div>
 
-					<!-- Left and right controls -->
-					  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-					    <span class="carousel-control-prev-icon"></span>
-					  </a>
-					  <a class="carousel-control-next" href="#demo" data-slide="next">
-					    <span class="carousel-control-next-icon"></span>
-					  </a>
+			<!-- Left and right controls -->
+			  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+			    <span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#demo" data-slide="next">
+			    <span class="carousel-control-next-icon"></span>
+			  </a>
 
-					</div>
+			</div>
 			
 		</div>
 		<div class="col-md-8 col-11 mx-auto">

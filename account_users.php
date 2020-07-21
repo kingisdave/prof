@@ -12,15 +12,21 @@
 			<div id="main">
 
 				<!-- togglebutton -->
-				<a href="#"><span onclick="openNav()" class="navbar-toggler-icon" id="togglelink">&#9776;</span></a>
-
+				<a href="#" onclick="openNav()" id="togglelink">
+					<div></div>
+					<div></div>
+					<div></div>
+				</a>
+				<!-- <a href="#">
+					<span onclick="openNav()" class="navbar-toggler-icon" id="togglelink">&#9776;</span></a>
+ -->
 				<div class="container-fluid ml-2 mx-auto" style="width: 95%; border-radius: 13px">
 					<h4>My Dashboard</h4>
 					<div class="row bg-white shadow">
 						<div class="col-lg-4 col-md-4 col-sm-6 col-12 p-1">
-							<div class="card rounded-circle" style="height: 35vh">
-							  <img class="rounded-circle img-thumbnail" src="assets/images/users/colleague/Okesola1560995564.png" alt="Card image" style="height:100%">
-							</div>
+							<div class="card border-0 mx-auto" style="width:150px; height:150px">				
+						    <img class="card-img-top rounded-circle img-thumbnail shadow" src="assets/images/users/colleague/Okesola1560995564.png" alt="Card image" />
+						  </div>
 						</div>
 						<div class="col-lg-8 col-md-8 col-sm-6 col-12 p-1">
 							<div class="card border-0">
@@ -54,8 +60,8 @@
 							</div>
 							<small>New User Notifications: 3</small>
 							<div class="table">
-								<table class="table table-striped table-responsive-md shadow">
-								<thead class="thead-info">
+								<table class="table table-striped table-responsive-sm shadow">
+								<thead class="thead thead-info">
 									<tr>
 										<th>S/N</th>
 										<th>Category</th>

@@ -15,7 +15,12 @@
 			<div id="main" class="container h-100">
 
 				<!-- togglebutton -->
-				<a href="#"><span onclick="openNav()" class="navbar-toggler-icon" id="togglelink">&#9776;</span></a>
+				<a href="#" onclick="openNav()" id="togglelink">
+					<div></div>
+					<div></div>
+					<div></div>
+				</a>
+				<!-- <a href="#"><span onclick="openNav()" class="navbar-toggler-icon" id="togglelink">&#9776;</span></a> -->
 
 				<div class="container-fluid ml-2" style="width: 95%; border-radius: 13px">
 					<div class="row">

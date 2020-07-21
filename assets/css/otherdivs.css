@@ -16,10 +16,6 @@
   padding-top: 60px;
   /*z-index: 40;*/
 }
-/*.sidenav .myprofiletop{
-  position: relative;
-  top: -5vh;
-}*/
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -72,10 +68,27 @@
 .sidenav div.dropdown-menu .dropdown-item:hover{
   background: #A69050;
 }
-#togglelink{
+/*#togglelink{
   position:absolute;
   font-size:20px;
   cursor:pointer;
+}*/
+
+#togglelink{
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  padding: 3px 2px;
+  cursor: pointer; 
+}
+
+#togglelink div{
+  width: 20px;
+  height: 2px;
+  background: #4D1300 !important;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer; 
 }
 
 @media screen and (max-height: 450px) {

@@ -1,8 +1,7 @@
 body {
 		background: #B3ECFF !important;
-    /*color: #636b6f;*/
-    color: #000;
-    font-family: 'Nunito', sans-serif;
+    color: #000 !important;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
 		width: 100%;
     margin: 0;
