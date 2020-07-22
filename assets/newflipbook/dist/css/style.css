@@ -51,9 +51,9 @@
 /*here is the top of your book*/
 .bookTop {
   content: "";
-  height: 10px;
+  height: 15px;
   /*width: 430px;*/
-  width: 101%;
+  width: 102.2%;
   border-top: 3px solid #CEAA35;
   position: relative;
   left: 4.5px;
@@ -69,22 +69,23 @@
 .bookSide {
   content: "";
   /*height: 498px;*/
-  height: 96%;
-  width: 15px;
+  height: 95.5%;
+  width: 20px;
   position: absolute;
-  right: -13px;
-  top: 7px;
+  right: -18px;
+  top: 10.2px;
   margin: auto;
   background: repeating-linear-gradient(90deg, #fff, #ccc .5px, #fff .5px, #ccc 1px);
-  -ms-transform: skewY(-50deg); /* IE 9 */
-  -webkit-transform: skewY(-50deg); /* Safari */
-  transform: skewY(-50deg); /* Standard syntax */
+  -ms-transform: skewY(-40deg); /* IE 9 */
+  -webkit-transform: skewY(-40deg); /* Safari */
+  transform: skewY(-40deg); /* Standard syntax */
   *border: solid 3px white;
   color: white;
   text-align: center;
   font-size: 90%;
   transform-style: preserve-3d;
   border-top: none;
+  z-index: 6;
   border-right: 4px solid #CEAA35;
   border-bottom: none;
 }
@@ -125,7 +126,7 @@
 }
 
 .backcover {
-	height: 99%;
+	height: 100%;
 	top: 0;
 }
 .page.active {
