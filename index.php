@@ -173,11 +173,11 @@
 				<div class="col-lg-4 col-md-4 col-sm-8 col-12 mx-auto">
 					<div id="carousel2">
 						<div class="ws_images"><ul>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426538572.png" alt="RK_142X172_1426538572" title="RK_142X172_1426538572" id="wows1_0"/></li>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426538595.png" alt="RK_142X172_1426538595" title="RK_142X172_1426538595" id="wows1_1"/></li>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426538624.png" alt="RK_142X172_1426538624" title="RK_142X172_1426538624" id="wows1_2"/></li>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426538681.png" alt="css slider" title="RK_142X172_1426538681" id="wows1_3"/></li>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426539234.png" alt="RK_142X172_1426539234" title="RK_142X172_1426539234" id="wows1_4"/></li>
+							<li><img src="./assets/images/kal/img/RK_142x172_1426538572.png" alt="RK_142X172_1426538572" title="RK_142X172_1426538572" id="wows1_0"/></li>
+							<li><img src="./assets/images/kal/img/RK_142x172_1426538595.png" alt="RK_142X172_1426538595" title="RK_142X172_1426538595" id="wows1_1"/></li>
+							<li><img src="./assets/images/kal/img/RK_142x172_1426538624.png" alt="RK_142X172_1426538624" title="RK_142X172_1426538624" id="wows1_2"/></li>
+							<li><img src="./assets/images/kal/img/RK_142x172_1426538681.png" alt="css slider" title="RK_142X172_1426538681" id="wows1_3"/></li>
+							<li><img src="./assets/images/kal/img/RK_142x172_1426539234.png" alt="RK_142X172_1426539234" title="RK_142X172_1426539234" id="wows1_4"/></li>
 						</ul></div>
 					<div class="ws_shadow"></div>
 				</div>	
@@ -186,11 +186,11 @@
 				<div class="col-lg-4 col-md-4 col-sm-8 col-12 mx-auto">
 					<div id="carousel3">
 						<div class="ws_images"><ul>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426539234.png" alt="RK_142X172_1426539234" title="RK_142X172_1426539234" id="wows1_0"/></li>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426538595.png" alt="RK_142X172_1426538595" title="RK_142X172_1426538595" id="wows1_1"/></li>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426538624.png" alt="RK_142X172_1426538624" title="RK_142X172_1426538624" id="wows1_2"/></li>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426538681.png" alt="RK_142X172_1426538681" title="RK_142X172_1426538681" id="wows1_3"/></li>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426538572.png" alt="RK_142X172_1426538572" title="RK_142X172_1426538572" id="wows1_5"/></li>
+							<li><img src="./assets/images/kal/img/RK_142x172_1426539234.png" alt="RK_142X172_1426539234" title="RK_142X172_1426539234" id="wows1_0"/></li>
+							<li><img src="./assets/images/kal/img/RK_142x172_1426538595.png" alt="RK_142X172_1426538595" title="RK_142X172_1426538595" id="wows1_1"/></li>
+							<li><img src="./assets/images/kal/img/RK_142x172_1426538624.png" alt="RK_142X172_1426538624" title="RK_142X172_1426538624" id="wows1_2"/></li>
+							<li><img src="./assets/images/kal/img/RK_142x172_1426538681.png" alt="RK_142X172_1426538681" title="RK_142X172_1426538681" id="wows1_3"/></li>
+							<li><img src="./assets/images/kal/img/RK_142x172_1426538572.png" alt="RK_142X172_1426538572" title="RK_142X172_1426538572" id="wows1_5"/></li>
 						</ul></div>
 						<div class="ws_shadow"></div>
 					</div>
