@@ -218,10 +218,6 @@ a.classa:hover .card{
 	#newsboardinside{height: 83%;}
 }
 
-@media screen and (max-width: 770px) {
-	#myfirstcaro{ height: 60vh; }
-}
-
 /*This is for the mobile version of the index page*/
 @media screen and (max-width: 600px) {
 	#navbarimg{position: relative; top: -1vh;}

@@ -151,37 +151,27 @@
 
 		<div class="col-lg-8 col-md-8 col-12 mx-auto">
 			<div class="row pb-4" id="manycarousels">
-				<div class="col-lg-4 col-md-4 col-sm-8 col-12 mx-auto card-slides" id="myfirstcaro">
-            <iframe src="assets/jssor/portraitslider.html" scrolling="no" frameborder="0" width="100%" height="100%" style="margin-top: -5px;"></iframe>
-
-					<!-- </div> -->
-					<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-					<!-- <div id="wowslider-container1">
-						<div class="ws_images"><ul>
-						 	<li><img src="./assets/images/kal/img/rk_142x172_1426538304.png" alt="RK_142X172_1426538304" title="RK_142X172_1426538304" id="wows1_0"/></li>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426538335.png" alt="RK_142x172_1426538335" title="RK_142x172_1426538335" id="wows1_1"/></li>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426538409.png" alt="RK_142x172_1426538409" title="RK_142x172_1426538409" id="wows1_2"/></li>
-							<li><img src="./assets/images/kal/img/rk_142x172_1426538432.png" alt="RK_142X172_1426538432" title="RK_142X172_1426538432" id="wows1_3"/></li>
-						</ul></div>
-						<div class="ws_shadow"></div>
-					</div> -->	
-					
-					<!-- End WOWSlider.com BODY section -->
-					<!-- carousel -->
-				
+				<div class="col-lg-4 col-md-4 col-sm-8 col-12 mx-auto card-slides" id="myfirstcaro" style="height: 62vh">
+          <iframe src="assets/newslides/slidesup.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-8 col-12 mx-auto">
+        <div class="col-lg-4 col-md-4 col-sm-8 col-12 mx-auto card-slides" id="mysecondcaro" style="height: 62vh">
+          <iframe src="assets/newslides/slidesfade.html" scrolling="no" frameborder="0" width="100%" height="100%" ></iframe>
+        </div>
+				<div class="col-lg-4 col-md-4 col-sm-8 col-12 mx-auto card-slides" id="mythirdcaro" style="height: 62vh">
+          <iframe src="assets/newslides/slidesdown.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
+        </div>
+				<!-- <div class="col-lg-4 col-md-4 col-sm-8 col-12 mx-auto">
 					<div id="carousel2">
 						<div class="ws_images"><ul>
 							<li><img src="./assets/images/kal/img/RK_142x172_1426538572.png" alt="RK_142X172_1426538572" title="RK_142X172_1426538572" id="wows1_0"/></li>
-							<li><img src="./assets/images/kal/img/RK_142x172_1426538595.png" alt="RK_142X172_1426538595" title="RK_142X172_1426538595" id="wows1_1"/></li>
+							<li><img src="./assets/images/kal/img/RK_142x172_1426538595.png"
+							alt="RK_142X172_1426538595" title="RK_142X172_1426538595" id="wows1_1"/></li>
 							<li><img src="./assets/images/kal/img/RK_142x172_1426538624.png" alt="RK_142X172_1426538624" title="RK_142X172_1426538624" id="wows1_2"/></li>
 							<li><img src="./assets/images/kal/img/RK_142x172_1426538681.png" alt="css slider" title="RK_142X172_1426538681" id="wows1_3"/></li>
 							<li><img src="./assets/images/kal/img/RK_142x172_1426539234.png" alt="RK_142X172_1426539234" title="RK_142X172_1426539234" id="wows1_4"/></li>
 						</ul></div>
-					<div class="ws_shadow"></div>
-				</div>	
-			
+						<div class="ws_shadow"></div>
+					</div>				
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-8 col-12 mx-auto">
 					<div id="carousel3">
@@ -194,7 +184,7 @@
 						</ul></div>
 						<div class="ws_shadow"></div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 			<div class="container mt-4">
 				<div class="row pt-2">

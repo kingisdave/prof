@@ -21,14 +21,21 @@
 					  </li>
 
 					  <li class="nav-item">
-					    <a class="nav-link" data-toggle="tab" href="#video">Video</a>
+					    <a class="nav-link" data-toggle="tab" href="#videotitle">Video</a>
 					  </li>
 					</ul>
 
 					<!-- Tab panes -->
 					<div class="tab-content pt-2">
 					  <div class="tab-pane container active m-2" id="exhibitiontitle">
-					  	<div class="row mt-2">
+					  	<div class="row" style="height: 80vh">
+					  		<div class="col-12 card shadow">
+					  			<div class="card-body">
+					          <iframe src="assets/newslides/slidesgallery.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
+					        </div>
+								</div>
+					  	</div>
+					  	<!-- <div class="row mt-2">
 					  		<div class="col-12">
 							  	<div id="demo" class="carousel slide mx-auto shadow" data-ride="carousel" style="width:97%;">
 									  <ul class="carousel-indicators">
@@ -79,8 +86,8 @@
 									  </a>
 									</div>
 								</div>
-							</div>
-							<div class="row mb-2 mt-3">
+							</div> -->
+							<!-- <div class="row mb-2 mt-3">
 					  		<div class="col-md-3 col-sm-4 col-6 ">
 					  			<img src="assets/images/dust.png" alt="New York" class="img-fluid shadow" />
 					  		</div>
@@ -93,7 +100,7 @@
 					  		<div class="col-md-3 col-sm-4 col-6">
 					  			<img src="assets/images/dust.png" alt="New York" class="img-fluid shadow" />
 					  		</div>
-					  	</div>
+					  	</div> -->
 					  	<!-- Comments section -->
 					  	<div class="row mt-2">
 								<div class="col-12 mx-auto">
@@ -103,11 +110,13 @@
 						         	<form method="post">
 						            <span class="input-icon icon-right">
 						              <textarea rows="2" class="form-control"
-						              				 placeholder="Post a new comment"></textarea>
+						              		placeholder="Post a new comment"></textarea>
 						            </span>
-						            <div class="float-right mt-2">
-						              <button class="btn btn-sm btn-info">Post &nbsp;<span class="fa fa-spin fa-spinner" id="loader" hidden></span></button>
-						            </div>
+						            <div class="clearfix">
+							            <div class="float-right mt-2">
+							              <button class="btn btn-sm btn-info">Post &nbsp;<span class="fa fa-spin fa-spinner" id="loader" hidden></span></button>
+							            </div>
+							          </div>
 						        	</form>
 						   			</div>
 									</div>
@@ -202,7 +211,7 @@
 					  </div>
 
 					  <!-- my arts videos -->
-					  <div class="tab-pane container fade" id="video">
+					  <div class="tab-pane container fade" id="videotitle">
 					  	<div class="row">
 					  		<div class="col-md-4 col-sm-6 col-12">
 					  			<div class="card border-0">
