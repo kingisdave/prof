@@ -16,23 +16,22 @@
   <img class="mySlides w3-animate-top" class="img-thumbnail" src="../images/kal/img/RK_142X172_1426539336.png" alt="RK_142X172_1426539336" style="width:100%; height:100vh">
 </div>
 
-<script>
-// var myIndex = 0;
-// carousel();
+  <script>
+    var myIndex = 0;
+    carousel();
 
-// function carousel() {
-//     var i;
-//     var x = document.getElementsByClassName("mySlides");
-//     for (i = 0; i < x.length; i++) {
-//       x[i].style.display = "none";  
-//     }
-//     myIndex++;
-//     if (myIndex > x.length) {myIndex = 1}    
-//     x[myIndex-1].style.display = "block";  
-//     setTimeout(carousel, 3500);    
-// }
-</script>
-<script type="text/javascript" src="slides.js"></script>
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 4000);    
+    }
+  </script>
 
 </body>
 </html>
