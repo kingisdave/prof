@@ -33,12 +33,16 @@
 
 @media  screen and (max-width : 700px) and (min-width : 451px){
   .frontcover h1{font-size: 170%; font-weight: bolder;}
-  .containerBook{ height: 60vh; width: 100%;}
+  .containerBook{ height: 55vh; width: 100%;}
   .otherlogos img{ width: 30px; height: 30px; }
 }
 
 @media  screen and (max-width : 450px){
   .frontcover h1{font-size: 75%;}
+  .containerBook{ height: 45vh; width: 100%;}
+  .scene{ height: 50%; width: 100%; }
+  .otherlogos img{ width: 25px; height: 25px; }
+  .bookSide { border-right: 4px solid #CEAA35 !important;}
 }
 
 .scene {
@@ -75,18 +79,17 @@
   right: -18px;
   top: 10.2px;
   margin: auto;
-  background: repeating-linear-gradient(90deg, #fff, #ccc .5px, #fff .5px, #ccc 1px);
+  background: repeating-linear-gradient(90deg, #fff, #ccc .4px, #fff .4px, #ccc 1px);
   -ms-transform: skewY(-40deg); /* IE 9 */
   -webkit-transform: skewY(-40deg); /* Safari */
   transform: skewY(-40deg); /* Standard syntax */
-  *border: solid 3px white;
   color: white;
   text-align: center;
   font-size: 90%;
   transform-style: preserve-3d;
   border-top: none;
   z-index: 6;
-  border-right: 4px solid #CEAA35;
+  border-right: 5px solid #CEAA35;
   border-bottom: none;
 }
 
@@ -103,7 +106,6 @@
   color: black;
   width: 100%;
   height: 100%;
-
   transition: 1.5s transform;
   transform-style: preserve-3d;
   transform-origin: left center;
@@ -116,7 +118,6 @@
   height: 100%;
   padding: 10% 5% 5%;
   box-sizing: border-box;
-
   backface-visibility: hidden;
   background: -webkit-gradient(linear, 0% 0%, 100% 100%, from(#FFFFFF), to(#CCCCCC));
   background: linear-gradient(to bottom right, #fff, #ccc);
@@ -158,10 +159,7 @@ p {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
-  .scene {
-    width: 90%;
-    height: 90%;
-    margin: 5%;
+  .scene { width: 90%; height: 65%; margin: 5%;}
+  .frontcover h1{font-size: 260%; font-weight: bolder;}
+  .frontcover p{font-size: 160%; font-weight: bolder;}
 }
-
-
