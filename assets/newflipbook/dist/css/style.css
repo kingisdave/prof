@@ -42,7 +42,6 @@
   .containerBook{ height: 45vh; width: 100%;}
   .scene{ height: 50%; width: 100%; }
   .otherlogos img{ width: 25px; height: 25px; }
-  .bookSide { border-right: 4px solid #CEAA35 !important;}
 }
 
 .scene {
