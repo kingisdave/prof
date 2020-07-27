@@ -79,17 +79,18 @@
   right: -18px;
   top: 10.2px;
   margin: auto;
-  background: repeating-linear-gradient(90deg, #fff, #ccc .4px, #fff .4px, #ccc 1px);
+  background: repeating-linear-gradient(90deg, #fff, #ccc .5px, #fff .5px, #ccc .5px, #fff .3px);
   -ms-transform: skewY(-40deg); /* IE 9 */
   -webkit-transform: skewY(-40deg); /* Safari */
   transform: skewY(-40deg); /* Standard syntax */
   color: white;
   text-align: center;
+  border-right: 4px solid #CEAA35;
   font-size: 90%;
   transform-style: preserve-3d;
   border-top: none;
   z-index: 6;
-  border-right: 5px solid #CEAA35;
+  border-right: 4px solid #CEAA35;
   border-bottom: none;
 }
 
