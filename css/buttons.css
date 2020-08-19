@@ -1,0 +1,85 @@
+.mycircle button{
+	padding: 0;
+	height: 80px;
+	width: 80px;
+	font-size: 8px;
+	border: 8px solid #b3b3b3;
+}
+
+.columncircle a{
+	display: block
+}
+.mycircle .ddd{
+	display: none;
+	width: 165px;
+	height: 165px;
+	position: absolute;
+	top: 24%;
+	color: #0D2036 !important;
+	/*text-shadow: 2px .5px gold;*/
+	/*box-shadow: 4px 6px #000;*/
+	margin-left: 85px;
+	border: 20px solid #b3b3b3;
+	padding-top: 6%;
+}
+.mycircle #bigtwo{
+	padding-top: 9%;
+}
+.mycircle #bigthree, .mycircle #bigsix,.mycircle #bigeight,
+ .mycircle #bignine, .mycircle #bigeleven{
+			padding-top: 11%;
+}
+.mycircle #bigfive, .mycircle #bigseven{
+	padding-top: 2%;
+}
+
+.mycircle .btnOne{
+	background: linear-gradient(#FFE5FF, #FFE5FF);
+}
+.mycircle .btnTwo{
+	background: linear-gradient(#E5FFE5, #E5FFE5);
+}
+.mycircle .btnThree{
+	background: linear-gradient(#FFFFE5, #FFFFE5);
+}
+.mycircle .btnFour{
+	background: linear-gradient(#E5F2FF, #E5F2FF);	
+}
+.mycircle .btnFive{
+	background: linear-gradient(#ffffff, #ffffff);	
+}
+.mycircle .btnSix{
+	background: linear-gradient(#ECECF9, #ECECF9);	
+}
+.mycircle .btnSeven{
+	background: linear-gradient(#FFF5E5, #FFF5E5);
+}
+.mycircle .btnEight{
+	background: linear-gradient(#F9F2EC, #F9F2EC);
+}
+.mycircle .btnNine{
+	background: linear-gradient(#F0F0F5, #F0F0F5);	
+}
+.mycircle .btnTen{
+	background: linear-gradient(#E5FAFF, #E5FAFF);	
+}
+.mycircle .btnEleven{
+	background: linear-gradient(#E5F2FF, #E5F2FF);	
+}
+
+.mycircle .btnlink:hover div{
+	display: block;
+}
+
+@media screen and (max-width: 850px) and (min-width: 795px){
+	.mycircle button{height: 70px;width: 70px;font-size: 8px;border: 7px solid #b3b3b3;}
+	.mycircle .ddd{ position: absolute;top: 15%;padding-top: 10%;}
+	.mycircle #bigtwo{ padding-top: 14%;}
+	.mycircle #bigthree, .mycircle #bigsix,.mycircle #bigeight,
+ 		.mycircle #bignine, .mycircle #bigeleven{ padding-top: 17%;}
+	.mycircle #bigfive, .mycircle #bigseven{ padding-top: 5%;}
+}
+@media screen and (max-width: 795px){
+	.mycircle{ display: none; }
+	
+}

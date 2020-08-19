@@ -56,14 +56,14 @@
   content: "";
   height: 15px;
   /*width: 430px;*/
-  width: 102.2%;
+  width: 103%;
   border-top: 3px solid #CEAA35;
   position: relative;
   left: 4.5px;
   top: 1px;
   z-index: 5;
   margin: auto;
-  background: repeating-linear-gradient(#ccc, #fff .5px, #ccc .5px, #fff .5px); /* Standard syntax (must be last) */
+  background: repeating-linear-gradient(#fff, #ccc .5px, #fff .5px, #ccc .5px); /* Standard syntax (must be last) */
   /*transform: rotateX(90deg) rotateY(0deg) translateY(-54px);*/
   border-right: none;
 }
@@ -72,11 +72,11 @@
 .bookSide {
   content: "";
   /*height: 498px;*/
-  height: 95.5%;
+  height: 96%;
   width: 20px;
   position: absolute;
-  right: -18px;
-  top: 10.2px;
+  right: -16px;
+  top: 8px;
   margin: auto;
   background: repeating-linear-gradient(90deg, #fff, #ccc .5px, #fff .5px, #ccc .5px, #fff .3px);
   -ms-transform: skewY(-40deg); /* IE 9 */
@@ -105,7 +105,7 @@
   position: absolute;
   color: black;
   width: 100%;
-  height: 100%;
+  height: 90%;
   transition: 1.5s transform;
   transform-style: preserve-3d;
   transform-origin: left center;
@@ -162,4 +162,5 @@ and (orientation : portrait) {
   .scene { width: 90%; height: 65%; margin: 5%;}
   .frontcover h1{font-size: 260%; font-weight: bolder;}
   .frontcover p{font-size: 160%; font-weight: bolder;}
+  .bookTop { width: 102% }
 }

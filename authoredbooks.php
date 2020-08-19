@@ -98,6 +98,7 @@
 </div>
 
 <?php include "includes/footer.php"; ?>
+<!-- <script type="text/javascript" src="assets/js/togglefunction.js"></script> -->
 
 <script>
     $(".toggleMe").click(function(e){

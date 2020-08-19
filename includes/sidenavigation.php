@@ -3,18 +3,10 @@
 <head>
 	<title>Iconnect</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/css/otherdivs.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/4.0.0/css/jasny-bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/bootstrap-4.3.1/bootstrap-4.0.0/docs/dist/css/jasny-bootstrap.min.css">
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/4.0.0/js/jasny-bootstrap.min.js"></script>
-	<script src="./assets/bootstrap-4.3.1/bootstrap-4.0.0/docs/dist/js/jasny-bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/togglefunction.js"></script>
-	<style type="text/css">
-		
-	</style>
 </head>
 <body>
 	<div class="sidenav" id="mySidenav">
@@ -75,9 +67,7 @@
 		      	<a class="dropdown-item"></a>
 			    </div>
 		    </li>
-		    <!-- <li class="nav-item">
-		      	<a class="nav-link row" href="./notifications.php"><span class="col-2 fa fa-bell"></span><span class="col-10 small">Notifications</span></a>
-		    </li> -->
+
 		    <li class="nav-item dropdown dropright">
 		     	<a class="nav-link row dropdown-toggle" data-toggle="dropdown" href="#"><span class="col-2 fa fa-cogs"></span><span class="col-10 small">Settings</span></a>
 		     	<div class="dropdown-menu" style="color: #282923">
@@ -86,9 +76,6 @@
 		      	<a class="dropdown-item" href="./updatepassword.php">Reset Password</a>
 			    </div>
 		    </li>
-		   <!--  <li class="nav-item">
-		      	<a class="nav-link row" href="./update-password.php"><span class="col-2 fa fa-key"></span><span class="col-10 small">Settings</span></a>
-		    </li> -->
 
 		    <li class="nav-item">
 		      	<a class="nav-link row" data-toggle="pill" href="./logout.php"><span class="col-2 fa fa-sign-out-alt"></span><span class="col-10 small">Log Out</span></a>
@@ -96,21 +83,6 @@
 			</ul>	
 		</div>
 	</div>
-
-	<script>
-
-		// function openNav() {
-		//     mySidenav.style.width = "250px";
-		//     // main.style.marginLeft = "250px";
-		//     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-		// }
-
-		// function closeNav() {
-		//    mySidenav.style.width = "0";
-		//    document.body.style.backgroundColor = "#fff";
-		//     // main.style.marginLeft= "0";
-		// }
-	</script>
-	
-</body>
-</html>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/4.0.0/js/jasny-bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/togglefunction.js"></script>

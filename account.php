@@ -1,8 +1,5 @@
-<link rel="stylesheet" href="assets/css/otherdivs.css">
+<!-- <link rel="stylesheet" href="assets/css/otherdivs.css"> --> 
 
-	<style>
-
-	</style>
 <?php include "includes/header.php"; ?>
 
 	<div class="container-fluid">
@@ -63,12 +60,11 @@
 									</div>
 									<small>New User Requests: 183</small>
 									<div class="table">
-										<table class="table table-striped table-responsive-sm">
-											<tr class="thead-info text-center">
+										<table class="table table-striped table-responsive-lg text-center">
+											<tr class="thead-info">
 												<th>S/N</th>
 												<th>Profile Picture</th>
 												<th>Full Names</th>
-												<th>Category</th>
 												<th>Operation</th>
 											</tr>
 											<tr>
@@ -79,13 +75,11 @@
 												<td>
 													<h6>OKESOLA Emmanuel Oluwatobi</h6>
 													<p>Institution: Elekoro</p>
+													<p class="small">Colleague</p>
 												</td>
 												<td>
-													<span class="badge badge-info">Colleague</span>
-												</td>
-												<td>
-													<button class="btn btn-sm btn-info">Approve</button>
-													<button class="btn btn-sm btn-danger">Decline</button>
+													<a href="#" class="btn btn-sm btn-info">Approve</a>
+													<a href="#" class="btn btn-sm btn-danger">Decline</a>
 												</td>
 											</tr>
 											<tr>
@@ -96,13 +90,11 @@
 												<td>
 													<h6>OLANREWAJU Daniel</h6>
 													<p>Institution: Lautech</p>
+													<p class="small">Postgraduate Student</p>
 												</td>
 												<td>
-													<span class="badge badge-info">Postgraduate Student</span>
-												</td>
-												<td>
-													<button class="btn btn-sm btn-info">Approve</button>
-													<button class="btn btn-sm btn-danger">Decline</button>
+													<a href="#" class="btn btn-sm btn-info">Approve</a>
+													<a href="#" class="btn btn-sm btn-danger">Decline</a>
 												</td>
 											</tr>
 
@@ -114,13 +106,11 @@
 												<td>
 													<h6>DANOE Asdjkas</h6>
 													<p>Institution: Jaskdja</p>
+													<p class="small">Undergraduate Student</p>
 												</td>
 												<td>
-													<span class="badge badge-info">Undergraduate Student</span>
-												</td>
-												<td>
-													<button class="btn btn-sm btn-info">Approve</button>
-													<button class="btn btn-sm btn-danger">Decline</button>
+													<a href="#" class="btn btn-sm btn-info">Approve</a>
+													<a href="#" class="btn btn-sm btn-danger">Decline</a>
 												</td>
 											</tr>
 										</table>
@@ -141,9 +131,9 @@
 										<div class="media-body">
 										    <h4 class="mr-2">John Doe <small><i>Sep 29, 2019, 9:12 PM</i></small></h4>
 										    <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-										   	<span class="btn fa fa-thumbs-up m-3 text-primary">Approve Comment</span>
-										    <span class="btn fa fa-thumbs-down m-3">Disallow</span>   
-										    <span class="btn fa fa-trash m-3 text-danger">Remove Comment</span>
+										   	<a href="#"><span class="btn fa fa-thumbs-up m-3 text-primary">Approve Comment</span></a>
+										    <a href="#"><span class="btn fa fa-thumbs-down m-3">Disallow</span></a>  
+										    <a href="#"><span class="btn fa fa-trash m-3 text-danger">Remove Comment</span></a>
 										</div>
 									</div>
 									<div class="media border p-3">
@@ -151,9 +141,9 @@
 										<div class="media-body">
 										    <h4 class="mr-2">Bo <small><i>Sep 28, 2019, 10:00 PM</i></small></h4>
 										    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-										    <span class="btn fa fa-thumbs-up m-3 text-primary">Approve Comment</span>
-										    <span class="btn fa fa-thumbs-down m-3">Disallow</span>   
-										    <span class="btn fa fa-trash m-3 text-danger">Remove Comment</span>
+										    <a href="#"><span class="btn fa fa-thumbs-up m-3 text-primary">Approve Comment</span></a>
+										    <a href="#"><span class="btn fa fa-thumbs-down m-3">Disallow</span></a>  
+										    <a href="#"><span class="btn fa fa-trash m-3 text-danger">Remove Comment</span></a>
 										</div>
 									</div>
 									<div class="media border p-3">
@@ -161,9 +151,9 @@
 										<div class="media-body">
 										    <h4 class="mr-2">Johe m<small><i>Jan 29, 2020, 9:12 PM</i></small></h4>
 										    <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-										   	<span class="btn fa fa-thumbs-up m-3 text-primary">Approve Comment</span>
-										    <span class="btn fa fa-thumbs-down m-3">Disallow</span>   
-										    <span class="btn fa fa-trash m-3 text-danger">Remove Comment</span>
+										   	<a href="#"><span class="btn fa fa-thumbs-up m-3 text-primary">Approve Comment</span></a>
+										    <a href="#"><span class="btn fa fa-thumbs-down m-3">Disallow</span></a>  
+										    <a href="#"><span class="btn fa fa-trash m-3 text-danger">Remove Comment</span></a>
 										</div>
 									</div>
 								</div>

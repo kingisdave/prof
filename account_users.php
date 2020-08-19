@@ -24,9 +24,9 @@
 					<h4>My Dashboard</h4>
 					<div class="row bg-white shadow">
 						<div class="col-lg-4 col-md-4 col-sm-6 col-12 p-1">
-							<div class="card border-0 mx-auto" style="width:150px; height:150px">				
-						    <img class="card-img-top rounded-circle img-thumbnail shadow" src="assets/images/users/colleague/Okesola1560995564.png" alt="Card image" />
-						  </div>
+							<div class="card border-0">				
+						    	<img class="card-img-top rounded-circle img-thumbnail shadow mx-auto" src="assets/images/users/colleague/Okesola1560995564.png" alt="Card image" style="width:150px; height:150px" />
+						  	</div>
 						</div>
 						<div class="col-lg-8 col-md-8 col-sm-6 col-12 p-1">
 							<div class="card border-0">
@@ -52,49 +52,53 @@
 								</div>
 								<div class="col-4 my-auto">
 									<p class="text-right"><small>online</small></p>
-									<p class="text-lead text-right">Users Student/Colleague</p>
+									<p class="text-lead text-right">Users Student</p>
 								</div>
 							</div>
 							<div class="alert alert-info">
 								<small>Please Sir, kindly take note of the following notifications.</small>
 							</div>
 							<small>New User Notifications: 3</small>
-							<div class="table">
-								<table class="table table-striped table-responsive-sm shadow">
+							<table class="table table-striped table-responsive-md shadow text-center">
 								<thead class="thead thead-info">
 									<tr>
 										<th>S/N</th>
-										<th>Category</th>
 										<th>Title</th>
-										<th>Status</th>
-										<th>Date Started</th>
-										<th>Completed</th>
-										<th>Operation</th>
+										<th>Date</th>
+										<th title="Operation">Opertn</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
 										<td>1</td>
-										<td>Personal Assignment</td>
-										<td>The Technology in Arts</td>
-										<td><span class="badge badge-success text-white">Completed</span></td>
-										<td>1st January, 2020</td>
-										<td>20 June, 2020</td>
+										<td>
+											<p>The Technology in Arts</p>
+											<p class="small">Personal Assignment</p>
+											<span class="badge badge-success text-white">Completed</span>
+										</td>
+										<td>
+											<p class="small">1st January, 2020</p>
+											<p class="small">To </p>
+											<p class="small">20 June, 2020</p>
+										</td>
 										<td><span class="btn btn-outline-danger fa fa-trash"></span></td>
 									</tr>
 									<tr>
 										<td>2</td>
-										<td>Group Assignment</td>
-										<td>The Technology in Arts</td>
-										<td><span class="badge badge-warning text-white">Uncompleted</span></td>
-										<td>30th January, 2020</td>
-										<td>-</td>
+										<td>
+											<p>The Technology in Arts</p>
+											<p class="small">Group Assignment</p>
+											<span class="badge badge-warning text-white">Uncompleted</span>
+										</td>
+										<td>
+											<p class="small">30th January, 2020</p>
+											<p class="small"> To </p>
+											<p>---</p>
+										</td>
 										<td><span class="btn btn-outline-danger fa fa-trash"></span></td>
-									</tr>
-								
+									</tr>						
 								</tbody>
 							</table>
-							</div>
 							<div class="text-center mb-2">
 								<a href="notifications.php" class="btn btn-sm btn-info"><i>Read More</i></a>
 							</div>
