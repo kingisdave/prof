@@ -462,9 +462,121 @@
 												</div>
 											</div>
 
+											<div class="row">
+												<div class="col-12 card">
+													<div class="card-body">
+														<!-- Exhibition Hall or Museum card -->
+														<h5><strong>Exhibition Hall and Museum List</strong></h5>
+														<table class="table table-striped table-responsive">
+															<thead class="thead-dark">
+																<tr>
+																	<th>Image</th>
+																	<th>Name/Title</th>
+																	<th>Description</th>
+																	<th>Sechedule</th>
+																	<th>Opertions</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>
+																		<img class="img-thumbnail" src="assets/images/blog/1.jpg" alt="Card image" width="60" />
+																	</td>
+																	<td>First Exhibition</td>
+																	<td class="small">
+																		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																		tempor incididunt ut consectetur adipisicing elit, sed do eiusmod tempor incididunt
+																	</td>
+																	<td class="small"><code>20:00 WAT, Monday 17 Oct, 2020</code></td>
+																	<td>
+																		<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#editList"><i class="fa fa-edit"></i></button>
+																		<button class="btn btn-outline-danger btn-sm"><i class="fa fa-trash"></i></button>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<img class="img-thumbnail" src="assets/images/blog/3.jpg" alt="Card image" width="60" />
+																	</td>
+																	<td>Second Exhibition</td>
+																	<td class="small">
+																		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																		tempo adipisicing elit, sed do eiusmod tempor incididunt
+																	</td>
+																	<td class="small"><code>00:00 WAT, Monday 12 Oct, 2020</code></td>
+																	<td>
+																		<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#editList"><i class="fa fa-edit"></i></button>
+																		<button class="btn btn-outline-danger btn-sm"><i class="fa fa-trash"></i></button>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<img class="img-thumbnail" src="assets/images/blog/2.jpg" alt="Card image" width="60" />
+																	</td>
+																	<td>Third Exhibition</td>
+																	<td class="small">
+																		Lorem ipsum dolor, sed do eiusmod empor incididunt ut consectetur adipisicing elit, sed do eiusmod tempor incididunt
+																	</td>
+																	<td class="small"><code>20:00 WAT, Monday 17 Oct, 2020</code></td>
+																	<td>
+																		<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#editList"><i class="fa fa-edit"></i></button>
+																		<button class="btn btn-outline-danger btn-sm"><i class="fa fa-trash"></i></button>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<img class="img-thumbnail" src="assets/images/blog/1.jpg" alt="Card image" width="60" />
+																	</td>
+																	<td>First Museum</td>
+																	<td class="small">
+																		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																		tempor incididunt
+																	</td>
+																	<td class="small"><code>20:00 WAT, Monday 17 Oct, 2020</code></td>
+																	<td>
+																		<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#editList"><i class="fa fa-edit"></i></button>
+																		<button class="btn btn-outline-danger btn-sm"><i class="fa fa-trash"></i></button>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<img class="img-thumbnail" src="assets/images/blog/3.jpg" alt="Card image" width="60" />
+																	</td>
+																	<td>Second Museum</td>
+																	<td class="small">
+																		Lorem onsectetur adipisicing elit, sed do eiusmod
+																		tempor incididunt ut consectetur adipisicing elit, sed do eiusmod tempor incididunt
+																	</td>
+																	<td class="small"><code>00:00 WAT, Monday 12 Oct, 2020</code></td>
+																	<td>
+																		<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#editList"><i class="fa fa-edit"></i></button>
+																		<button class="btn btn-outline-danger btn-sm"><i class="fa fa-trash"></i></button>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<img class="img-thumbnail" src="assets/images/blog/2.jpg" alt="Card image" width="60" />
+																	</td>
+																	<td>Third Museum</td>
+																	<td class="small">
+																		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																		tempor incididunt ut consectetur adipisicing elit, sed do eiusmod tempor incididunt
+																	</td>
+																	<td class="small"><code>20:00 WAT, Monday 17 Oct, 2020</code></td>
+																	<td>
+																		<button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#listBtn"><i class="fa fa-edit"></i></button>
+																		<button class="btn btn-outline-danger btn-sm"><i class="fa fa-trash"></i></button>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											<div>
+
 											<!-- Click to add Exhibition/museum lists button -->									
 											<div class="fixed-bottom mb-2 mr-2">
 												<button class="btn btn-primary rounded-circle float-right p-3 shadow-lg" data-toggle="modal" data-target="#listBtn" title="Exhibition/Museum List Button"><span class="fa fa-plus"></span></button>
+												<!-- <p class="small"><em>Click here to add to the list of exhibtion/museum pages</em></p> -->
 											</div>
 											
 											<!-- Modal for adding to Exhibition/Museum List page -->
@@ -519,7 +631,6 @@
 												</div><!-- /.modal-dialog -->
 											</div><!-- /.modal -->
 
-
 											<div id="artistdetails" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 												<div class="modal-dialog">
 													<div class="modal-content">
@@ -561,7 +672,6 @@
 														
 														<!-- Modal body -->
 														<div class="modal-body">
-
 															<!-- Select from radio buttons to choose from the arts gallery and form materials -->
 															<div class="form-check-inline">
 																<label class="form-check-label">
@@ -600,16 +710,16 @@
 																	<img data-src="holder.js/100%x100%"  alt="...">
 																</div>
 																<div class="fileinput-preview fileinput-exists img-thumbnail" style="max-width: 200px; max-height: 150px;"></div>
-																	<div>
-																		<span class="btn btn-outline-secondary btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
-																		<a href="#" class="btn btn-outline-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
-																	</div>
+																<div>
+																	<span class="btn btn-outline-secondary btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+																	<a href="#" class="btn btn-outline-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
 																</div>
-																<button class="btn btn-primary btn-sm float-right"> Post </button>
 															</div>
+															<button class="btn btn-primary btn-sm float-right"> Post </button>
 														</div>
 													</div>
 												</div>
+											</div>
 
 											<hr class="text-secondary" />
 
