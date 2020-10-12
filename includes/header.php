@@ -37,114 +37,115 @@
 			<nav class="navbar navbar-expand-md bg-dark navbar-dark w-75 float-right mt-1 sticky-top" id="navbarimg">
 				<div class="container">
 					<button class="navbar-toggler ml-auto text-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-				    <span class="navbar-toggler-icon"></span>
-				  </button>
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-				  <!-- Navbar links -->
-				  <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
-				  	
+					<!-- Navbar links -->
+					<div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
+						
 						<ul class="navbar-nav ml-auto mr-1">
 							<li class="nav-item mr-4"><a class="nav-link text-white" href="./index.php">Home</a></li>
 
-
 							<li class="nav-item dropdown mr-1">
-					      <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
-					        Gallery
-					      </a>
-					      <div class="dropdown-menu mydropdown-menu">
+								<a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+									Gallery
+								</a>
+								<div class="dropdown-menu mydropdown-menu">
 
 									<div class="dropright">
-							    	<a href="#" class="dropdown-item dropdown-toggle">Art Gallery</a>
-						        <div class="dropright-content">
-						        	<a href="./myarts.php" class="dropdown-item">My Arts Works</a>
+										<a href="#" class="dropdown-item dropdown-toggle">Art Gallery</a>
+										<div class="dropright-content">
+											<a href="./myarts.php" class="dropdown-item">My Arts Works</a>
 											<a href="./otherartists.php" class="dropdown-item">Other Artists' Works</a>
-						        </div>
-						      </div>
+										</div>
+									</div>
 
-					        <div class="dropright">
-							    	<a href="#" class="dropdown-item dropdown-toggle">Academic Publications</a>
-						        <div class="dropright-content">
-						        	<a href="./authoredbooks.php" class="dropdown-item">Authored Books</a>
+									<div class="dropright">
+										<a href="#" class="dropdown-item dropdown-toggle">Academic Publications</a>
+										<div class="dropright-content">
+											<a href="./authoredbooks.php" class="dropdown-item">Authored Books</a>
 											<a href="./edited_books.php" class="dropdown-item">Edited Books</a>
 											<a href="./contribute_books.php" class="dropdown-item">Contributions to Books</a>
 											<a href="./book_review.php" class="dropdown-item">Book Reviews</a>
 											<a href="./journal.php" class="dropdown-item">Learned Journal Articles</a>
 											<a href="./edited_journal.php" class="dropdown-item">Edited Learned Journals</a>
 											<a href="./technical_report.php" class="dropdown-item">Technical Reports</a>
-						        </div>
-							    </div>
+										</div>
+									</div>
 
-							    <div class="dropright">
-							    	<a href="#" class="dropdown-item dropdown-toggle">Theses Gallery</a>
-						        <div class="dropright-content">
-						        	<a href="./my_theses.php" class="dropdown-item">My Theses</a>
+									<div class="dropright">
+										<a href="#" class="dropdown-item dropdown-toggle">Theses Gallery</a>
+										<div class="dropright-content">
+											<a href="./my_theses.php" class="dropdown-item">My Theses</a>
 											<a href="./supervised_theses.php" class="dropdown-item">Supervised Theses</a>
 											<a href="./examined_theses.php" class="dropdown-item">Examined Theses</a>
-						        </div>
-						      </div>
+										</div>
+									</div>
 
-					        <a class="dropdown-item" href="./public_lectures.php">Public Lectures</a>
-					        <a class="dropdown-item" href="./creative_writing.php">Creative Writing</a>
-					        <a class="dropdown-item" href="./form_material.php">Form and Material Technology</a>
-					        <a class="dropdown-item" href="./multimedia.php">Multimedia</a>
-					        <div class="dropdown-divider"></div>
-					        <div class="nav-link dropright">
-							    	<a href="#" class="dropdown-item dropdown-toggle">Exhibition Hall</a>
-						        <div class="dropright-content">
-						        	<a href="./exhibition.php" class="dropdown-item">Artman Exhibition Hall</a>
+									<a class="dropdown-item" href="./public_lectures.php">Public Lectures</a>
+									<a class="dropdown-item" href="./creative_writing.php">Creative Writing</a>
+									<a class="dropdown-item" href="./form_material.php">Form and Material Technology</a>
+									<a class="dropdown-item" href="./multimedia.php">Multimedia</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="./exhibition_list.php">Exhibition Hall</a>
+									<a class="dropdown-item" href="./museum_list.php">Museum</a>
+									<!-- <div class="nav-link dropright">
+										<a href="#" class="dropdown-item dropdown-toggle">Exhibition Hall</a>
+										<div class="dropright-content">
+											<a href="./exhibition.php" class="dropdown-item">Artman Exhibition Hall</a>
 											<a href="./exhibition_two.php" class="dropdown-item">ArtTwo Exhibition Hall</a>
 											<a href="./exhibition_three.php" class="dropdown-item">ArtThree Exhibition Hall</a>
-						        </div>
-						      </div>
-						      <div class="nav-link dropright">
-							    	<a href="#" class="dropdown-item dropdown-toggle">Museum</a>
-						        <div class="dropright-content">
-						        	<a href="./museum.php" class="dropdown-item">Artman Museum</a>
+										</div>
+									</div>
+									<div class="nav-link dropright">
+										<a href="#" class="dropdown-item dropdown-toggle">Museum</a>
+										<div class="dropright-content">
+											<a href="./museum.php" class="dropdown-item">Artman Museum</a>
 											<a href="./museum_two.php" class="dropdown-item">ArtTwo Museum</a>
 											<a href="./museum_three.php" class="dropdown-item">ArtThree Museum</a>
-						        </div>
-						      </div>
-					      </div>
-					    </li>
-						
+										</div>
+									</div> -->
+								</div>
+							</li>
+							
 							<li class="nav-item mr-1"><a class="nav-link text-white" href="./forum.php">Forum</a></li>
-						
+							
 							<li class="nav-item dropdown mr-1">
-					      <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
-					        Conference
-					      </a>
-					      <div class="dropdown-menu">
-					        <a class="dropdown-item" href="./assessmentroom.php">Assessment Room</a>
-					        <a class="dropdown-item" href="./creatediscussion.php">Discussion Centre</a>
-					        <a class="dropdown-item" href="./webinar.php">Webinar</a>
-					      </div>
-					    </li> 
+								<a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+									Conference
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="./assessmentroom.php">Assessment Room</a>
+									<a class="dropdown-item" href="./creatediscussion.php">Discussion Centre</a>
+									<a class="dropdown-item" href="./webinar.php">Webinar</a>
+								</div>
+							</li> 
 
 							<li class="nav-item mr-1"><a class="nav-link text-white" href="./register.php">Register</a></li> 
 
-							<!-- <li class="nav-item mr-2"><a class="nav-link text-white" href="./account.php">Dashboard</a></li> -->
+								<!-- <li class="nav-item mr-2"><a class="nav-link text-white" href="./account.php">Dashboard</a></li> -->
 
 							<li class="nav-item dropdown mr-1">
-					      <a class="nav-link dropdown-toggle text-white" href="account.php" id="navbardrop" data-toggle="dropdown">
-					        Profile
-					      </a>
-					      <div class="dropdown-menu">
-					        <a class="dropdown-item" href="./resume.php">Resume</a>
-					        <a class="dropdown-item" href="./curriculum_vitae.php">Curriculum Vitae</a>
-					        <a class="dropdown-item" href="./profile_multimedia.php">Profile-Multimedia</a>
-					        <a class="dropdown-item" href="./private_multimedia.php">Private Multimedia</a>
-					      </div>
-					    </li> 
+								<a class="nav-link dropdown-toggle text-white" href="account.php" id="navbardrop" data-toggle="dropdown">
+									Profile
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="./resume.php">Resume</a>
+									<a class="dropdown-item" href="./curriculum_vitae.php">Curriculum Vitae</a>
+									<a class="dropdown-item" href="./profile_multimedia.php">Profile-Multimedia</a>
+									<a class="dropdown-item" href="./private_multimedia.php">Private Multimedia</a>
+								</div>
+							</li> 
 
 							<li class="nav-item dropdown mr-1">
-					      <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
-					        Contact
-					      </a>
-					      <div class="dropdown-menu">
-					        <a class="dropdown-item" href="./contact.php">Contact Us</a>
-					        <a class="dropdown-item" href="./mail.php">Webmail</a>
-					      </div>
-					    </li> 
+								<a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+									Contact
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="./contact.php">Contact Us</a>
+									<a class="dropdown-item" href="./mail.php">Webmail</a>
+								</div>
+							</li> 
 
 							<li class="nav-item m-1"><a href="./login.php" class="btn btn-sm mybutton shadow btn-info">Login</a></li>
 							<!-- <li class="nav-item m-1"><a href="./login.php" class="btn btn-sm mybutton shadow btn-info">Logout</a></li> -->

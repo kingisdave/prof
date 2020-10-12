@@ -184,7 +184,6 @@
 #forumrow h6,
   #forumrow p{
     text-decoration: none;
-
 }
 #forumrow h6:hover,
   #forumrow p:hover{
@@ -194,3 +193,26 @@
   background: #DBDDE0 !important; 
 }
 
+/* this is for the exhibition_list page */
+.myh2{ text-shadow: 2px 2px 4px #000000;}
+.divtextheight{ height: 50%;}
+
+#museum_list a {
+    text-decoration: none;
+    color: black;
+}
+
+.card h4{ font-size: 1.5em }
+
+#museum_list div.card{ 
+    height: 96%;
+    font-size: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+#museum_list div.card:hover{
+    border: 1px solid #000;
+    background: #EBEBEB !important;
+    opacity: 0.5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
