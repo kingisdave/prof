@@ -32,7 +32,7 @@
                 <div class="col-md-8 mx-auto">
                   <div class="card border-0 shadow">
                   	<div class="card-body">
-	                    <h4 class="mt-2 mb-1">Video Title</h4>
+	                    <h4 class="mt-2 mb-1">Title</h4>
 	                    <!-- 4:3 aspect ratio -->
 	                    <div class="embed-responsive embed-responsive-16by9">
 	                      <video class="embed-responsive-item" src="assets/multimedia/video/video.mp4" controls="true"></video>
@@ -45,7 +45,7 @@
                 <div class="col-md-8 mx-auto">
                  <div class="card border-0 shadow">
                   	<div class="card-body">
-	                    <h4 class="mt-2 mb-1">Video Title</h4>
+	                    <h4 class="mt-2 mb-1">Title</h4>
 	                    <!-- 4:3 aspect ratio -->
 	                    <div class="embed-responsive embed-responsive-16by9">
 	                      <video class="embed-responsive-item" src="assets/multimedia/video/video.mp4" controls></video>
@@ -58,7 +58,7 @@
                 <div class="col-md-8 mx-auto">
                   <div class="card border-0 shadow">
                   	<div class="card-body">
-	                    <h4 class="text-dark header-title m-t-0 m-b-30">Video Title</h4>
+	                    <h4 class="text-dark header-title m-t-0 m-b-30">Title</h4>
 	                    <!-- 4:3 aspect ratio -->
 	                    <!-- 
 	                        <iframe class="embed-responsive-item" src="assets/multimedia/video/video.mp4"></iframe>
